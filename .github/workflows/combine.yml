@@ -1,43 +1,74 @@
 name: Auto Combine M3U Playlists
 
 permissions:
-  contents: write   # allow GitHub Actions to push updates
+  contents: write
 
 on:
   schedule:
-    - cron: '0 * * * *'   # ⏰ runs every 1 hour
-  workflow_dispatch:       # allows manual run from the Actions tab
+    - cron: '*/20 * * * *'   # ⏰ every 20 minutes
+  workflow_dispatch:
 
 jobs:
   combine:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Read and download all sources
+      - name: Download source playlists safely
         run: |
-          mkdir temp
+          set -e
+          mkdir -p temp
+          rm -f temp/*.m3u
+
           n=1
           while read -r url; do
-            if [ -n "$url" ]; then
-              echo "Downloading: $url"
-              curl -L "$url" -o "temp/playlist$n.m3u"
+            [ -z "$url" ] && continue
+
+            echo "➡ Downloading: $url"
+
+            curl -L --retry 3 --retry-delay 5 \
+                 --connect-timeout 15 \
+                 --max-time 60 \
+                 -A "Mozilla/5.0" \
+                 "$url" -o "temp/playlist$n.m3u" || true
+
+            # Validate file
+            if grep -q "#EXTM3U" "temp/playlist$n.m3u" && [ -s "temp/playlist$n.m3u" ]; then
+              echo "✅ playlist$n OK"
               n=$((n+1))
+            else
+              echo "❌ playlist$n invalid or empty — skipped"
+              rm -f "temp/playlist$n.m3u"
             fi
+
           done < sources.txt
 
-      - name: Combine all playlists
+      - name: Combine valid playlists
         run: |
           echo "#EXTM3U" > master.m3u
+
           for f in temp/*.m3u; do
-            echo "" >> master.m3u
-            cat "$f" >> master.m3u
+            [ -f "$f" ] || continue
+            sed '1d' "$f" >> master.m3u
           done
 
-      - name: Commit and push updates
+          # Final safety check
+          if [ $(wc -l < master.m3u) -lt 5 ]; then
+            echo "❌ Combined playlist too small, aborting update"
+            exit 1
+          fi
+
+      - name: Commit and push if changed
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
           git add master.m3u
-          git commit -m "Auto update combined playlist" || echo "No changes"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "ℹ No changes to commit"
+          else
+            git commit -m "Auto update combined playlist"
+            git push
+          fi
