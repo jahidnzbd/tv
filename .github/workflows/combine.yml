@@ -5,70 +5,211 @@ permissions:
 
 on:
   schedule:
-    - cron: '*/20 * * * *'   # ⏰ every 20 minutes
+    - cron: '*/30 * * * *'   # ⏰ every 30 minutes
   workflow_dispatch:
 
 jobs:
   combine:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for proper diff
 
-      - name: Download source playlists safely
+      - name: Set up environment
         run: |
-          set -e
           mkdir -p temp
-          rm -f temp/*.m3u
+          rm -rf temp/*
 
+      - name: Download source playlists with improved retry
+        run: |
+          set -euo pipefail
+          
+          # Count total sources
+          total_sources=$(grep -c '^[^#]' sources.txt | grep -v '^$' || echo 0)
+          echo "📋 Found $total_sources sources to process"
+          
           n=1
-          while read -r url; do
-            [ -z "$url" ] && continue
-
-            echo "➡ Downloading: $url"
-
-            curl -L --retry 3 --retry-delay 5 \
-                 --connect-timeout 15 \
-                 --max-time 60 \
-                 -A "Mozilla/5.0" \
-                 "$url" -o "temp/playlist$n.m3u" || true
-
-            # Validate file
-            if grep -q "#EXTM3U" "temp/playlist$n.m3u" && [ -s "temp/playlist$n.m3u" ]; then
-              echo "✅ playlist$n OK"
-              n=$((n+1))
+          while IFS= read -r url || [ -n "$url" ]; do
+            # Skip empty lines and comments
+            if [[ -z "$url" || "$url" =~ ^[[:space:]]*# ]]; then
+              continue
+            fi
+            
+            echo "➡ Downloading ($n/$total_sources): $url"
+            
+            # Clean URL - remove whitespace
+            url=$(echo "$url" | xargs)
+            
+            # Download with multiple retry attempts and timeout
+            max_retries=3
+            retry_count=0
+            success=false
+            
+            while [ $retry_count -lt $max_retries ] && [ "$success" = false ]; do
+              if [ $retry_count -gt 0 ]; then
+                echo "  ↪ Retry attempt $((retry_count + 1))/$max_retries..."
+                sleep 2
+              fi
+              
+              # Download with timeout and connection limits
+              timeout 120 curl -L \
+                --retry 2 \
+                --retry-delay 3 \
+                --connect-timeout 30 \
+                --max-time 120 \
+                --compressed \
+                -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+                -H "Accept: */*" \
+                -H "Accept-Encoding: gzip, deflate" \
+                -H "Cache-Control: no-cache" \
+                --silent \
+                --show-error \
+                -o "temp/playlist$n.m3u" \
+                "$url" && success=true || success=false
+                
+              retry_count=$((retry_count + 1))
+            done
+            
+            # Validate the downloaded file
+            if [ "$success" = true ] && [ -s "temp/playlist$n.m3u" ]; then
+              # Check for M3U signature and content
+              if head -c 10 "temp/playlist$n.m3u" | grep -q "#EXTM3U" || \
+                 grep -q "#EXTINF" "temp/playlist$n.m3u"; then
+                echo "✅ playlist$n OK ($(wc -l < "temp/playlist$n.m3u") lines)"
+                n=$((n + 1))
+              else
+                echo "❌ playlist$n missing M3U signature or #EXTINF tags"
+                rm -f "temp/playlist$n.m3u"
+              fi
             else
-              echo "❌ playlist$n invalid or empty — skipped"
+              echo "❌ Failed to download playlist$n after $max_retries attempts"
               rm -f "temp/playlist$n.m3u"
             fi
+            
+            # Small delay to avoid rate limiting
+            sleep 1
+            
+          done < <(grep -v '^[[:space:]]*#' sources.txt | grep -v '^$')
 
-          done < sources.txt
-
-      - name: Combine valid playlists
+      - name: Combine playlists
         run: |
+          set -euo pipefail
+          
+          echo "🔗 Combining playlists..."
+          
+          # Create master playlist header
           echo "#EXTM3U" > master.m3u
-
+          echo "# Playlist generated on $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> master.m3u
+          echo "# Total sources processed: $((n-1))" >> master.m3u
+          
+          # Count total lines in all playlists
+          total_lines=0
+          playlist_count=0
+          
           for f in temp/*.m3u; do
             [ -f "$f" ] || continue
-            sed '1d' "$f" >> master.m3u
+            
+            lines_in_file=$(wc -l < "$f" | xargs)
+            echo "  Adding $f ($lines_in_file lines)"
+            
+            # Remove existing #EXTM3U headers from the file
+            grep -v "^\s*#EXTM3U" "$f" >> master.m3u
+            
+            total_lines=$((total_lines + lines_in_file))
+            playlist_count=$((playlist_count + 1))
           done
+          
+          echo "📊 Combined $playlist_count playlists with approximately $total_lines total entries"
+          
+          # Remove duplicate entries while preserving order
+          if command -v awk &> /dev/null; then
+            mv master.m3u master.m3u.tmp
+            awk '!seen[$0]++' master.m3u.tmp > master.m3u
+            rm master.m3u.tmp
+            echo "🧹 Removed duplicate entries"
+          fi
+          
+          # Final validation
+          if [ ! -s master.m3u ]; then
+            echo "❌ ERROR: Combined playlist is empty!"
+            exit 1
+          fi
+          
+          final_lines=$(wc -l < master.m3u)
+          if [ "$final_lines" -lt 10 ]; then
+            echo "⚠️  WARNING: Combined playlist is very small ($final_lines lines)"
+            echo "But continuing anyway..."
+          else
+            echo "✅ Successfully created master.m3u with $final_lines lines"
+          fi
 
-          # Final safety check
-          if [ $(wc -l < master.m3u) -lt 5 ]; then
-            echo "❌ Combined playlist too small, aborting update"
+      - name: Clean up temporary files
+        run: |
+          rm -rf temp
+          echo "🧹 Temporary files cleaned up"
+
+      - name: Configure Git
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local pull.rebase false
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          # Check if master.m3u exists and has changes
+          if [ -f master.m3u ]; then
+            if git diff --quiet master.m3u 2>/dev/null; then
+              echo "ℹ No changes detected in master.m3u"
+              echo "changed=false" >> $GITHUB_OUTPUT
+            else
+              echo "🔄 Changes detected in master.m3u"
+              echo "changed=true" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "❌ ERROR: master.m3u not found!"
             exit 1
           fi
 
-      - name: Commit and push if changed
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
           git add master.m3u
-
-          if git diff --cached --quiet; then
-            echo "ℹ No changes to commit"
-          else
-            git commit -m "Auto update combined playlist"
-            git push
+          git commit -m "🤖 Auto update: Combined $(date -u +'%Y-%m-%d %H:%M UTC')
+          
+          - Generated from sources.txt
+          - Automatic playlist update"
+          
+          # Try to push with retry logic
+          max_retries=3
+          retry_count=0
+          push_success=false
+          
+          while [ $retry_count -lt $max_retries ] && [ "$push_success" = false ]; do
+            if git push; then
+              push_success=true
+              echo "✅ Successfully pushed changes"
+            else
+              retry_count=$((retry_count + 1))
+              echo "⚠️ Push failed, attempt $retry_count/$max_retries"
+              sleep 5
+              # Pull latest changes before retrying
+              git pull --rebase || git pull --no-rebase
+            fi
+          done
+          
+          if [ "$push_success" = false ]; then
+            echo "❌ Failed to push after $max_retries attempts"
+            exit 1
           fi
+
+      - name: Upload artifact (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: combined-playlist
+          path: master.m3u
+          retention-days: 1
