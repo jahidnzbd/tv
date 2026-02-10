@@ -1,5 +1,5 @@
 #EXTM3U
-# Generated on Tue Feb 10 07:17:07 UTC 2026
+# Generated on Tue Feb 10 07:28:34 UTC 2026
 #=================================
 # 🖥️ Developed by: Monirul Islam
 # 🔗 Telegram: https://t.me/monirul_Islam_SM
@@ -8108,12 +8108,21 @@ https://a201aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/clients/dash/enc/f60kqesu
 #KODIPROP:inputstream.adaptive.license_key=1779c27b9d077a3ba0c9cc1bb9a94b9f:cc5cf3b7928fb9e0a1ee6a8b566f0a8e
 #EXTINF:-1 tvg-logo="" group-title="Jahid IPTV",Willow Sports 2
 https://abm5x5xaaaaaaaamjgudev5k44qb3.otte.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/f60kqesunw/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://keys.vodep39240327.workers.dev/?key=1106
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+#EXTINF:-1 group-title="Jahid IPTV" tvg-logo="https://img.media.jio.com/tvpimages/76/32/301981_1749665664018_l_high.jpg",STAR SPORTS 1 HD
+https://keys.vodep39240327.workers.dev/?id=1106.mpd
+#EXTINF:-1 group-title="Jahid IPTV",T SPorts HD
+http://103.151.60.204/T-Sports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Jahid IPTV",T-Sports [ICC]
 https://playztv-apps.pages.dev/tsports/index.m3u8
 #EXTINF:-1 group-title="Jahid IPTV",T-Sports 3
 https://satoshi-cors.herokuapp.com/http://103.96.235.18:9090/sports1/index.m3u8
 #EXTINF:-1 group-title="Jahid IPTV",T-Sports 4
 https://padmaonline.duckdns.org:8088/T-SportHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Jahid IPTV",Start Sports 1
+https://mrzplayin.fun/roarzon/stream.php?id=18283d4f5f13c0cac5cab4433a0ed8f0&chunks=5cBHMf9TBlfWgmHu5xbhBpW9HtuLIpLtGo2oe4kJm769x5tmMnq6JgkAe37Arenhgt3jEc5SDmGZOYzu3bTZfVVCIrW3q7RiFVf7oC4xUOZ-Frx0BU6z0-XJ8_1HAAYXrtBYYhQOmVxPqkbDsIbNAigBjbNz5DlPEtZMh8q30RB9i2o4a4EVXm3IV16HNBZ61ScPzsu11eDLltQHyx99B1OB3kAmS6hUE5k-0Hx6qZRFWexjb7YxCtzLMQ6MIr7A
 #EXTINF:-1 group-title="Jahid IPTV",PTV-Sports [ICC]
 https://playztv-apps.pages.dev/ptvsports/index.m3u8
 #EXTINF:-1 group-title="Jahid IPTV",A-Sports [ICC]
