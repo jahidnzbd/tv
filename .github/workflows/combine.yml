@@ -2,7 +2,7 @@ name: Auto Combine M3U Playlists
 
 on:
   schedule:
-    - cron: '0 * * * *' # Every hour
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -28,7 +28,6 @@ jobs:
 
       - name: Process Playlists
         run: |
-          # Create a python script dynamically
           cat << 'EOF' > process_m3u.py
           import os
           import re
@@ -41,11 +40,10 @@ jobs:
           USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
           def get_filename_from_url(url):
-              # Extract filename from URL (e.g., "RoarZone" from ".../RoarZone.m3u")
-              path = url.split('?')[0]  # Remove query params
+              path = url.split('?')[0]
               basename = os.path.basename(path)
               name, _ = os.path.splitext(basename)
-              return name if name else "Unknown_Source"
+              return name if name else "Unknown"
 
           def download_and_parse():
               seen_urls = set()
@@ -57,8 +55,6 @@ jobs:
 
               with open(SOURCES_FILE, 'r') as f:
                   urls = [line.strip() for line in f if line.strip() and not line.startswith('#')]
-
-              print(f"📋 Found {len(urls)} sources.")
 
               # Write Header
               master_content.append("#EXTM3U")
@@ -75,60 +71,72 @@ jobs:
                   except Exception as e:
                       print(f"⚠️ Failed to download {group_name}: {e}")
                       continue
-
-                  # Regex to find group-title="..." and replace it
-                  # This regex looks for group-title="ANYTHING" and prepares to replace it
+                  
+                  # Regex patterns
                   group_title_pattern = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
                   
-                  current_buffer = [] # Holds metadata lines before a URL
+                  current_buffer = [] 
+                  current_ua = None
+                  current_cookie = None
                   
                   for line in lines:
                       line = line.strip()
-                      if not line: 
-                          continue
+                      if not line: continue
 
+                      # 1. Handle Metadata (#EXTINF)
                       if line.startswith("#EXTINF"):
-                          # Force update the group-title in the EXTINF line
+                          # Force the group title from filename
                           if 'group-title="' in line:
-                              # Replace existing group-title
                               line = group_title_pattern.sub(f'group-title="{group_name}"', line)
                           else:
-                              # Insert group-title if missing (after #EXTINF:-1)
-                              # Simple insertion: replace the comma with space + group + comma
                               parts = line.split(',', 1)
                               if len(parts) == 2:
                                   line = f'{parts[0]} group-title="{group_name}",{parts[1]}'
-                          
                           current_buffer.append(line)
 
-                      elif line.startswith("#EXTGRP"):
-                          # Skip original group tags, we will force our own
+                      # 2. Capture VLC User-Agent
+                      elif line.startswith("#EXTVLCOPT:http-user-agent="):
+                          current_ua = line.split('=', 1)[1].strip()
+
+                      # 3. Capture VLC Cookie
+                      elif line.startswith("#EXTVLCOPT:http-cookie="):
+                          current_cookie = line.split('=', 1)[1].strip()
+
+                      # 4. Skip #EXTGRP and old #EXTVLCOPT lines (we re-process them)
+                      elif line.startswith("#EXTGRP") or line.startswith("#EXTVLCOPT"):
                           pass
 
+                      # 5. Keep other necessary tags (Kodi props, etc)
                       elif line.startswith("#"):
-                          # Keep other tags like #EXTVLCOPT
                           if not line.startswith("#EXTM3U"):
                               current_buffer.append(line)
 
+                      # 6. Handle URL
                       else:
-                          # It is a URL
                           stream_url = line
+                          
+                          # Append headers if they were found in VLC tags
+                          headers = []
+                          if current_ua:
+                              headers.append(f"User-Agent={current_ua}")
+                          if current_cookie:
+                              headers.append(f"Cookie={current_cookie}")
+                          
+                          if headers:
+                              # If URL acts like a query param, ensure we append correctly
+                              stream_url += "|" + "&".join(headers)
+
                           if stream_url not in seen_urls:
                               seen_urls.add(stream_url)
-                              
-                              # Write the buffer (metadata)
                               master_content.extend(current_buffer)
-                              
-                              # Explicitly add #EXTGRP for players that prefer this
                               master_content.append(f"#EXTGRP:{group_name}")
-                              
-                              # Write the URL
                               master_content.append(stream_url)
                           
-                          # Clear buffer
+                          # Reset for next item
                           current_buffer = []
+                          current_ua = None
+                          current_cookie = None
 
-              # Write to file
               with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
                   f.write('\n'.join(master_content))
               
@@ -138,23 +146,17 @@ jobs:
               download_and_parse()
           EOF
 
-          # Install requests library
           pip install requests
-
-          # Run the script
           python3 process_m3u.py
 
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add master.m3u
-
           if git diff --staged --quiet; then
-            echo "ℹ️ No changes to commit."
+            echo "ℹ️ No changes."
           else
-            git commit -m "🤖 Update playlist: Organized by source groups"
+            git commit -m "🤖 Update playlist with Headers fix"
             git push
-            echo "🚀 Pushed changes."
           fi
