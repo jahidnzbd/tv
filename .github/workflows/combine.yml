@@ -30,7 +30,6 @@ jobs:
         run: |
           cat << 'EOF' > process_m3u.py
           import os
-          import re
           import requests
           from datetime import datetime, timezone
 
@@ -38,13 +37,6 @@ jobs:
           SOURCES_FILE = "sources.txt"
           OUTPUT_FILE = "master.m3u"
           DL_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-
-          def get_group_name_from_url(url):
-              # Extract name from source link (e.g. RoarZone.m3u -> RoarZone)
-              path = url.split('?')[0]
-              basename = os.path.basename(path)
-              name, _ = os.path.splitext(basename)
-              return name if name else "Unknown"
 
           def download_and_parse():
               seen_urls = set()
@@ -61,19 +53,15 @@ jobs:
               master_content.append("#EXTM3U")
               master_content.append(f"# Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC")
 
-              # Regex to find group-title="ANYTHING"
-              group_title_pattern = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
-
               for index, url in enumerate(urls):
-                  source_name = get_group_name_from_url(url)
-                  print(f"⬇️ Processing: {source_name}...")
+                  print(f"⬇️ Processing Source {index+1}...")
 
                   try:
                       response = requests.get(url, headers={"User-Agent": DL_USER_AGENT}, timeout=30)
                       response.raise_for_status()
                       lines = response.text.splitlines()
                   except Exception as e:
-                      print(f"⚠️ Failed to download {source_name}: {e}")
+                      print(f"⚠️ Failed to download source {index+1}: {e}")
                       continue
                   
                   current_buffer = [] 
@@ -84,42 +72,27 @@ jobs:
                       line = line.strip()
                       if not line: continue
 
-                      # 1. Handle #EXTINF (Rename Group)
-                      if line.startswith("#EXTINF"):
-                          if 'group-title="' in line:
-                              line = group_title_pattern.sub(f'group-title="{source_name}"', line)
-                          else:
-                              parts = line.split(',', 1)
-                              if len(parts) == 2:
-                                  line = f'{parts[0]} group-title="{source_name}",{parts[1]}'
-                          current_buffer.append(line)
-
-                      # 2. Extract User-Agent (Raw text)
-                      elif line.startswith("#EXTVLCOPT:http-user-agent="):
+                      # 1. EXTRACT HEADERS (VLC Options)
+                      if line.startswith("#EXTVLCOPT:http-user-agent="):
                           current_ua = line.split('=', 1)[1].strip()
 
-                      # 3. Extract Cookie (Raw text)
                       elif line.startswith("#EXTVLCOPT:http-cookie="):
                           current_cookie = line.split('=', 1)[1].strip()
 
-                      # 4. Remove #EXTGRP
-                      elif line.startswith("#EXTGRP"):
-                          pass 
-
-                      # 5. Skip processed VLC options
+                      # 2. SKIP VLC TAGS (Since we extract them)
                       elif line.startswith("#EXTVLCOPT"):
                           pass 
 
-                      # 6. Keep other tags (like #KODIPROP)
+                      # 3. PRESERVE ALL OTHER METADATA (No renaming, No edits)
                       elif line.startswith("#"):
                           if not line.startswith("#EXTM3U"):
                               current_buffer.append(line)
 
-                      # 7. Handle URL
+                      # 4. HANDLE URL (Append Headers)
                       else:
                           stream_url = line
                           
-                          # Combine Headers Raw (No Encoding)
+                          # Combine Headers Raw (Exactly as in source)
                           headers = []
                           if current_ua:
                               headers.append(f"User-Agent={current_ua}")
@@ -127,7 +100,7 @@ jobs:
                               headers.append(f"Cookie={current_cookie}")
                           
                           if headers:
-                              # Append with pipe (|) and ampersand (&)
+                              # Append with pipe (|)
                               separator = "&" if "|" in stream_url else "|"
                               stream_url += separator + "&".join(headers)
 
@@ -161,6 +134,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "ℹ️ No changes."
           else
-            git commit -m "🤖 Auto-update: Raw Extract Mode"
+            git commit -m "🤖 Auto-update: Raw Combine"
             git push
           fi
