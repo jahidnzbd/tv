@@ -32,12 +32,14 @@ jobs:
           import os
           import re
           import requests
+          import urllib.parse
           from datetime import datetime, timezone
 
           # Configuration
           SOURCES_FILE = "sources.txt"
           OUTPUT_FILE = "master.m3u"
-          USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+          # This is the User-Agent used for DOWNLOADING the playlists (not the stream playback)
+          DL_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
           def get_filename_from_url(url):
               path = url.split('?')[0]
@@ -65,14 +67,13 @@ jobs:
                   print(f"⬇️ [{index+1}/{len(urls)}] Processing: {group_name}...")
 
                   try:
-                      response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
+                      response = requests.get(url, headers={"User-Agent": DL_USER_AGENT}, timeout=30)
                       response.raise_for_status()
                       lines = response.text.splitlines()
                   except Exception as e:
                       print(f"⚠️ Failed to download {group_name}: {e}")
                       continue
                   
-                  # Regex patterns
                   group_title_pattern = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
                   
                   current_buffer = [] 
@@ -85,7 +86,6 @@ jobs:
 
                       # 1. Handle Metadata (#EXTINF)
                       if line.startswith("#EXTINF"):
-                          # Force the group title from filename
                           if 'group-title="' in line:
                               line = group_title_pattern.sub(f'group-title="{group_name}"', line)
                           else:
@@ -94,36 +94,38 @@ jobs:
                                   line = f'{parts[0]} group-title="{group_name}",{parts[1]}'
                           current_buffer.append(line)
 
-                      # 2. Capture VLC User-Agent
+                      # 2. Capture VLC Headers
                       elif line.startswith("#EXTVLCOPT:http-user-agent="):
                           current_ua = line.split('=', 1)[1].strip()
-
-                      # 3. Capture VLC Cookie
                       elif line.startswith("#EXTVLCOPT:http-cookie="):
                           current_cookie = line.split('=', 1)[1].strip()
 
-                      # 4. Skip #EXTGRP and old #EXTVLCOPT lines (we re-process them)
+                      # 3. Skip original #EXTGRP and #EXTVLCOPT (we rebuild them)
                       elif line.startswith("#EXTGRP") or line.startswith("#EXTVLCOPT"):
                           pass
 
-                      # 5. Keep other necessary tags (Kodi props, etc)
+                      # 4. Keep other tags
                       elif line.startswith("#"):
                           if not line.startswith("#EXTM3U"):
                               current_buffer.append(line)
 
-                      # 6. Handle URL
+                      # 5. Handle URL
                       else:
                           stream_url = line
                           
-                          # Append headers if they were found in VLC tags
                           headers = []
                           if current_ua:
-                              headers.append(f"User-Agent={current_ua}")
+                              # IMPORTANT: URL Encode the User-Agent to handle spaces
+                              encoded_ua = urllib.parse.quote(current_ua)
+                              headers.append(f"User-Agent={encoded_ua}")
+                          
                           if current_cookie:
-                              headers.append(f"Cookie={current_cookie}")
+                              # IMPORTANT: URL Encode the Cookie to handle '=' and special chars
+                              encoded_cookie = urllib.parse.quote(current_cookie)
+                              headers.append(f"Cookie={encoded_cookie}")
                           
                           if headers:
-                              # If URL acts like a query param, ensure we append correctly
+                              # Append headers using the pipe syntax
                               stream_url += "|" + "&".join(headers)
 
                           if stream_url not in seen_urls:
@@ -157,6 +159,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "ℹ️ No changes."
           else
-            git commit -m "🤖 Update playlist with Headers fix"
+            git commit -m "🤖 Update playlist: Fixed Header Encoding"
             git push
           fi
