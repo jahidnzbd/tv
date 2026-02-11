@@ -32,21 +32,17 @@ jobs:
           import os
           import re
           import requests
-          import urllib.parse
           from datetime import datetime, timezone
 
           # Configuration
           SOURCES_FILE = "sources.txt"
           OUTPUT_FILE = "master.m3u"
-          # User-Agent for downloading the playlist file itself
           DL_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
           def get_group_name_from_url(url):
-              # 1. Remove query parameters (after ?)
+              # Extract name from source link (e.g. RoarZone.m3u -> RoarZone)
               path = url.split('?')[0]
-              # 2. Get the last part (filename)
               basename = os.path.basename(path)
-              # 3. Remove extension (.m3u, .txt, etc)
               name, _ = os.path.splitext(basename)
               return name if name else "Unknown"
 
@@ -65,11 +61,10 @@ jobs:
               master_content.append("#EXTM3U")
               master_content.append(f"# Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC")
 
-              # Compile Regex for finding group-title="ANYTHING"
+              # Regex to find group-title="ANYTHING"
               group_title_pattern = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
 
               for index, url in enumerate(urls):
-                  # EXTRACT NAME FROM LINK HERE
                   source_name = get_group_name_from_url(url)
                   print(f"⬇️ Processing: {source_name}...")
 
@@ -89,64 +84,59 @@ jobs:
                       line = line.strip()
                       if not line: continue
 
-                      # --- LINE PROCESSING ---
-
+                      # 1. Handle #EXTINF (Rename Group)
                       if line.startswith("#EXTINF"):
-                          # REWRITE GROUP TITLE
                           if 'group-title="' in line:
-                              # Replace existing group-title with source_name
                               line = group_title_pattern.sub(f'group-title="{source_name}"', line)
                           else:
-                              # Insert group-title if it is missing
                               parts = line.split(',', 1)
                               if len(parts) == 2:
                                   line = f'{parts[0]} group-title="{source_name}",{parts[1]}'
                           current_buffer.append(line)
 
+                      # 2. Extract User-Agent (Raw text)
                       elif line.startswith("#EXTVLCOPT:http-user-agent="):
                           current_ua = line.split('=', 1)[1].strip()
 
+                      # 3. Extract Cookie (Raw text)
                       elif line.startswith("#EXTVLCOPT:http-cookie="):
                           current_cookie = line.split('=', 1)[1].strip()
 
-                      # REMOVE #EXTGRP COMPLETELY
+                      # 4. Remove #EXTGRP
                       elif line.startswith("#EXTGRP"):
                           pass 
 
+                      # 5. Skip processed VLC options
                       elif line.startswith("#EXTVLCOPT"):
-                          pass # Skip other VLC opts
+                          pass 
 
+                      # 6. Keep other tags (like #KODIPROP)
                       elif line.startswith("#"):
-                          # Keep #KODIPROP and others
                           if not line.startswith("#EXTM3U"):
                               current_buffer.append(line)
 
+                      # 7. Handle URL
                       else:
-                          # IT IS A URL
                           stream_url = line
                           
-                          # CONVERT HEADERS TO PIPE FORMAT (|)
+                          # Combine Headers Raw (No Encoding)
                           headers = []
                           if current_ua:
-                              # Encode spaces and special chars for OTT Navigator
-                              headers.append(f"User-Agent={urllib.parse.quote(current_ua)}")
+                              headers.append(f"User-Agent={current_ua}")
                           if current_cookie:
-                              headers.append(f"Cookie={urllib.parse.quote(current_cookie)}")
+                              headers.append(f"Cookie={current_cookie}")
                           
                           if headers:
-                              # If URL already has pipes, use & to append
-                              if "|" in stream_url:
-                                  stream_url += "&" + "&".join(headers)
-                              else:
-                                  stream_url += "|" + "&".join(headers)
+                              # Append with pipe (|) and ampersand (&)
+                              separator = "&" if "|" in stream_url else "|"
+                              stream_url += separator + "&".join(headers)
 
                           if stream_url not in seen_urls:
                               seen_urls.add(stream_url)
                               master_content.extend(current_buffer)
-                              # Note: We do NOT add #EXTGRP here
                               master_content.append(stream_url)
                           
-                          # Reset buffer
+                          # Reset
                           current_buffer = []
                           current_ua = None
                           current_cookie = None
@@ -171,6 +161,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "ℹ️ No changes."
           else
-            git commit -m "🤖 Update playlist: Extracted Group Names"
+            git commit -m "🤖 Auto-update: Raw Extract Mode"
             git push
           fi
