@@ -2,7 +2,7 @@ name: Auto Combine M3U Playlists
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: "0 * * * *"   # প্রতি ঘন্টায় রান করবে
   workflow_dispatch:
 
 permissions:
@@ -18,122 +18,145 @@ jobs:
     timeout-minutes: 15
 
     steps:
+      # ✅ Step 1: Checkout Repo
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      # ✅ Step 2: Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
-      - name: Process Playlists
+      # ✅ Step 3: Process & Combine Playlists
+      - name: Download + Combine Playlists with Group Title
         run: |
           cat << 'EOF' > process_m3u.py
           import os
           import requests
           from datetime import datetime, timezone
+          from urllib.parse import urlparse
 
-          # Configuration
+          # Files
           SOURCES_FILE = "sources.txt"
           OUTPUT_FILE = "master.m3u"
-          DL_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
-          def download_and_parse():
+          # User Agent
+          DL_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+
+          # Extract group-title from filename
+          def get_group_title(url):
+              path = urlparse(url).path
+              filename = os.path.basename(path)
+
+              if filename.lower().endswith(".m3u"):
+                  return filename[:-4]  # remove .m3u
+              return "Unknown"
+
+          def main():
               seen_urls = set()
-              master_content = []
+              master = []
 
+              # Check sources file
               if not os.path.exists(SOURCES_FILE):
-                  print(f"❌ Error: {SOURCES_FILE} not found!")
+                  print("❌ sources.txt not found!")
                   exit(1)
 
-              with open(SOURCES_FILE, 'r') as f:
-                  urls = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+              # Read all source URLs in serial order
+              with open(SOURCES_FILE, "r") as f:
+                  urls = [
+                      line.strip()
+                      for line in f
+                      if line.strip() and not line.startswith("#")
+                  ]
 
-              # Write Header
-              master_content.append("#EXTM3U")
-              master_content.append(f"# Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC")
+              # Master Header
+              master.append("#EXTM3U")
+              master.append(
+                  f"# Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC"
+              )
 
-              for index, url in enumerate(urls):
-                  print(f"⬇️ Processing Source {index+1}...")
+              # Process each playlist
+              for i, url in enumerate(urls):
+                  group_title = get_group_title(url)
+                  print(f"⬇️ Source {i+1}: {group_title}")
 
+                  # Download playlist
                   try:
-                      response = requests.get(url, headers={"User-Agent": DL_USER_AGENT}, timeout=30)
-                      response.raise_for_status()
-                      lines = response.text.splitlines()
+                      r = requests.get(
+                          url,
+                          headers={"User-Agent": DL_USER_AGENT},
+                          timeout=30
+                      )
+                      r.raise_for_status()
+                      lines = r.text.splitlines()
+
                   except Exception as e:
-                      print(f"⚠️ Failed to download source {index+1}: {e}")
+                      print(f"⚠️ Failed: {e}")
                       continue
-                  
-                  current_buffer = [] 
-                  current_ua = None
-                  current_cookie = None
-                  
+
+                  current_extinf = None
+
+                  # Parse playlist lines
                   for line in lines:
                       line = line.strip()
-                      if not line: continue
+                      if not line:
+                          continue
 
-                      # 1. EXTRACT HEADERS (VLC Options)
-                      if line.startswith("#EXTVLCOPT:http-user-agent="):
-                          current_ua = line.split('=', 1)[1].strip()
+                      # Skip header
+                      if line.startswith("#EXTM3U"):
+                          continue
 
-                      elif line.startswith("#EXTVLCOPT:http-cookie="):
-                          current_cookie = line.split('=', 1)[1].strip()
+                      # EXTINF line → Inject group-title
+                      if line.startswith("#EXTINF"):
+                          if 'group-title="' not in line:
+                              parts = line.split(",", 1)
+                              if len(parts) == 2:
+                                  left, name = parts
+                                  current_extinf = f'{left} group-title="{group_title}",{name}'
+                              else:
+                                  current_extinf = line
+                          else:
+                              current_extinf = line
 
-                      # 2. SKIP VLC TAGS (Since we extract them)
-                      elif line.startswith("#EXTVLCOPT"):
-                          pass 
-
-                      # 3. PRESERVE ALL OTHER METADATA (No renaming, No edits)
-                      elif line.startswith("#"):
-                          if not line.startswith("#EXTM3U"):
-                              current_buffer.append(line)
-
-                      # 4. HANDLE URL (Append Headers)
-                      else:
+                      # URL line
+                      elif line.startswith("http"):
                           stream_url = line
-                          
-                          # Combine Headers Raw (Exactly as in source)
-                          headers = []
-                          if current_ua:
-                              headers.append(f"User-Agent={current_ua}")
-                          if current_cookie:
-                              headers.append(f"Cookie={current_cookie}")
-                          
-                          if headers:
-                              # Append with pipe (|)
-                              separator = "&" if "|" in stream_url else "|"
-                              stream_url += separator + "&".join(headers)
 
                           if stream_url not in seen_urls:
                               seen_urls.add(stream_url)
-                              master_content.extend(current_buffer)
-                              master_content.append(stream_url)
-                          
-                          # Reset
-                          current_buffer = []
-                          current_ua = None
-                          current_cookie = None
 
-              with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-                  f.write('\n'.join(master_content))
-              
-              print(f"✅ Finished! Total channels: {len(seen_urls)}")
+                              if current_extinf:
+                                  master.append(current_extinf)
+
+                              master.append(stream_url)
+
+                          current_extinf = None
+
+              # Save master file
+              with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                  f.write("\n".join(master))
+
+              print(f"✅ Done! Total Channels: {len(seen_urls)}")
 
           if __name__ == "__main__":
-              download_and_parse()
+              main()
           EOF
 
           pip install requests
           python3 process_m3u.py
 
+      # ✅ Step 4: Commit & Push Changes
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add master.m3u
+
           if git diff --staged --quiet; then
-            echo "ℹ️ No changes."
+            echo "ℹ️ No changes found."
           else
-            git commit -m "🤖 Auto-update: Raw Combine"
+            git commit -m "🤖 Auto-update: Combined with Group Titles"
             git push
           fi
