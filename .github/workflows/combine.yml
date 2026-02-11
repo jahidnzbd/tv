@@ -1,107 +1,160 @@
 name: Auto Combine M3U Playlists
 
+on:
+  schedule:
+    - cron: '0 * * * *' # Every hour
+  workflow_dispatch:
+
 permissions:
   contents: write
 
-on:
-  schedule:
-    - cron: '*/60 * * * *'
-  workflow_dispatch:
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  combine:
+  merge-playlists:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          fetch-depth: 0
+          python-version: '3.x'
 
-      - name: Prepare temp folder
+      - name: Process Playlists
         run: |
-          mkdir -p temp
-          rm -rf temp/*
+          # Create a python script dynamically
+          cat << 'EOF' > process_m3u.py
+          import os
+          import re
+          import requests
+          from datetime import datetime, timezone
 
-      - name: Download playlists
+          # Configuration
+          SOURCES_FILE = "sources.txt"
+          OUTPUT_FILE = "master.m3u"
+          USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+
+          def get_filename_from_url(url):
+              # Extract filename from URL (e.g., "RoarZone" from ".../RoarZone.m3u")
+              path = url.split('?')[0]  # Remove query params
+              basename = os.path.basename(path)
+              name, _ = os.path.splitext(basename)
+              return name if name else "Unknown_Source"
+
+          def download_and_parse():
+              seen_urls = set()
+              master_content = []
+
+              if not os.path.exists(SOURCES_FILE):
+                  print(f"❌ Error: {SOURCES_FILE} not found!")
+                  exit(1)
+
+              with open(SOURCES_FILE, 'r') as f:
+                  urls = [line.strip() for line in f if line.strip() and not line.startswith('#')]
+
+              print(f"📋 Found {len(urls)} sources.")
+
+              # Write Header
+              master_content.append("#EXTM3U")
+              master_content.append(f"# Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC")
+
+              for index, url in enumerate(urls):
+                  group_name = get_filename_from_url(url)
+                  print(f"⬇️ [{index+1}/{len(urls)}] Processing: {group_name}...")
+
+                  try:
+                      response = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
+                      response.raise_for_status()
+                      lines = response.text.splitlines()
+                  except Exception as e:
+                      print(f"⚠️ Failed to download {group_name}: {e}")
+                      continue
+
+                  # Regex to find group-title="..." and replace it
+                  # This regex looks for group-title="ANYTHING" and prepares to replace it
+                  group_title_pattern = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
+                  
+                  current_buffer = [] # Holds metadata lines before a URL
+                  
+                  for line in lines:
+                      line = line.strip()
+                      if not line: 
+                          continue
+
+                      if line.startswith("#EXTINF"):
+                          # Force update the group-title in the EXTINF line
+                          if 'group-title="' in line:
+                              # Replace existing group-title
+                              line = group_title_pattern.sub(f'group-title="{group_name}"', line)
+                          else:
+                              # Insert group-title if missing (after #EXTINF:-1)
+                              # Simple insertion: replace the comma with space + group + comma
+                              parts = line.split(',', 1)
+                              if len(parts) == 2:
+                                  line = f'{parts[0]} group-title="{group_name}",{parts[1]}'
+                          
+                          current_buffer.append(line)
+
+                      elif line.startswith("#EXTGRP"):
+                          # Skip original group tags, we will force our own
+                          pass
+
+                      elif line.startswith("#"):
+                          # Keep other tags like #EXTVLCOPT
+                          if not line.startswith("#EXTM3U"):
+                              current_buffer.append(line)
+
+                      else:
+                          # It is a URL
+                          stream_url = line
+                          if stream_url not in seen_urls:
+                              seen_urls.add(stream_url)
+                              
+                              # Write the buffer (metadata)
+                              master_content.extend(current_buffer)
+                              
+                              # Explicitly add #EXTGRP for players that prefer this
+                              master_content.append(f"#EXTGRP:{group_name}")
+                              
+                              # Write the URL
+                              master_content.append(stream_url)
+                          
+                          # Clear buffer
+                          current_buffer = []
+
+              # Write to file
+              with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+                  f.write('\n'.join(master_content))
+              
+              print(f"✅ Finished! Total channels: {len(seen_urls)}")
+
+          if __name__ == "__main__":
+              download_and_parse()
+          EOF
+
+          # Install requests library
+          pip install requests
+
+          # Run the script
+          python3 process_m3u.py
+
+      - name: Commit and Push
         run: |
-          set -euo pipefail
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          total_sources=$(grep -v '^[[:space:]]*#' sources.txt | grep -v '^$' | wc -l)
-          echo "📋 Found $total_sources sources"
-
-          n=1
-
-          while IFS= read -r url || [ -n "$url" ]; do
-            [[ -z "$url" || "$url" =~ ^[[:space:]]*# ]] && continue
-
-            echo "➡ Downloading ($n/$total_sources): $url"
-
-            timeout 120 curl -L \
-              --retry 3 \
-              --retry-delay 3 \
-              --connect-timeout 30 \
-              --max-time 120 \
-              --silent --show-error \
-              -o "temp/playlist$n.m3u" \
-              "$url" || rm -f "temp/playlist$n.m3u"
-
-            if [ -s "temp/playlist$n.m3u" ]; then
-              echo "✅ playlist$n downloaded"
-              n=$((n+1))
-            else
-              echo "❌ Failed playlist$n"
-            fi
-
-            sleep 1
-          done < sources.txt
-
-      - name: Combine playlists safely
-        run: |
-          set -euo pipefail
-          shopt -s nullglob
-
-          echo "#EXTM3U" > master.m3u
-          echo "# Generated on $(date -u)" >> master.m3u
-
-          for f in temp/*.m3u; do
-            grep -v "^\s*#EXTM3U" "$f" >> master.m3u
-          done
-
-          echo "🧹 Removing duplicate stream URLs safely..."
-
-          mv master.m3u master.tmp
-
-          awk '
-            /^#EXTINF/ {info=$0; next}
-            /^http/ {
-              if (!seen[$0]++) {
-                print info
-                print $0
-              }
-            }
-            /^#/ {print}
-          ' master.tmp > master.m3u
-
-          rm master.tmp
-
-          echo "✅ master.m3u ready with full data"
-
-      - name: Cleanup temp
-        run: rm -rf temp
-
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Commit & Push if changed
-        run: |
           git add master.m3u
 
-          if git diff --cached --quiet; then
-            echo "ℹ No changes"
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit."
           else
-            git commit -m "🤖 Auto update playlist"
+            git commit -m "🤖 Update playlist: Organized by source groups"
             git push
+            echo "🚀 Pushed changes."
           fi
