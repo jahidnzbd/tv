@@ -38,12 +38,15 @@ jobs:
           # Configuration
           SOURCES_FILE = "sources.txt"
           OUTPUT_FILE = "master.m3u"
+          # User-Agent for downloading the playlist file itself
           DL_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
-          def get_group_name(url):
-              # Get filename without extension (e.g. "RoarZone")
+          def get_group_name_from_url(url):
+              # 1. Remove query parameters (after ?)
               path = url.split('?')[0]
+              # 2. Get the last part (filename)
               basename = os.path.basename(path)
+              # 3. Remove extension (.m3u, .txt, etc)
               name, _ = os.path.splitext(basename)
               return name if name else "Unknown"
 
@@ -62,20 +65,21 @@ jobs:
               master_content.append("#EXTM3U")
               master_content.append(f"# Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC")
 
+              # Compile Regex for finding group-title="ANYTHING"
+              group_title_pattern = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
+
               for index, url in enumerate(urls):
-                  group_name = get_group_name(url)
-                  print(f"⬇️ [{index+1}/{len(urls)}] Processing: {group_name}...")
+                  # EXTRACT NAME FROM LINK HERE
+                  source_name = get_group_name_from_url(url)
+                  print(f"⬇️ Processing: {source_name}...")
 
                   try:
                       response = requests.get(url, headers={"User-Agent": DL_USER_AGENT}, timeout=30)
                       response.raise_for_status()
                       lines = response.text.splitlines()
                   except Exception as e:
-                      print(f"⚠️ Failed to download {group_name}: {e}")
+                      print(f"⚠️ Failed to download {source_name}: {e}")
                       continue
-                  
-                  # Regex to find group-title="..."
-                  group_title_pattern = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
                   
                   current_buffer = [] 
                   current_ua = None
@@ -85,57 +89,52 @@ jobs:
                       line = line.strip()
                       if not line: continue
 
-                      # 1. Handle Metadata (#EXTINF)
+                      # --- LINE PROCESSING ---
+
                       if line.startswith("#EXTINF"):
-                          # Force the group title from filename
+                          # REWRITE GROUP TITLE
                           if 'group-title="' in line:
-                              line = group_title_pattern.sub(f'group-title="{group_name}"', line)
+                              # Replace existing group-title with source_name
+                              line = group_title_pattern.sub(f'group-title="{source_name}"', line)
                           else:
-                              # Insert group-title if missing
+                              # Insert group-title if it is missing
                               parts = line.split(',', 1)
                               if len(parts) == 2:
-                                  line = f'{parts[0]} group-title="{group_name}",{parts[1]}'
+                                  line = f'{parts[0]} group-title="{source_name}",{parts[1]}'
                           current_buffer.append(line)
 
-                      # 2. Capture VLC User-Agent (Toffee Style)
                       elif line.startswith("#EXTVLCOPT:http-user-agent="):
                           current_ua = line.split('=', 1)[1].strip()
 
-                      # 3. Capture VLC Cookie (Toffee Style)
                       elif line.startswith("#EXTVLCOPT:http-cookie="):
                           current_cookie = line.split('=', 1)[1].strip()
 
-                      # 4. Preserve KODIPROP (Essential for Zee Cinema/ClearKey)
-                      elif line.startswith("#KODIPROP"):
-                          current_buffer.append(line)
-
-                      # 5. REMOVE #EXTGRP (As you requested)
+                      # REMOVE #EXTGRP COMPLETELY
                       elif line.startswith("#EXTGRP"):
-                          pass # Do nothing, effectively deleting it
+                          pass 
 
-                      # 6. Skip #EXTVLCOPT (We processed them above)
                       elif line.startswith("#EXTVLCOPT"):
-                          pass
+                          pass # Skip other VLC opts
 
-                      # 7. Keep other tags (macros, etc.)
                       elif line.startswith("#"):
+                          # Keep #KODIPROP and others
                           if not line.startswith("#EXTM3U"):
                               current_buffer.append(line)
 
-                      # 8. Handle URL
                       else:
+                          # IT IS A URL
                           stream_url = line
                           
-                          # Only append headers if we found #EXTVLCOPT tags
+                          # CONVERT HEADERS TO PIPE FORMAT (|)
                           headers = []
                           if current_ua:
-                              # Encode to fix spaces in "Toffee (Linux...)"
+                              # Encode spaces and special chars for OTT Navigator
                               headers.append(f"User-Agent={urllib.parse.quote(current_ua)}")
                           if current_cookie:
                               headers.append(f"Cookie={urllib.parse.quote(current_cookie)}")
                           
                           if headers:
-                              # Check if URL already has pipe params
+                              # If URL already has pipes, use & to append
                               if "|" in stream_url:
                                   stream_url += "&" + "&".join(headers)
                               else:
@@ -144,10 +143,10 @@ jobs:
                           if stream_url not in seen_urls:
                               seen_urls.add(stream_url)
                               master_content.extend(current_buffer)
-                              # We do NOT add #EXTGRP here anymore
+                              # Note: We do NOT add #EXTGRP here
                               master_content.append(stream_url)
                           
-                          # Reset for next channel
+                          # Reset buffer
                           current_buffer = []
                           current_ua = None
                           current_cookie = None
@@ -172,6 +171,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "ℹ️ No changes."
           else
-            git commit -m "🤖 Update: Groups Renamed, Headers Fixed, Props Kept"
+            git commit -m "🤖 Update playlist: Extracted Group Names"
             git push
           fi
