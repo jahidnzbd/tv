@@ -2,15 +2,11 @@ name: Auto Combine M3U Playlists
 
 on:
   schedule:
-    - cron: "0 * * * *"   # প্রতি ঘন্টায় রান করবে
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
 
 jobs:
   merge-playlists:
@@ -18,126 +14,111 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      # ✅ Step 1: Checkout Repo
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      # ✅ Step 2: Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      # ✅ Step 3: Process & Combine Playlists
-      - name: Download + Combine Playlists with Group Title
+      - name: Combine Playlists (Force Group Title Replace)
         run: |
           cat << 'EOF' > process_m3u.py
           import os
+          import re
           import requests
-          from datetime import datetime, timezone
           from urllib.parse import urlparse
+          from datetime import datetime, timezone
 
-          # Files
           SOURCES_FILE = "sources.txt"
           OUTPUT_FILE = "master.m3u"
 
-          # User Agent
-          DL_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+          UA = "Mozilla/5.0"
 
-          # Extract group-title from filename
-          def get_group_title(url):
-              path = urlparse(url).path
-              filename = os.path.basename(path)
-
-              if filename.lower().endswith(".m3u"):
-                  return filename[:-4]  # remove .m3u
-              return "Unknown"
+          # Filename থেকে group name বের করবে
+          def get_group(url):
+              filename = os.path.basename(urlparse(url).path)
+              return filename.replace(".m3u", "")
 
           def main():
-              seen_urls = set()
-              master = []
-
-              # Check sources file
               if not os.path.exists(SOURCES_FILE):
-                  print("❌ sources.txt not found!")
+                  print("❌ sources.txt missing")
                   exit(1)
 
-              # Read all source URLs in serial order
               with open(SOURCES_FILE, "r") as f:
-                  urls = [
-                      line.strip()
-                      for line in f
-                      if line.strip() and not line.startswith("#")
-                  ]
+                  sources = [x.strip() for x in f if x.strip() and not x.startswith("#")]
 
-              # Master Header
-              master.append("#EXTM3U")
-              master.append(
-                  f"# Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC"
-              )
+              output = []
+              output.append("#EXTM3U")
+              output.append(f"# Generated {datetime.now(timezone.utc)} UTC")
 
-              # Process each playlist
-              for i, url in enumerate(urls):
-                  group_title = get_group_title(url)
-                  print(f"⬇️ Source {i+1}: {group_title}")
+              seen = set()
 
-                  # Download playlist
+              for url in sources:
+                  group = get_group(url)
+                  print("Processing group:", group)
+
                   try:
-                      r = requests.get(
-                          url,
-                          headers={"User-Agent": DL_USER_AGENT},
-                          timeout=30
-                      )
+                      r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
                       r.raise_for_status()
                       lines = r.text.splitlines()
-
                   except Exception as e:
-                      print(f"⚠️ Failed: {e}")
+                      print("⚠️ Download failed:", e)
                       continue
 
-                  current_extinf = None
+                  last_extinf = None
 
-                  # Parse playlist lines
                   for line in lines:
-                      line = line.strip()
-                      if not line:
-                          continue
+                      line = line.rstrip()
 
-                      # Skip header
                       if line.startswith("#EXTM3U"):
                           continue
 
-                      # EXTINF line → Inject group-title
+                      # EXTINF line → Always force correct group-title
                       if line.startswith("#EXTINF"):
-                          if 'group-title="' not in line:
-                              parts = line.split(",", 1)
-                              if len(parts) == 2:
-                                  left, name = parts
-                                  current_extinf = f'{left} group-title="{group_title}",{name}'
-                              else:
-                                  current_extinf = line
+
+                          # যদি group-title আগে থাকে → replace করবে
+                          if 'group-title="' in line:
+                              line = re.sub(
+                                  r'group-title="[^"]*"',
+                                  f'group-title="{group}"',
+                                  line
+                              )
+
+                          # যদি group-title না থাকে → add করবে
                           else:
-                              current_extinf = line
+                              line = line.replace(
+                                  "#EXTINF:",
+                                  f'#EXTINF: group-title="{group}" ',
+                                  1
+                              )
+
+                          last_extinf = line
+                          continue
 
                       # URL line
-                      elif line.startswith("http"):
-                          stream_url = line
+                      if line.startswith("http"):
 
-                          if stream_url not in seen_urls:
-                              seen_urls.add(stream_url)
+                          if line not in seen:
+                              seen.add(line)
 
-                              if current_extinf:
-                                  master.append(current_extinf)
+                              if last_extinf:
+                                  output.append(last_extinf)
 
-                              master.append(stream_url)
+                              output.append(line)
 
-                          current_extinf = None
+                          last_extinf = None
+                          continue
 
-              # Save master file
+                      # অন্য সব metadata unchanged থাকবে
+                      if line.startswith("#"):
+                          output.append(line)
+
               with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                  f.write("\n".join(master))
+                  f.write("\n".join(output))
 
-              print(f"✅ Done! Total Channels: {len(seen_urls)}")
+              print("✅ Done. Channels:", len(seen))
 
           if __name__ == "__main__":
               main()
@@ -146,8 +127,7 @@ jobs:
           pip install requests
           python3 process_m3u.py
 
-      # ✅ Step 4: Commit & Push Changes
-      - name: Commit and Push
+      - name: Commit & Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -155,8 +135,8 @@ jobs:
           git add master.m3u
 
           if git diff --staged --quiet; then
-            echo "ℹ️ No changes found."
+            echo "ℹ️ No changes."
           else
-            git commit -m "🤖 Auto-update: Combined with Group Titles"
+            git commit -m "🤖 Auto-update: Force Group Titles"
             git push
           fi
