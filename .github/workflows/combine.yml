@@ -38,10 +38,10 @@ jobs:
           # Configuration
           SOURCES_FILE = "sources.txt"
           OUTPUT_FILE = "master.m3u"
-          # This is the User-Agent used for DOWNLOADING the playlists (not the stream playback)
           DL_USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 
-          def get_filename_from_url(url):
+          def get_group_name(url):
+              # Get filename without extension (e.g. "RoarZone")
               path = url.split('?')[0]
               basename = os.path.basename(path)
               name, _ = os.path.splitext(basename)
@@ -63,7 +63,7 @@ jobs:
               master_content.append(f"# Generated on {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC")
 
               for index, url in enumerate(urls):
-                  group_name = get_filename_from_url(url)
+                  group_name = get_group_name(url)
                   print(f"⬇️ [{index+1}/{len(urls)}] Processing: {group_name}...")
 
                   try:
@@ -74,6 +74,7 @@ jobs:
                       print(f"⚠️ Failed to download {group_name}: {e}")
                       continue
                   
+                  # Regex to find group-title="..."
                   group_title_pattern = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
                   
                   current_buffer = [] 
@@ -86,55 +87,67 @@ jobs:
 
                       # 1. Handle Metadata (#EXTINF)
                       if line.startswith("#EXTINF"):
+                          # Force the group title from filename
                           if 'group-title="' in line:
                               line = group_title_pattern.sub(f'group-title="{group_name}"', line)
                           else:
+                              # Insert group-title if missing
                               parts = line.split(',', 1)
                               if len(parts) == 2:
                                   line = f'{parts[0]} group-title="{group_name}",{parts[1]}'
                           current_buffer.append(line)
 
-                      # 2. Capture VLC Headers
+                      # 2. Capture VLC User-Agent (Toffee Style)
                       elif line.startswith("#EXTVLCOPT:http-user-agent="):
                           current_ua = line.split('=', 1)[1].strip()
+
+                      # 3. Capture VLC Cookie (Toffee Style)
                       elif line.startswith("#EXTVLCOPT:http-cookie="):
                           current_cookie = line.split('=', 1)[1].strip()
 
-                      # 3. Skip original #EXTGRP and #EXTVLCOPT (we rebuild them)
-                      elif line.startswith("#EXTGRP") or line.startswith("#EXTVLCOPT"):
+                      # 4. Preserve KODIPROP (Essential for Zee Cinema/ClearKey)
+                      elif line.startswith("#KODIPROP"):
+                          current_buffer.append(line)
+
+                      # 5. REMOVE #EXTGRP (As you requested)
+                      elif line.startswith("#EXTGRP"):
+                          pass # Do nothing, effectively deleting it
+
+                      # 6. Skip #EXTVLCOPT (We processed them above)
+                      elif line.startswith("#EXTVLCOPT"):
                           pass
 
-                      # 4. Keep other tags
+                      # 7. Keep other tags (macros, etc.)
                       elif line.startswith("#"):
                           if not line.startswith("#EXTM3U"):
                               current_buffer.append(line)
 
-                      # 5. Handle URL
+                      # 8. Handle URL
                       else:
                           stream_url = line
                           
+                          # Only append headers if we found #EXTVLCOPT tags
                           headers = []
                           if current_ua:
-                              # IMPORTANT: URL Encode the User-Agent to handle spaces
-                              encoded_ua = urllib.parse.quote(current_ua)
-                              headers.append(f"User-Agent={encoded_ua}")
-                          
+                              # Encode to fix spaces in "Toffee (Linux...)"
+                              headers.append(f"User-Agent={urllib.parse.quote(current_ua)}")
                           if current_cookie:
-                              # IMPORTANT: URL Encode the Cookie to handle '=' and special chars
-                              encoded_cookie = urllib.parse.quote(current_cookie)
-                              headers.append(f"Cookie={encoded_cookie}")
+                              headers.append(f"Cookie={urllib.parse.quote(current_cookie)}")
                           
                           if headers:
-                              # Append headers using the pipe syntax
-                              stream_url += "|" + "&".join(headers)
+                              # Check if URL already has pipe params
+                              if "|" in stream_url:
+                                  stream_url += "&" + "&".join(headers)
+                              else:
+                                  stream_url += "|" + "&".join(headers)
 
                           if stream_url not in seen_urls:
                               seen_urls.add(stream_url)
                               master_content.extend(current_buffer)
-                              master_content.append(f"#EXTGRP:{group_name}")
+                              # We do NOT add #EXTGRP here anymore
                               master_content.append(stream_url)
                           
-                          # Reset for next item
+                          # Reset for next channel
                           current_buffer = []
                           current_ua = None
                           current_cookie = None
@@ -159,6 +172,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "ℹ️ No changes."
           else
-            git commit -m "🤖 Update playlist: Fixed Header Encoding"
+            git commit -m "🤖 Update: Groups Renamed, Headers Fixed, Props Kept"
             git push
           fi
