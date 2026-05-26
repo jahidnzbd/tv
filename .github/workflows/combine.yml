@@ -16,13 +16,22 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Combine Playlists (Force Group Title Replace)
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Combine Playlists
         run: |
           cat << 'EOF' > process_m3u.py
           import os
@@ -36,7 +45,7 @@ jobs:
 
           UA = "Mozilla/5.0"
 
-          # Filename থেকে group name বের করবে
+          # URL filename থেকে group name বের করবে
           def get_group(url):
               filename = os.path.basename(urlparse(url).path)
               return filename.replace(".m3u", "")
@@ -46,61 +55,79 @@ jobs:
                   print("❌ sources.txt missing")
                   exit(1)
 
-              with open(SOURCES_FILE, "r") as f:
-                  sources = [x.strip() for x in f if x.strip() and not x.startswith("#")]
+              with open(SOURCES_FILE, "r", encoding="utf-8") as f:
+                  sources = [
+                      x.strip()
+                      for x in f
+                      if x.strip() and not x.startswith("#")
+                  ]
 
               output = []
               output.append("#EXTM3U")
-              output.append(f"# Generated {datetime.now(timezone.utc)} UTC")
+              output.append(
+                  f"# Generated {datetime.now(timezone.utc)} UTC"
+              )
 
               seen = set()
 
               for url in sources:
+
                   group = get_group(url)
-                  print("Processing group:", group)
+                  print(f"📂 Processing group: {group}")
 
                   try:
-                      r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
+                      r = requests.get(
+                          url,
+                          headers={"User-Agent": UA},
+                          timeout=30
+                      )
+
                       r.raise_for_status()
+
                       lines = r.text.splitlines()
+
                   except Exception as e:
-                      print("⚠️ Download failed:", e)
+                      print(f"⚠️ Download failed: {e}")
                       continue
 
                   last_extinf = None
 
                   for line in lines:
+
                       line = line.rstrip()
 
                       if line.startswith("#EXTM3U"):
                           continue
 
-                      # EXTINF line → Always force correct group-title
+                      # EXTINF line
                       if line.startswith("#EXTINF"):
 
-                          # যদি group-title আগে থাকে → replace করবে
+                          # Existing group-title replace
                           if 'group-title="' in line:
+
                               line = re.sub(
                                   r'group-title="[^"]*"',
                                   f'group-title="{group}"',
                                   line
                               )
 
-                          # যদি group-title না থাকে → add করবে
+                          # group-title add
                           else:
+
                               line = line.replace(
                                   "#EXTINF:",
-                                  f'#EXTINF: group-title="{group}" ',
+                                  f'#EXTINF:-1 group-title="{group}" ',
                                   1
                               )
 
                           last_extinf = line
                           continue
 
-                      # URL line
+                      # Stream URL
                       if line.startswith("http"):
 
                           if line not in seen:
+
                               seen.add(line)
 
                               if last_extinf:
@@ -111,21 +138,20 @@ jobs:
                           last_extinf = None
                           continue
 
-                      # অন্য সব metadata unchanged থাকবে
+                      # Other metadata
                       if line.startswith("#"):
                           output.append(line)
 
               with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                   f.write("\n".join(output))
 
-              print("✅ Done. Channels:", len(seen))
+              print(f"✅ Done. Total unique channels: {len(seen)}")
 
           if __name__ == "__main__":
               main()
           EOF
 
-          pip install requests
-          python3 process_m3u.py
+          python process_m3u.py
 
       - name: Commit & Push
         run: |
@@ -135,8 +161,8 @@ jobs:
           git add master.m3u
 
           if git diff --staged --quiet; then
-            echo "ℹ️ No changes."
+            echo "ℹ️ No changes detected."
           else
-            git commit -m "🤖 Auto-update: Force Group Titles"
-            git push
+            git commit -m "🤖 Auto-update playlists"
+            git push origin HEAD:main
           fi
