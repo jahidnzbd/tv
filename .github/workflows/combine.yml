@@ -48,10 +48,28 @@ jobs:
 
           UA = "Mozilla/5.0"
 
-          # URL filename থেকে group name বের করবে
-          def get_group(url):
-              filename = os.path.basename(urlparse(url).path)
-              return filename.replace(".m3u", "")
+          # URL filename থেকে unique group name বের করবে
+          def get_unique_group(url, seen_groups):
+              path = urlparse(url).path
+              filename = os.path.basename(path)
+              
+              # .m3u বা .m3u8 রিমুভ করা
+              group = re.sub(r'\.m3u8?$', '', filename)
+              
+              # URL-এ কোনো filename না থাকলে fallback
+              if not group:
+                  group = "Playlist"
+                  
+              original_group = group
+              counter = 1
+              
+              # Duplicate name থাকলে শেষে _1, _2 অ্যাড করা
+              while group in seen_groups:
+                  group = f"{original_group}_{counter}"
+                  counter += 1
+                  
+              seen_groups.add(group)
+              return group
 
           def main():
               if not os.path.exists(SOURCES_FILE):
@@ -67,15 +85,13 @@ jobs:
 
               output = []
               output.append("#EXTM3U")
-              output.append(
-                  f"# Generated {datetime.now(timezone.utc)} UTC"
-              )
+              output.append(f"# Generated {datetime.now(timezone.utc)} UTC")
 
-              seen = set()
+              seen_urls = set()
+              seen_groups = set()
 
               for url in sources:
-
-                  group = get_group(url)
+                  group = get_unique_group(url, seen_groups)
                   print(f"📂 Processing group: {group}")
 
                   try:
@@ -84,19 +100,16 @@ jobs:
                           headers={"User-Agent": UA},
                           timeout=30
                       )
-
                       r.raise_for_status()
-
                       lines = r.text.splitlines()
 
                   except Exception as e:
-                      print(f"⚠️ Download failed: {e}")
+                      print(f"⚠️ Download failed for {url}: {e}")
                       continue
 
                   last_extinf = None
 
                   for line in lines:
-
                       line = line.rstrip()
 
                       if line.startswith("#EXTM3U"):
@@ -104,37 +117,34 @@ jobs:
 
                       # EXTINF line
                       if line.startswith("#EXTINF"):
-
                           # Existing group-title replace
                           if 'group-title="' in line:
-
                               line = re.sub(
                                   r'group-title="[^"]*"',
                                   f'group-title="{group}"',
                                   line
                               )
-
-                          # group-title add
+                          # group-title add (Robust regex for standard M3U formats)
                           else:
-
-                              line = line.replace(
-                                  "#EXTINF:",
-                                  f'#EXTINF:-1 group-title="{group}" ',
-                                  1
-                              )
+                              match = re.match(r'(#EXTINF:[^,]+)(,.*)', line)
+                              if match:
+                                  line = f'{match.group(1)} group-title="{group}"{match.group(2)}'
+                              else:
+                                  line = line.replace("#EXTINF:", f'#EXTINF:-1 group-title="{group}" ', 1)
 
                           last_extinf = line
                           continue
 
                       # Stream URL
                       if line.startswith("http"):
-
-                          if line not in seen:
-
-                              seen.add(line)
+                          if line not in seen_urls:
+                              seen_urls.add(line)
 
                               if last_extinf:
                                   output.append(last_extinf)
+                              else:
+                                  # Force assign a group even if the original source missed the #EXTINF tag
+                                  output.append(f'#EXTINF:-1 group-title="{group}",Unknown Channel')
 
                               output.append(line)
 
@@ -142,13 +152,13 @@ jobs:
                           continue
 
                       # Other metadata
-                      if line.startswith("#"):
+                      if line.startswith("#") and not line.startswith("#EXTINF"):
                           output.append(line)
 
               with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                  f.write("\n".join(output))
+                  f.write("\n".join(output) + "\n")
 
-              print(f"✅ Done. Total unique channels: {len(seen)}")
+              print(f"✅ Done. Total unique channels: {len(seen_urls)}")
 
           if __name__ == "__main__":
               main()
