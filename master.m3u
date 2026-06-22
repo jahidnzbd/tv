@@ -1,5 +1,5 @@
 #EXTM3U
-# Generated 2026-06-22 12:02:00.497359+00:00 UTC
+# Generated 2026-06-22 12:12:24.423391+00:00 UTC
 #=================================
 #=================================
 #EXTINF:-1 tvg-id="t sports" tvg-name="T-Sports" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="World_Cup",Football World Cup
@@ -147,8 +147,48 @@ https://livecdn-tc-livestream.rumsport10.live/stream/5/chunks.m3u8?is_vip=false&
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 | Bad Homburg Open [Server 4]
 https://livecdn-bp-livestream.rumsport7.live/stream/5/chunks.m3u8?is_vip=false&token=6f8664c07ab4712b55cd78d2483b2c4835fa4851&x-sign=0e643cec0838e26539706808c48e2d37&x-time=1782129660
+# Playlist Name: Asports Auto Update Playlist
+# Telegram: https://t.me/livesportsplay
+# Owner: Md Sohanur Rahman Hady
+# Last Update: 06:01:02 PM 22-06-2026
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-id="1629493944" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist_1", Day 2 - Bad Homburg Open [147445]
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1782216051-Kv4cPTAAP5YTi-d19f9c52e2b2149220e66a9feba0b9b592aa8ec5-ed71222db3e7deca7cdd1769a935ee8d
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-id="1629493944" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist_1", Day 2 - Bad Homburg Open [147445]
+https://livecdn-bp-iptv.rumsport7.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=d19f9c52e2b2149220e66a9feba0b9b592aa8ec5&x-sign=ee1b5e49d43372e846a8ffb77fa8e56b&x-time=1782129600
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-id="1629493944" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist_1", Day 2 - Bad Homburg Open [5]
+https://livecdn-tc-livestream.rumsport10.live/stream/5/chunks.m3u8?is_vip=false&token=1782216052-Kv4cPTAAP5YTi-d19f9c52e2b2149220e66a9feba0b9b592aa8ec5-f1d0e960ff69ee04ef16806f0b03aa03
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-id="1629493944" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist_1", Day 2 - Bad Homburg Open [5]
+https://livecdn-bp-livestream.rumsport7.live/stream/5/chunks.m3u8?is_vip=false&token=d19f9c52e2b2149220e66a9feba0b9b592aa8ec5&x-sign=829491a70ce41e190bef212c8501819a&x-time=1782129600
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-id="1629493943" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tohoku_Rakuten_Golden_Eagles_VS_Saitama_Seibu_Lions_NPB.jpg" group-title="playlist_1", Tohoku Rakuten Golden Eagles vs Saitama Seibu Lions - NPB [2]
+https://livecdn-tc-livestream.rumsport10.live/stream/2/chunks.m3u8?is_vip=false&token=1782216058-Kv4cPTAAP5YTi-d19f9c52e2b2149220e66a9feba0b9b592aa8ec5-712cda07a5c8192dbaba094a891a8728
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-id="1629493943" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tohoku_Rakuten_Golden_Eagles_VS_Saitama_Seibu_Lions_NPB.jpg" group-title="playlist_1", Tohoku Rakuten Golden Eagles vs Saitama Seibu Lions - NPB [2]
+https://livecdn-bp-livestream.rumsport7.live/stream/2/chunks.m3u8?is_vip=false&token=d19f9c52e2b2149220e66a9feba0b9b592aa8ec5&x-sign=fc5accde6c34835bdb2faa3558d82b77&x-time=1782129600
+#name: Fancode Auto Update Playlist
+#telegram: https://t.me/livesportsplay
+#owner: Md Sohanur Rahman Hady
+#last update time: 06:00:27 PM 22-06-2026
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1781841438709/143419_CASACARDS_SPORTY_APP.png" group-title="main_playlist", Mysore Warriors Vs Hubli Tigers | Maharaja T20 Trophy 2026 (ENGLISH)
+https://raw.githubusercontent.com/srhady/Fancode-bd/main/raw_link/mysore_warriors_vs_hubli_tigers_143419_english.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1781841438709/143419_CASACARDS_SPORTY_APP.png" group-title="main_playlist", Mysore Warriors Vs Hubli Tigers | Maharaja T20 Trophy 2026 (KANNADA)
+https://raw.githubusercontent.com/srhady/Fancode-bd/main/raw_link/mysore_warriors_vs_hubli_tigers_143419_kannada.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1780469022364/143097_CASACARDS_SPORTY_APP.png" group-title="main_playlist", Royal Nimar Eagles Vs Bhopal Leopards | Madhya Pradesh League T20 2026 (ENGLISH)
+https://raw.githubusercontent.com/srhady/Fancode-bd/main/raw_link/royal_nimar_eagles_vs_bhopal_leopards_143097_english.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1782018540429/143544_CASACARDS_SPORTY_APP.png" group-title="main_playlist", Singapore Vs Uzbekistan | Asia Pacific Cricket Champions Trophy 2026 (ENGLISH)
+https://raw.githubusercontent.com/srhady/Fancode-bd/main/raw_link/singapore_vs_uzbekistan_143544_english.m3u8
+#EXTINF:-1 tvg-logo="https://images.fancode.com/aig/match/v1780575318052/143318_CASACARDS_SPORTY_APP.png" group-title="main_playlist", Namibia Vs Hong Kong China | Men's T20I Tri series in Namibia 2026 (ENGLISH)
+https://raw.githubusercontent.com/srhady/Fancode-bd/main/raw_link/namibia_vs_hong_kong__china_143318_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Lexus-Eastbourne-Open-2026_FC-WEB.jpg" group-title="main_playlist", Day 1 | ATP 250 - Lexus Eastbourne Open 2026 (ENGLISH)
+https://raw.githubusercontent.com/srhady/Fancode-bd/main/raw_link/day_1_143277_english.m3u8
+#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-Vanda-Pharma_Web-match-card.png" group-title="main_playlist", Day 2 | ATP 250 - Vanda Pharma Mallorca Championships 2026 (ENGLISH)
+https://raw.githubusercontent.com/srhady/Fancode-bd/main/raw_link/day_2_143271_english.m3u8
 # Playlist Name: Tapmad bd
-# Last Update: 05:50 PM 22-06-2026
+# Last Update: 06:10 PM 22-06-2026
 # Telegram: https://t.me/livesportsplay
 # Owner: Md Sohanur Rahman Hady
 # Special thanks to Shuvo vai for contributing his premium Tapmad account.
