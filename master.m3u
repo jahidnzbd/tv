@@ -1,62 +1,197 @@
 #EXTM3U
-# Generated 2026-06-22 10:42:56.905283+00:00 UTC
+# Generated 2026-06-22 11:07:36.619678+00:00 UTC
+#=================================
+#=================================
+#EXTINF:-1 tvg-id="t sports" tvg-name="T-Sports" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="World_Cup",Football World Cup
+http://103.179.25.147:8181/FiFaaaaaah/index.m3u8
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://www.somoynews.tv/icon.png" , Somoy TV
+http://ubuntu.moonplex.net:8080/Somoy_TV/index.m3u8
+#EXTINF:-1 tvg-name="Football World Cup 2026 link hindi" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="World_Cup",Football World Cup
+http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745195.ts
+#EXTINF:-1 group-title="World_Cup" -1  tvg-logo="https://go-live.info/wp-content/uploads/2024/09/logowhitenew.webp" ,GO Live
+https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/dd/Screenshot_2026-06-10_002618.png" ,Unite8 Sports 2 HD
+http://212.102.34.8:9080/AndFlixHD/video.m3u8
+#====== Toffee World Cup ============
+#EXTINF:-1 tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="World_Cup",Toffee 1
+http://sm-monirul.top/tof/live/gervsivo/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="World_Cup",Toffee 2
+http://sm-monirul.top/tof/live/ecuvscur/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="World_Cup",Toffee 3
+http://sm-monirul.top/tof/live/tunvsjap/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="World_Cup",Toffee 4
+https://sm-monirul.top/tof/live/toffee4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="World_Cup",Toffee 5
+https://sm-monirul.top/tof/live/toffee5/index.m3u8
+#====== Bioscope World Cup ============
+#https://sm-monirul.top/ultra_restream/bioscope/index.m3u8
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://i.postimg.cc/X7qgs8BY/images-d47abaf70fb3ea50af7cdf455ccab5a6-goplay-bioscope-icon-transparent-app.png" ,Bioscope
+https://bioscope.sm-monirulislam-exp.workers.dev/index.m3u8
+#======  World Cup ============
+#EXTINF:-1 tvg-id="t sports" tvg-name="T-Sports" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="World_Cup",Football World Cup
+https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://streamcenter.xyz
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg" ,FOX ONE
+https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8
+#======  World Cup 1 ============
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
+#EXTVLCOPT:http-referrer=https://streamcenter.xyz
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Telemundo92.svg" ,TELEMUNDO HD
+https://edge2caster.pro/hls/eJmauBDCIf.m3u8
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0a/Sportdigital_Fu%C3%9Fball.svg" ,FUSSBALL TV 2 4K
+https://test.movielinkbd.com/storage/relay/test/index.m3u8
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=433ffba670963e70857859a9dff4be04:51ede3a821229fe81e71282c8eff80e3
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/M6_1987_logo.svg" ,M6 Direct TV
+https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png" ,Tipik Direct
+https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/CazeTV2022.svg" ,Caze TV HD
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/CazeTV2022.svg" ,Caze TV HD
+https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1223d5105392cabf1bb9c2c1fdf6539a:340b409f4b8f78a343e0363a7938df38
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/CazeTV2022.svg" ,Caze TV FHD
+https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/iayg0kyrof/out/v1/91dc04907f56415b897faccfa9d252da/cenc.mpd
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/aa/RTB_Aneka.png" ,RTB_ANEKA
+https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist_b608000_sleng.m3u8
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/45/DSportsM%C3%A1s.png" , DSPORTS+ FHD
+http://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referer=https://webtv.sk/tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+#EXTINF:-1 group-title="World_Cup" -1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f7/Sport1_hu.png" ,SPORT 1 🇸🇰
+https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referer=https://webtv.sk/tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
+#EXTINF:-1 group-title="World_Cup" -1  tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/68s5x31616932507.png" ,SPORT 2 🇸🇰
+https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
+#EXTINF:-1 group-title="World_Cup" -1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/SporTV2_2021.png",SportTV 2
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3
+#EXTINF:-1 group-title="World_Cup" -1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/SporTV3_2021.png",SportTV 3
+https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTINF:-1 group-title="World_Cup" -1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3d/BeIN_Sports_3_2017_Square.png",BEIN SPORTS 3
+https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+#EXTINF:-1 group-title="World_Cup" -1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" ,FIFA+
+https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+#name: Bingstream Auto Update Playlist
+#telegram: https://t.me/livesportsplay
+#owner: Md Sohanur Rahman Hady
+#last update time: 5:01:30 PM 22-06-2026
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tohoku_Rakuten_Golden_Eagles_VS_Saitama_Seibu_Lions_NPB.jpg" group-title="playlist", Tohoku Rakuten Golden Eagles VS Saitama Seibu Lions | NPB [Server 1]
+https://livecdn-tc-livestream.rumsport10.live/stream/2/chunks.m3u8?is_vip=false&token=1782212493-Kv4cPTAAP5YTi-6ed15d05da42b2e5d380abbc92d0e6e6a104d5d6-fd3c84a9435f01d651fc817b35a3e286
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tohoku_Rakuten_Golden_Eagles_VS_Saitama_Seibu_Lions_NPB.jpg" group-title="playlist", Tohoku Rakuten Golden Eagles VS Saitama Seibu Lions | NPB [Server 2]
+https://livecdn-bp-livestream.rumsport7.live/stream/2/chunks.m3u8?is_vip=false&token=6ed15d05da42b2e5d380abbc92d0e6e6a104d5d6&x-sign=7e5e1241dadd7d2a41154123d4815de4&x-time=1782126060
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 | Bad Homburg Open [Server 1]
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1782212498-Kv4cPTAAP5YTi-6ed15d05da42b2e5d380abbc92d0e6e6a104d5d6-e8d281e5b1451192dccddb58fe550b35
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 | Bad Homburg Open [Server 2]
+https://livecdn-bp-iptv.rumsport7.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=6ed15d05da42b2e5d380abbc92d0e6e6a104d5d6&x-sign=642878a7c566f477149b484ad4824c84&x-time=1782126060
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 | Bad Homburg Open [Server 3]
+https://livecdn-tc-livestream.rumsport10.live/stream/5/chunks.m3u8?is_vip=false&token=1782212498-Kv4cPTAAP5YTi-6ed15d05da42b2e5d380abbc92d0e6e6a104d5d6-7adcedc7ceb0d806bcb306811c1f4db3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 | Bad Homburg Open [Server 4]
+https://livecdn-bp-livestream.rumsport7.live/stream/5/chunks.m3u8?is_vip=false&token=6ed15d05da42b2e5d380abbc92d0e6e6a104d5d6&x-sign=7062208b8a88190ddd5bfbdb8bcb7df8&x-time=1782126060
 # Playlist Name: Tapmad bd
-# Last Update: 04:30 PM 22-06-2026
+# Last Update: 05:00 PM 22-06-2026
 # Telegram: https://t.me/livesportsplay
 # Owner: Md Sohanur Rahman Hady
 # Special thanks to Shuvo vai for contributing his premium Tapmad account.
 #name: Bingstream Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 4:31:30 PM 22-06-2026
+#last update time: 5:01:30 PM 22-06-2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tohoku_Rakuten_Golden_Eagles_VS_Saitama_Seibu_Lions_NPB.jpg" group-title="playlist", Tohoku Rakuten Golden Eagles VS Saitama Seibu Lions | NPB [Server 1]
-https://livecdn-tc-livestream.rumsport10.live/stream/2/chunks.m3u8?is_vip=false&token=1782210693-Kv4cPTAAP5YTi-4620a4dadd6615bd0cdaedb7adc638a3296539e7-e02b88ba4fba2ce74c58dca4eece7c9c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tohoku_Rakuten_Golden_Eagles_VS_Saitama_Seibu_Lions_NPB.jpg" group-title="playlist", Tohoku Rakuten Golden Eagles VS Saitama Seibu Lions | NPB [Server 2]
-https://livecdn-bp-livestream.rumsport7.live/stream/2/chunks.m3u8?is_vip=false&token=4620a4dadd6615bd0cdaedb7adc638a3296539e7&x-sign=08cc55030c4027505543496ec2ed8c74&x-time=1782124260
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 | Bad Homburg Open [Server 1]
-https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1782210698-Kv4cPTAAP5YTi-4620a4dadd6615bd0cdaedb7adc638a3296539e7-486c5ddd4a940e6051efe9c01c58d9a1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 | Bad Homburg Open [Server 2]
-https://livecdn-bp-iptv.rumsport7.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=4620a4dadd6615bd0cdaedb7adc638a3296539e7&x-sign=0d384fea31538e90d45d7cfb067d64b3&x-time=1782124260
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 | Bad Homburg Open [Server 3]
-https://livecdn-tc-livestream.rumsport10.live/stream/5/chunks.m3u8?is_vip=false&token=1782210698-Kv4cPTAAP5YTi-4620a4dadd6615bd0cdaedb7adc638a3296539e7-5fd7008e60092a3cefe5db206c3b1737
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 | Bad Homburg Open [Server 4]
-https://livecdn-bp-livestream.rumsport7.live/stream/5/chunks.m3u8?is_vip=false&token=4620a4dadd6615bd0cdaedb7adc638a3296539e7&x-sign=479ca173967b372adce5c01b211b8c93&x-time=1782124260
 # Playlist Name: Asports Auto Update Playlist
 # Telegram: https://t.me/livesportsplay
 # Owner: Md Sohanur Rahman Hady
-# Last Update: 04:30:49 PM 22-06-2026
-#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
-#EXTINF:-1 tvg-id="1629493943" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tohoku_Rakuten_Golden_Eagles_VS_Saitama_Seibu_Lions_NPB.jpg" group-title="playlist", Tohoku Rakuten Golden Eagles vs Saitama Seibu Lions - NPB [2]
-https://livecdn-tc-livestream.rumsport10.live/stream/2/chunks.m3u8?is_vip=false&token=1782210638-Kv4cPTAAP5YTi-47a0892bddd2fbf61d20ccb5078f6fed34af5936-9cee3388983b8afe260cbcf6f95b1f58
-#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
-#EXTINF:-1 tvg-id="1629493943" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tohoku_Rakuten_Golden_Eagles_VS_Saitama_Seibu_Lions_NPB.jpg" group-title="playlist", Tohoku Rakuten Golden Eagles vs Saitama Seibu Lions - NPB [2]
-https://livecdn-bp-livestream.rumsport7.live/stream/2/chunks.m3u8?is_vip=false&token=47a0892bddd2fbf61d20ccb5078f6fed34af5936&x-sign=026143319a33be7b90b603edac63b628&x-time=1782124200
+# Last Update: 05:00:58 PM 22-06-2026
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
 #EXTINF:-1 tvg-id="1629493944" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 - Bad Homburg Open [147445]
-https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1782210644-Kv4cPTAAP5YTi-47a0892bddd2fbf61d20ccb5078f6fed34af5936-10e694ea71def1eed20cf52ae6640d08
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1782212447-Kv4cPTAAP5YTi-8074e8de33b6af6cff3e9db9020aac305147fd34-5ef60a87a5e5dfd6a42e2ad547f32d57
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
 #EXTINF:-1 tvg-id="1629493944" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 - Bad Homburg Open [147445]
-https://livecdn-bp-iptv.rumsport7.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=47a0892bddd2fbf61d20ccb5078f6fed34af5936&x-sign=c05c577f4fe1914e4d11f32306e75a8f&x-time=1782124200
+https://livecdn-bp-iptv.rumsport7.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=8074e8de33b6af6cff3e9db9020aac305147fd34&x-sign=012f3fe0a7fd1b1ec049ee646a15aa82&x-time=1782126000
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
 #EXTINF:-1 tvg-id="1629493944" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 - Bad Homburg Open [5]
-https://livecdn-tc-livestream.rumsport10.live/stream/5/chunks.m3u8?is_vip=false&token=1782210645-Kv4cPTAAP5YTi-47a0892bddd2fbf61d20ccb5078f6fed34af5936-6086ae86fdbf02cfdd2f145e8b3d5905
+https://livecdn-tc-livestream.rumsport10.live/stream/5/chunks.m3u8?is_vip=false&token=1782212449-Kv4cPTAAP5YTi-8074e8de33b6af6cff3e9db9020aac305147fd34-281fff1e53ce108893583fe6f9d2ca5a
 #EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
 #EXTINF:-1 tvg-id="1629493944" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day_2_Bad_Homburg_Open.jpg" group-title="playlist", Day 2 - Bad Homburg Open [5]
-https://livecdn-bp-livestream.rumsport7.live/stream/5/chunks.m3u8?is_vip=false&token=47a0892bddd2fbf61d20ccb5078f6fed34af5936&x-sign=ccaceb3795de8d2600da0848879bebfb&x-time=1782124200
+https://livecdn-bp-livestream.rumsport7.live/stream/5/chunks.m3u8?is_vip=false&token=8074e8de33b6af6cff3e9db9020aac305147fd34&x-sign=752dea4fde9b9d4f2345feff1f848513&x-time=1782126000
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-id="1629493943" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tohoku_Rakuten_Golden_Eagles_VS_Saitama_Seibu_Lions_NPB.jpg" group-title="playlist", Tohoku Rakuten Golden Eagles vs Saitama Seibu Lions - NPB [2]
+https://livecdn-tc-livestream.rumsport10.live/stream/2/chunks.m3u8?is_vip=false&token=1782212455-Kv4cPTAAP5YTi-8074e8de33b6af6cff3e9db9020aac305147fd34-9ffe4f7dd29983dd6785904245e02374
+#EXTVLCOPT:http-referrer=https://iframe.rumsport10.live/
+#EXTINF:-1 tvg-id="1629493943" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tohoku_Rakuten_Golden_Eagles_VS_Saitama_Seibu_Lions_NPB.jpg" group-title="playlist", Tohoku Rakuten Golden Eagles vs Saitama Seibu Lions - NPB [2]
+https://livecdn-bp-livestream.rumsport7.live/stream/2/chunks.m3u8?is_vip=false&token=8074e8de33b6af6cff3e9db9020aac305147fd34&x-sign=1805945cccb362c5e8cf28759f772892&x-time=1782126000
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:04:32 PM 22-06-2026
+#LAST_UPDATE:05:02 PM 22-06-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
@@ -64,7 +199,7 @@ https://livecdn-bp-livestream.rumsport7.live/stream/5/chunks.m3u8?is_vip=false&t
 # name: SonyLiv Matches Full Data
 # telegram: https://t.me/livesportsplay
 # owner: Md Sohanur Rahman Hady
-# last_update: 04:30:33 PM 22-06-2026
+# last_update: 05:00:35 PM 22-06-2026
 # name: Toffee Live TV Full Data
 # telegram: https://t.me/livesportsplay
 # owner: Md Sohanur Rahman Hady
@@ -337,8 +472,6 @@ http://khanmalik.io:8080/live/Khemprakash/skyplay2421/249894.ts
 https://tvsen6.aynaott.com/asports/index.m3u8
 #EXTINF:-1 tvg-id="euro sports" tvg-name="euro sports" tvg-logo="https://i.imgur.com/nYJ0UYA.png" group-title="Combined_Live_TV",Euro Sports
 https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/8e08XtE.png" group-title="Combined_Live_TV",FIFA World Cup
-https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="T SPORTS" tvg-name="T SPORTS" tvg-logo="https://i.imgur.com/iI17rZ3.jpeg" group-title="Combined_Live_TV",T SPORTS
 https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="PTV SPORTS HD" tvg-name="PTV SPORTS HD" tvg-logo="https://i.imgur.com/WFf2kaH.jpeg" group-title="Combined_Live_TV",PTV SPORTS HD
@@ -445,77 +578,35 @@ https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/s
 https://stream.spicefmbd.com/stream.m3u8
 #EXTINF:-1 tvg-logo="https://m.economictimes.com/thumb/msid-71679942,width-1200,height-900,resizemode-4,imgsize-42753/radio-mirchi-agencies.jpg" group-title="Combined_Live_TV",Radio Mirchi
 https://eu8.fastcast4u.com/proxy/clyedupq?mp=%2F1?aw_0_req_lsid=2c0fae177108c9a42a7cf24878625444
-#EXTINF:-1 tvg-id="t sports" tvg-name="T-Sports" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="Combined_Live_TV",Football World Cup
-http://103.179.25.147:8181/FiFaaaaaah/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.somoynews.tv/icon.png"  group-title="Combined_Live_TV", Somoy TV
-http://ubuntu.moonplex.net:8080/Somoy_TV/index.m3u8
-#EXTINF:-1 tvg-name="Football World Cup 2026 link hindi" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="Combined_Live_TV",Football World Cup
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745195.ts
-#EXTINF:-1  tvg-logo="https://go-live.info/wp-content/uploads/2024/09/logowhitenew.webp"  group-title="Combined_Live_TV",GO Live
-https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/dd/Screenshot_2026-06-10_002618.png"  group-title="Combined_Live_TV",Unite8 Sports 2 HD
-http://212.102.34.8:9080/AndFlixHD/video.m3u8
 #====== Toffee World Cup ============
-#EXTINF:-1 tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="Combined_Live_TV",Toffee 1
-http://sm-monirul.top/tof/live/gervsivo/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="Combined_Live_TV",Toffee 2
-http://sm-monirul.top/tof/live/ecuvscur/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="Combined_Live_TV",Toffee 3
-http://sm-monirul.top/tof/live/tunvsjap/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="Combined_Live_TV",Toffee 4
-https://sm-monirul.top/tof/live/toffee4/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/53aSeDH.png" group-title="Combined_Live_TV",Toffee 5
-https://sm-monirul.top/tof/live/toffee5/index.m3u8
 #====== Bioscope World Cup ============
 #https://sm-monirul.top/ultra_restream/bioscope/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/X7qgs8BY/images-d47abaf70fb3ea50af7cdf455ccab5a6-goplay-bioscope-icon-transparent-app.png"  group-title="Combined_Live_TV",Bioscope
-https://bioscope.sm-monirulislam-exp.workers.dev/index.m3u8
 #======  World Cup ============
-#EXTINF:-1 tvg-id="t sports" tvg-name="T-Sports" tvg-logo="https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png" group-title="Combined_Live_TV",Football World Cup
-https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTVLCOPT:http-referrer=https://streamcenter.xyz
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/FOX_wordmark.svg"  group-title="Combined_Live_TV",FOX ONE
-https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8
 #======  World Cup 1 ============
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0
 #EXTVLCOPT:http-referrer=https://streamcenter.xyz
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Telemundo92.svg"  group-title="Combined_Live_TV",TELEMUNDO HD
-https://edge2caster.pro/hls/eJmauBDCIf.m3u8
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0a/Sportdigital_Fu%C3%9Fball.svg"  group-title="Combined_Live_TV",FUSSBALL TV 2 4K
-https://test.movielinkbd.com/storage/relay/test/index.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=433ffba670963e70857859a9dff4be04:51ede3a821229fe81e71282c8eff80e3
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/M6_1987_logo.svg"  group-title="Combined_Live_TV",M6 Direct TV
-https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png"  group-title="Combined_Live_TV",Tipik Direct
-https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/CazeTV2022.svg"  group-title="Combined_Live_TV",Caze TV HD
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=34475edab991ad5e92548aebd710410a:501b209cccd323ac00bf5ac15b406cb4
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/CazeTV2022.svg"  group-title="Combined_Live_TV",Caze TV HD
-https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1223d5105392cabf1bb9c2c1fdf6539a:340b409f4b8f78a343e0363a7938df38
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/CazeTV2022.svg"  group-title="Combined_Live_TV",Caze TV FHD
-https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/iayg0kyrof/out/v1/91dc04907f56415b897faccfa9d252da/cenc.mpd
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/aa/RTB_Aneka.png"  group-title="Combined_Live_TV",RTB_ANEKA
-https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist_b608000_sleng.m3u8
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -524,42 +615,30 @@ https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist_b608000_sleng.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=83f81c4cc1443991543de4e22eea7586:ddfd7ca653d6f35543d8edb3c688e20f
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/45/DSportsM%C3%A1s.png"  group-title="Combined_Live_TV", DSPORTS+ FHD
-http://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://webtv.sk/tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f7/Sport1_hu.png"  group-title="Combined_Live_TV",SPORT 1 🇸🇰
-https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referer=https://webtv.sk/tv/
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d
-#EXTINF:-1  tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/68s5x31616932507.png"  group-title="Combined_Live_TV",SPORT 2 🇸🇰
-https://dash2.antik.sk/stream/nvidia_sport2/playlist_cenc.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9009b7189e3e68cc09d17811f2beb55a:dd3f96a94c909da48ff40c92aabf8cf3
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/SporTV2_2021.png" group-title="Combined_Live_TV",SportTV 2
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/SporTV3_2021.png" group-title="Combined_Live_TV",SportTV 3
-https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3d/BeIN_Sports_3_2017_Square.png" group-title="Combined_Live_TV",BEIN SPORTS 3
-https://a83aivottlinear-a.akamaihd.net/OTTB/syd-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 #EXTINF:-1 tvg-id="sports_highlights" tvg-name="TOFFEE Sports VIP" tvg-logo="https://images.toffeelive.com/images/program/19779/logo/240x240/mobile_logo_975410001725875598.png" group-title="Combined_Live_TV",TOFFEE Sports VIP
 https://sm-monirul.top/toffee/play/sports_highlights.m3u8
 #EXTINF:-1 tvg-id="toffee_movie" tvg-name="TOFFEE Movies VIP" tvg-logo="https://images.toffeelive.com/images/program/2708/logo/240x240/mobile_logo_724353001725875591.png" group-title="Combined_Live_TV",TOFFEE Movies VIP
