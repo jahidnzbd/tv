@@ -1,5 +1,5 @@
 #EXTM3U
-# Generated 2026-09-26 07:18:37.291757+00:00 UTC
+# Generated 2026-09-26 12:49:16.270340+00:00 UTC
 #=================================
 # Last Updated: 2026-07-15 12:01:47
 # Channels Count : 236
@@ -446,35 +446,41 @@ https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700
 #EXTINF:-1 tvg-id="eacf6c3f-0773-4bc3-a03a-cfee09f10348" tvg-name="PTV Sports" tvg-logo="https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014" group-title="ayna-playlist",PTV Sports
 https://tvsen7.aynaott.com/zY3hJ7pQ2vM5gD8s/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&ip=52.157.32.49&token=b75669e4aa0dd58c602b637ab66af304
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:01:02 PM 26-09-2026
+#LAST_UPDATE:06:32 PM 26-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:5
+#LIVE_COUNT:6
 #UPCOMING_COUNT:0
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9590ea43d0f770c24205e23440d8af8c:b127454380d8fffc3acd12575b2b4adb
+#EXTINF:-1 tvg-id="B0HG3GYWMF" tvg-name="LIVE: Open de France Championship Day 3" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.addf42fd-3f0e-4ed4-a75f-6d67a673a228/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="primevideo_sports",LIVE: Open de France Championship Day 3
+https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/yoaryfkyeh/out/v1/63e8364f9ad047a7bb1c4a9a8d754f42/cenc.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
 #EXTINF:-1 tvg-id="B0HFHJZTYX" tvg-name="Predator Pro Billiard Series: Vietnam" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.97c308f7-4df4-4358-b7b8-5f8edb70f55c/18/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="primevideo_sports",Predator Pro Billiard Series: Vietnam
-https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/2idyuu2ecl/out/v1/8b521304de804ce5a5ac4ff27eb85eb3/cenc.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-#EXTINF:-1 tvg-id="B0HHNJV5KR" tvg-name="Shanghai Sprints, Day 1" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.47391a8a-dc15-4a0f-b910-be9c5c0848d3/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="primevideo_sports",Shanghai Sprints, Day 1
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd
+#EXTINF:-1 tvg-id="B0HJQ8TJMJ" tvg-name="Stihl Timbersports-BeNeLux Pro Championship" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.e7ff8344-1b19-4a06-9009-825c031c861b/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="primevideo_sports",Stihl Timbersports-BeNeLux Pro Championship
+https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
-#EXTINF:-1 tvg-id="B0HJLQ77VN" tvg-name="Tennis Today Live-Singapore-WTA, Seoul-WTA Semifinals; Hangzhou-ATP & Chengdu-ATP Early Rounds" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.d377550b-f356-4528-8596-21c8284be518/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="primevideo_sports",Tennis Today Live-Singapore-WTA, Seoul-WTA Semifinals; Hangzhou-ATP & Chengdu-ATP Early Rounds
+#EXTINF:-1 tvg-id="B0GRBND72N" tvg-name="Finals, Second Semifinal: TBA" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.d5f5174c-5fa0-4c0b-93fd-d447c9a7ebf8/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="primevideo_sports",Finals, Second Semifinal: TBA
 https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-#EXTINF:-1 tvg-id="B0H5KQ8TQ7" tvg-name="Weightlifting 08" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.16a02cd8-c541-4403-9203-c41f3db65758/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="primevideo_sports",Weightlifting 08
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
+#EXTINF:-1 tvg-id="B0HJJJP396" tvg-name="Athletics 08" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.0268bb97-4d09-47be-89a9-e21025415a99/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="primevideo_sports",Athletics 08
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
 # Playlist Generated Automatically by Double-Threaded Automation
 # Last Updated: 2026-09-26 02:34:50
 #EXTINF:-1 tvg-logo="https://odfgbv.b-cdn.net/upload/photos/2026/06/Patriot.(2026).Bengali.Dubbed.jpg" group-title="playlist", Patriot (2026) Bengali Dubbed 1080p
@@ -3153,46 +3159,131 @@ https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.m
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 1:17:29 PM 26-09-2026
+#last update time: 6:47:28 PM 26-09-2026
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-#EXTINF:-1 tvg-id="83902" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/WTA%20Seoul.jpg" group-title="playlist_1", WTA Seoul - WTA Seoul
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1790493452-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-51ecc691a5161be977bcf6ca7ffc4cf8
+#EXTINF:-1 tvg-id="66545" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Slovenia%20vs%20Scotland.jpg" group-title="playlist_1", Slovenia vs Scotland - UEFA Nations League [Server 1]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c458047014-hd/chunks.m3u8?is_vip=false&token=1790513253-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-fdde1cce6a8172f55283626728fa30b6
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-#EXTINF:-1 tvg-id="68338" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Canterbury%20vs%20Southland.jpg" group-title="playlist_1", Canterbury vs Southland - NPC
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143073/720p/chunks.m3u8?is_vip=false&token=1790493454-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0c584b5e038e2253ce253db4e63fb00a
+#EXTINF:-1 tvg-id="66545" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Slovenia%20vs%20Scotland.jpg" group-title="playlist_1", Slovenia vs Scotland - UEFA Nations League [Server 2]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c458047014-fhd/chunks.m3u8?is_vip=false&token=1790513254-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-5cd42b8941a5e6fac6ffcf2d777fac7d
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-#EXTINF:-1 tvg-id="81552" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/China%20PR%20U23%20vs%20Thailand%20U23.jpg" group-title="playlist_1", China PR U23 vs Thailand U23 - Asian Games
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab3fed670a52b8b4e741fd2/chunks.m3u8?is_vip=false&token=1790493457-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b64f322c124840fc87b0a8149c1543c6
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-#EXTINF:-1 tvg-id="75705" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Papua%20New%20Guinea%20W%20vs%20Vanuatu%20W.jpg" group-title="playlist_1", Papua New Guinea W vs Vanuatu W - Friendlies Women
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6ab72e60b29a32ad121badad/chunks.m3u8?is_vip=false&token=1790493461-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c9ff19a8674444f899a4b85a6efd5ebb
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-#EXTINF:-1 tvg-id="68339" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/North%20Harbour%20vs%20Otago.jpg" group-title="playlist_1", North Harbour vs Otago - NPC
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143071/720p/chunks.m3u8?is_vip=false&token=1790493464-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ecaa7d7b656570af262cab052b719800
-#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-#EXTINF:-1 tvg-id="72917" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Baku%2C%20AzerbaijanRace%202.jpg" group-title="playlist_1", Baku, AzerbaijanRace 2 - FIA Formula 2 Championship Feature Race
-https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790493469-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2719d19f7ebbd20790e3a9f7b377c078
+#EXTINF:-1 tvg-id="66545" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Slovenia%20vs%20Scotland.jpg" group-title="playlist_1", Slovenia vs Scotland - UEFA Nations League [Server 3]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c458047014/chunks.m3u8?is_vip=false&token=1790513254-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a490c1fca6f57d56784196e8c9b97c66
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
 #EXTINF:-1 tvg-id="83904" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/WTA%20Singapore.jpg" group-title="playlist_1", WTA Singapore - WTA Singapore
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143074/720p/chunks.m3u8?is_vip=false&token=1790493472-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-4c5adafbea712c8006a02f4f64afbb22
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143074/720p/chunks.m3u8?is_vip=false&token=1790513257-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c3f7b824f6d1807b3943ce3ff0ae8126
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
-#EXTINF:-1 tvg-id="83905" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/ATP%20Chengdu.jpg" group-title="playlist_1", ATP Chengdu - ATP Chengdu
-https://livecdn-tc-iptv.rumsport10.live/live_abr/112612/720p/chunks.m3u8?is_vip=false&token=1790493475-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-aee7745d911641fbb3d9d93383a8f445
+#EXTINF:-1 tvg-id="83906" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/ATP%20Hangzhou.jpg" group-title="playlist_1", ATP Hangzhou - ATP Hangzhou
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790513260-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b924c2140e32487e1a272d5dc1929826
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="72919" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Azerbaijan%20Grand%20Prix%202026.jpg" group-title="playlist_1", Azerbaijan Grand Prix 2026 - Formula 1 Main Race
+https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790513263-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-32578d36d5e797268d04fe3c34de61ee
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66328" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Nantong%20Zhiyun%20vs%20Changchun%20Yatai.jpg" group-title="playlist_1", Nantong Zhiyun vs Changchun Yatai - League One
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a32bd82774cbee6e5d90814/chunks.m3u8?is_vip=false&token=1790513266-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-4fe38bbb6836d139b6113bb22e9272b9
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66331" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Spartak%20Kostroma%20vs%20Ural.jpg" group-title="playlist_1", Spartak Kostroma vs Ural - First League [Server 1]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a64d69febc5c3ef2c40b21e/chunks.m3u8?is_vip=false&token=1790513269-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c3cd8f16482f90c7a1f9c952097e9e08
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66331" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Spartak%20Kostroma%20vs%20Ural.jpg" group-title="playlist_1", Spartak Kostroma vs Ural - First League [Server 2]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a64d69febc5c3ef2c40b21e-fhd/chunks.m3u8?is_vip=false&token=1790513270-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b9320109d52444d11366dceb964c99b1
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66234" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Dinamo%20Stavropol%20vs%20Amkar.jpg" group-title="playlist_1", Dinamo Stavropol vs Amkar - Second League A - Division A Silver
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a959e10cfbac0cba8de38f6/chunks.m3u8?is_vip=false&token=1790513272-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-c97375e187faa88a7ec00d16c6a5dbd3
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="83907" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Laver%20cup.jpg" group-title="playlist_1", Laver cup - 2026 Laver Cup Tennis
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143072/720p/chunks.m3u8?is_vip=false&token=1790513275-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-24c7fb7512833a644abd1257357dfc8f
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66333" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/EIF%20vs%20SJK%20Akatemia.jpg" group-title="playlist_1", EIF vs SJK Akatemia - Ykkösliiga
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c458046fe1/chunks.m3u8?is_vip=false&token=1790513278-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ce63b08bd028bb5d2056c693d7b8602a
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66339" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/AD%20Ceuta%20FC%20vs%20Real%20Sociedad%20II.jpg" group-title="playlist_1", AD Ceuta FC vs Real Sociedad II - Segunda División [Server 1]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841276b72017e628ba73a/chunks.m3u8?is_vip=false&token=1790513281-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-3a4e08e1459c4f2a20ab7d86d5b45e67
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66339" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/AD%20Ceuta%20FC%20vs%20Real%20Sociedad%20II.jpg" group-title="playlist_1", AD Ceuta FC vs Real Sociedad II - Segunda División [Server 2]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841276b72017e628ba73a-fhd/chunks.m3u8?is_vip=false&token=1790513281-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-77848e48bf1b821067a391d3e2aaeeac
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="68340" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Italy%20vs%20South%20Africa.jpg" group-title="playlist_1", Italy vs South Africa - WXV
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143071/720p/chunks.m3u8?is_vip=false&token=1790513285-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-086b7b231a379e82742918602902788c
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66356" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Charlton%20Athletic%20W%20vs%20Manchester%20City%20W.jpg" group-title="playlist_1", Charlton Athletic W vs Manchester City W - FA WSL [Server 1]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c45804700c-fancode/chunks.m3u8?is_vip=false&token=1790513288-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-982c90f788dfa6827b76ad379a61502b
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66356" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Charlton%20Athletic%20W%20vs%20Manchester%20City%20W.jpg" group-title="playlist_1", Charlton Athletic W vs Manchester City W - FA WSL [Server 2]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c45804700c/chunks.m3u8?is_vip=false&token=1790513289-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6af82dba77e8dc722ffb93c84f77341f
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66356" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Charlton%20Athletic%20W%20vs%20Manchester%20City%20W.jpg" group-title="playlist_1", Charlton Athletic W vs Manchester City W - FA WSL [Server 3]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c45804700c-fhd/chunks.m3u8?is_vip=false&token=1790513289-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9ab008bb94194fe27cfbc071df81aa62
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66357" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Giana%20Erminio%20vs%20PRO%20Vercelli.jpg" group-title="playlist_1", Giana Erminio vs PRO Vercelli - Serie C - Girone A
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c458047012/chunks.m3u8?is_vip=false&token=1790513292-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-fe522a022a9c3195351a113e2982903e
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66358" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Lumezzane%20vs%20Folgore%20Caratese.jpg" group-title="playlist_1", Lumezzane vs Folgore Caratese - Serie C - Girone A
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c458047011/chunks.m3u8?is_vip=false&token=1790513294-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-3b8317dc1e490843cf8e1021761affa5
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66359" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Pergolettese%20vs%20Trento.jpg" group-title="playlist_1", Pergolettese vs Trento - Serie C - Girone A
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c458047010/chunks.m3u8?is_vip=false&token=1790513297-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-bfdc8b51a96c273cb53413cacdc7d6df
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66372" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/SK%20Rapid%20W%20vs%20Salzburg%20W.jpg" group-title="playlist_1", SK Rapid W vs Salzburg W - Frauenliga
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841276b72017e628ba745/chunks.m3u8?is_vip=false&token=1790513299-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2679007c2ff9056b9d2adec7de0b3c7a
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66371" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/St.%20P%C3%B6lten%20W%20vs%20Kleinm%C3%BCnchen%20%20BW%20Linz%20W.jpg" group-title="playlist_1", St. Pölten W vs Kleinmünchen / BW Linz W - Frauenliga
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841276b72017e628ba748/chunks.m3u8?is_vip=false&token=1790513303-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-2b2b3a3eef966a46dbdeb700f758d551
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66376" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Volga%20Ulyanovsk%20vs%20Leningradets.jpg" group-title="playlist_1", Volga Ulyanovsk vs Leningradets - First League
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a64d69febc5c3ef2c40b21c/chunks.m3u8?is_vip=false&token=1790513315-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-d15e8885753c6738283a979bc969e7a0
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="75726" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Botswana%20W%20vs%20Namibia%20W.jpg" group-title="playlist_1", Botswana W vs Namibia W - Friendlies Women
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa0eee8e8a66eebd817163d/chunks.m3u8?is_vip=false&token=1790513318-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-bcd992b1efb240e9cef16eee3dcd6f56
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66493" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/South%20Africa%20vs%20Guinea.jpg" group-title="playlist_1", South Africa vs Guinea - Africa Cup of Nations - Qualification
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa0eee8e8a66eebd817163e/chunks.m3u8?is_vip=false&token=1790513321-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-0b13ac540058d1ee5e8d50b287762c34
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66366" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kenya%20vs%20Eritrea.jpg" group-title="playlist_1", Kenya vs Eritrea - Africa Cup of Nations - Qualification
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6aa0eee8e8a66eebd817163d/chunks.m3u8?is_vip=false&token=1790513328-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-039e47794ae493bac0c192208c226bcf
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66360" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/JIPPO%20vs%20PK-35.jpg" group-title="playlist_1", JIPPO vs PK-35 - Ykkösliiga
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c458047017/chunks.m3u8?is_vip=false&token=1790513331-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-8aabad1497bdf00e7e4cb63512bb84f2
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 1:17:29 PM 26-09-2026
+#last update time: 6:32:29 PM 26-09-2026
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="83904" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/WTA%20Singapore.jpg" group-title="playlist_3", WTA Singapore - WTA Singapore
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143074/720p/chunks.m3u8?is_vip=false&token=1790512351-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-eaeaf2bbe210fc16cec1a76ec1489cfb
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="83906" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/ATP%20Hangzhou.jpg" group-title="playlist_3", ATP Hangzhou - ATP Hangzhou
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1790512355-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-9494d8f10531f32c9d1b582539aee49c
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="72919" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Azerbaijan%20Grand%20Prix%202026.jpg" group-title="playlist_3", Azerbaijan Grand Prix 2026 - Formula 1 Main Race
+https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1790512358-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-fd6098bf107bdc3ffe7270cac1ce2beb
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="81555" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Vietnam%20vs%20Philippines.jpg" group-title="playlist_3", Vietnam vs Philippines - FIFA Asean Cup
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9976857cb66c539a0afc5e/chunks.m3u8?is_vip=false&token=1790512368-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-652d52ad892eb0620bbc812c3946d64a
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66339" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/AD%20Ceuta%20FC%20vs%20Real%20Sociedad%20II.jpg" group-title="playlist_3", AD Ceuta FC vs Real Sociedad II - Segunda División [Server 1]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841276b72017e628ba73a-fhd/chunks.m3u8?is_vip=false&token=1790512374-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-ffa0490ffd61a9345e1b2b56d9f9a172
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66339" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/AD%20Ceuta%20FC%20vs%20Real%20Sociedad%20II.jpg" group-title="playlist_3", AD Ceuta FC vs Real Sociedad II - Segunda División [Server 2]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9841276b72017e628ba73a/chunks.m3u8?is_vip=false&token=1790512374-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-194c47f3ff75766c8442ca6eef938c2a
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="83907" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Laver%20cup.jpg" group-title="playlist_3", Laver cup - 2026 Laver Cup Tennis
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143072/720p/chunks.m3u8?is_vip=false&token=1790512380-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-b81a3e4f3fc43919a1a72ff5dc8663ce
 #EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="68340" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Italy%20vs%20South%20Africa.jpg" group-title="playlist_3", Italy vs South Africa - WXV
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143071/720p/chunks.m3u8?is_vip=false&token=1790512383-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-10644d376cd899703c3055944d1c3bf6
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66356" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Charlton%20Athletic%20W%20vs%20Manchester%20City%20W.jpg" group-title="playlist_3", Charlton Athletic W vs Manchester City W - FA WSL [Server 1]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c45804700c-fancode/chunks.m3u8?is_vip=false&token=1790512385-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-6d569cbe2c5214954460e385fbffbe53
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66356" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Charlton%20Athletic%20W%20vs%20Manchester%20City%20W.jpg" group-title="playlist_3", Charlton Athletic W vs Manchester City W - FA WSL [Server 2]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c45804700c/chunks.m3u8?is_vip=false&token=1790512386-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-98315993a274540623b854dfb513b575
+#EXTHTTP:{"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","Referer":"https://iframe.rumsport8.live/"}
+#EXTINF:-1 tvg-id="66356" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Charlton%20Athletic%20W%20vs%20Manchester%20City%20W.jpg" group-title="playlist_3", Charlton Athletic W vs Manchester City W - FA WSL [Server 3]
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a96efa006a083c45804700c-fhd/chunks.m3u8?is_vip=false&token=1790512386-Kv4cPTAAP5YTi-19633c5a6acbfe797bf98bf0ddffca85381412ca-a359567081306204cd01079a184693ca
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:01:02 PM 26-09-2026
+#LAST_UPDATE:06:32 PM 26-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
@@ -3200,31 +3291,29 @@ https://livecdn-tc-iptv.rumsport10.live/live_abr/112612/720p/chunks.m3u8?is_vip=
 # name: SonyLiv Matches Full Data
 # telegram: https://t.me/livesportsplay
 # owner: Md Sohanur Rahman Hady
-# last_update: 12:50:26 PM 26-09-2026
-#EXTINF:-1 tvg-id="sonyliv-1090541854" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024849/179037740710584_AG26_25Sep_Badminton_Womens_Singles_PV_Sindhu_vs_Chiu_live_landscape_thumb.jpg" group-title="sonyliv_playlist", P.V. Sindhu vs CHIU - Women's Singles - Badminton - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120306/AG_DX8_22509/ENG/master.m3u8?hdnea=exp=1790425234~acl=/*~id=94586865759155438701234430753543~hmac=2442bf938dd2e19cf86a4ed829d6e06fc048f69f9fb84ae64f5ccee6763a795e
-#EXTINF:-1 tvg-id="sonyliv-1090543296" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024870/1790392197365510_AG26_Squash_Mens_Singles_SF_Muhammad_vs_Abhay_live_landscape_thumb.jpg" group-title="sonyliv_playlist", India In Action - Squash - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120304/AG_strea2509/ENG/master.m3u8?hdnea=exp=1790425234~acl=/*~id=94586865759155438701234430753543~hmac=2442bf938dd2e19cf86a4ed829d6e06fc048f69f9fb84ae64f5ccee6763a795e
-#EXTINF:-1 tvg-id="sonyliv-1090541378" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024839/1790368432961894_AG26_Generic_Stream2_live_landscape_thumb_clean.jpg" group-title="sonyliv_playlist", Day 8 - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120301/AG_strea2509/ENG/master.m3u8?hdnea=exp=1790418035~acl=/*~id=35734745724062599657175865729110~hmac=9c35009c3eeac95f2a90c1a59c857a267420de14f9d7c4f2d8894086764dc96e
-#EXTINF:-1 tvg-id="sonyliv-1090541380" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541380/thumbnail/1790402115168_1789299123285348_AG26_Hockey_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Sri Lanka vs Republic of Korea - Men - Hockey - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120303/AG_DX2_22509/ENG/master.m3u8?hdnea=exp=1790423431~acl=/*~id=64227188775360714538234883293815~hmac=da812d3b6887bcc66b2c7d0a4d3e9778e3b18751e88cdc96284ab84a0a13b946
-#EXTINF:-1 tvg-id="sonyliv-1090541853" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541853/thumbnail/1790400301987_1789293652814348_AG26_Boxing_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Boxing - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120305/AG_DX7_22509/ENG/master.m3u8?hdnea=exp=1790427034~acl=/*~id=83002504801078972566002112432855~hmac=5f75fa53544801c3cf43eacf51cb86226c8406cbbb5e0e172652905906fba0ea
-#EXTINF:-1 tvg-id="sonyliv-1090541387" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023916/1789300835115741_AG26_Table_Tennis_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Table Tennis - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2005445/AG_DX6_22609/ENG/master.m3u8?hdnea=exp=1790434232~acl=/*~id=87602207554872074075893998424236~hmac=2522dc02f750d93653eb0a8703ddb03cbca7af597871c8e315282bcd701e3b44
-#EXTINF:-1 tvg-id="sonyliv-1090541369" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023915/1789297671535348_AG26_Equestrian_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Equestrian - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2005444/AG_EDX_22509/ENG/master.m3u8?hdnea=exp=1790423442~acl=/*~id=28016161674685848809904521944532~hmac=905cd25d6d56e01574154cb9b166e82c4bd34e7350e55dc0d93ba85ef7bbedca
-#EXTINF:-1 tvg-id="sonyliv-1090541376" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023915/1789292948462348_AG26_Badminton_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Badminton - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2120308/AG_DX4_22609/ENG/master.m3u8?hdnea=exp=1790432434~acl=/*~id=18207870519634578372090939017911~hmac=a5e1c0dcb4079a5ffae111394a17c10b4b9a67f03d208669d246b272e84936ec
-#EXTINF:-1 tvg-id="sonyliv-1090541855" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023916/1789301796678741_AG26_Weightlifting_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Finals - Weightlifting - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2094589/AG_MDS1_2609/ENG/master.m3u8?hdnea=exp=1790439638~acl=/*~id=94841095675342637592366062888694~hmac=2890a3749868e8425891f2b7f06bd1f9d3f3750e9d97f0589516d852cca89261
-#EXTINF:-1 tvg-id="sonyliv-1090541377" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023915/1789293652814348_AG26_Boxing_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Boxing - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
-https://sonydaimenew.akamaized.net/hls/live/2094588/AG_MDS2_2509/ENG/master.m3u8?hdnea=exp=1790427034~acl=/*~id=83002504801078972566002112432855~hmac=5f75fa53544801c3cf43eacf51cb86226c8406cbbb5e0e172652905906fba0ea
+# last_update: 06:20:30 PM 26-09-2026
+#EXTINF:-1 tvg-id="sonyliv-1090544604" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024853/1790380072911843_Laver_cup26_Cobolli_vs_Tien_day2_session1_landscape_thumb.jpg" group-title="sonyliv_playlist", Day 2 - Session 1 - 26 Sep 2026 | Laver Cup 2026
+https://sonydaimenew.akamaized.net/hls/live/2120300/tennisli2609/ENG/master.m3u8?hdnea=exp=1790466635~acl=/*~id=76855608038276546667725630120860~hmac=736658a05c5b7a54da89bfaa910829ba7dcec3a34486df67ee1de65229bbe139
+#EXTINF:-1 tvg-id="sonyliv-1090541385" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024906/1790325194261787_athletics_live_india_in_action_landscape_thumb_hindi.jpg" group-title="sonyliv_playlist", India In Action - Athletics - 26 Sep 2026 (Hindi) | 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2022319/AG_strea2609/HIN/master.m3u8?hdnea=exp=1790454051~acl=/*~id=63981569956786406281031467928769~hmac=20c79a44c559dd277b6df5c0852cdd8520ce0c7b9752922f268ff8ca2be75624
+#EXTINF:-1 tvg-id="sonyliv-1090541381" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024906/1790325177849787_athletics_live_india_in_action_landscape_thumb.jpg" group-title="sonyliv_playlist", India In Action - Athletics - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2022315/AG_Strea2609/ENG/master.m3u8?hdnea=exp=1790454035~acl=/*~id=14650064533054131876670478826788~hmac=a9fc7efd45a9cb7223c59dc48fa5f617057264d4bef851417211c76be94ce819
+#EXTINF:-1 tvg-id="sonyliv-1090541377" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023915/1789293450735348_AG26_Basketball_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Basketball - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2094588/AG_MDS2_2509/ENG/master.m3u8?hdnea=exp=1790468433~acl=/*~id=30249823290687331112808920503177~hmac=ed6381e935e7f7fd7a9704b14f3f00ec9f30d39a751e080d86e4724f49df919a
+#EXTINF:-1 tvg-id="sonyliv-1090541370" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023916/1789300835115741_AG26_Table_Tennis_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Table Tennis - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2094587/AG_MDS4_2609/ENG/master.m3u8?hdnea=exp=1790454035~acl=/*~id=14650064533054131876670478826788~hmac=a9fc7efd45a9cb7223c59dc48fa5f617057264d4bef851417211c76be94ce819
+#EXTINF:-1 tvg-id="sonyliv-1090541854" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023915/1789292948462348_AG26_Badminton_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Badminton - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2120306/AG_DX8_22509/ENG/master.m3u8?hdnea=exp=1790466638~acl=/*~id=94005504795699855713018885071829~hmac=d280ab63fa8b683402c7388a93033a61a8c6cdb2e1b6f113882b2adabf3f22ec
+#EXTINF:-1 tvg-id="sonyliv-1090541380" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090541380/thumbnail/1790422469008_1789292853755348_AG26_Athletics_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Men's Triple Jump - Athletics - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2120303/AG_DX2_22509/ENG/master.m3u8?hdnea=exp=1790464833~acl=/*~id=12043394872961177007996082744309~hmac=f3b2407bb0106bc29696b4cb051911a71d54d4700bbcc3395f5484325b748911
+#EXTINF:-1 tvg-id="sonyliv-1090541379" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023915/1789292853755348_AG26_Athletics_pictogram_landscape_thumb.jpg" group-title="sonyliv_playlist", Track & Field - Semis & Finals - Athletics - 26 Sep 2026 | 20th Asian Games Aichi-Nagoya 2026
+https://sonydaimenew.akamaized.net/hls/live/2120307/AG_DX1_22609/ENG/master.m3u8?hdnea=exp=1790455836~acl=/*~id=26100500889681328654014375731776~hmac=cebb078a2e173b99da4acd2572e6752281ff576ab8cc451a4abc892d9b796965
+#EXTINF:-1 tvg-id="sonyliv-1090544603" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023647/1788844973415657_DP_World_Tour_FedEx_Open_de_France_Day3_landscape_thumb.jpg" group-title="sonyliv_playlist", FedEx Open de France - Day 3 - 26 Sep 2026 | DP World Tour
+https://sonydaimenew.akamaized.net/hls/live/2018458/golflive2609/ENG/master.m3u8?hdnea=exp=1790466646~acl=/*~id=11687071239662150890923708993019~hmac=ed22224e15e4a61b40fccb21291e4ea751b32475b0e4b86fc9180933fac95475
 #=================================
 #  Developed by: Monirul Islam
 #  Telegram: https://t.me/monirul_Islam_SM
-#  Last Updated: 2026-09-26 13:00:28 (BD Time)
+#  Last Updated: 2026-09-26 18:30:27 (BD Time)
 #  Channels Count: 0
 #=================================
 #=================================
@@ -3911,7 +4000,7 @@ https://edge2.roarzone.net:8447/roarzone/edge5/fox-weather/index.m3u8?token=ad42
 https://edge2.roarzone.net:8447/roarzone/edge5/oman-sports-tv/index.m3u8?token=aade7a2f9bb1d1e345656060720d5eca9705701f-504d7d7e972e3915ffa0a2ddc7d6112f-1786784042-1786773242
 # By Abu SAEEID X Noob
 # Github X Tg @abusaeeidx
-# Update on 2026-09-26 12:41:40 (BD Time)
+# Update on 2026-09-26 17:52:01 (BD Time)
 # Note: I do not host any content, everything is publicly available. And any issues, please contact me.
 #EXTINF:-1 group-title="jahid", Tsorts
 https://bdixserver.tvhunter.top/ant1006/tracks-v1a1/mono.m3u8
@@ -8911,8 +9000,6 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/in
 https://streams2.sofast.tv/ptnr-yupptv/title-XTREM-SPORTS-ENG_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/fGFV4nB0/aaj-entertainment.png" group-title="active_channels",AAJ Entertainment
 https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/wV9f2FR/Geo-Entertainment.png" group-title="active_channels",GEO Entertainment
-https://ml-pull-dvc-myco.io:2096/GEO_ENTERTAINEMNT/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/fGx2j20K/Green-Entertainment.jpg" group-title="active_channels",Green Entertainment
 https://ml-pull-dvc-myco.io:2096/GREEN_ENTERTAINMENT/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/jkkPqjQY/Hum-TV.png" group-title="active_channels",Hum TV
@@ -8925,8 +9012,6 @@ https://stream-lb.livemediama.com/arryadia-hd-01/hls/stream_1/playlist.m3u8
 https://stream-lb.livemediama.com/arryadia/hls/stream_1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/T%20Sports.png" group-title="active_channels",A-Sports (Server 2)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
-#EXTINF:-1 tvg-id="Bein Sports 1" tvg-name="Bein Sports 1" group-title="active_channels" tvg-logo="https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8",Bein Sports 1
-https://flussonic.defineatoz.com/sonysport2L/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/T%20Sports.png" group-title="active_channels",Sport Stars
 https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Talk Sport" tvg-name="Talk Sport" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/5128cd32518d5a9ba7a37e21947fd8fd",Talk Sport
@@ -8983,8 +9068,6 @@ https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da6
 https://tvsen6.aynaott.com/MoonbugKids/index.m3u8
 #EXTINF:-1 tvg-id="3ABN Kids" tvg-name="3ABN Kids" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/76e36f75bf11c815a76c5622d627c814",3ABN Kids
 https://tvsen6.aynaott.com/3abnkids/index.m3u8
-#EXTINF:-1 tvg-id="SRK TV" tvg-name="SRK TV" group-title="active_channels" tvg-logo="https://raw.githubusercontent.com/Rakib49/Rakibiptv/main/IMG_20260528_193117_215.jpg",SRK TV
-https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="G Series Drama" tvg-name="G Series Drama" group-title="active_channels" tvg-logo="https://raw.githubusercontent.com/Rakib49/Rakibiptv/main/images%20(7).jpeg",G Series Drama
 https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="Rakuten Movies" tvg-name="Rakuten Movies" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/22af43810a37af9a151f1e0a23adde63",Rakuten Movies
@@ -8999,5 +9082,3 @@ https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v2a1/mono.m3u8
 https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
 #EXTINF:-1 tvg-id="Makka Live" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/9b6f35f73a099b7a5885a970523c5f78",Makka Live
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8
-#EXTINF:-1 tvg-id="WEATHER CH." tvg-name="WEATHER CH." group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/67e08c23033802b4443baf81d1b048bf",WEATHER CH.
-https://tvsen6.aynaott.com/TheWeatherChannel/index.m3u8?e=1779283877&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=bff83cb7a2fcd3dbef83a9a3c7b969c4
