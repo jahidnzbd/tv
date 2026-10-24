@@ -1,5 +1,5 @@
 #EXTM3U
-# Generated 2026-10-24 10:35:44.514874+00:00 UTC
+# Generated 2026-10-24 14:21:42.371685+00:00 UTC
 #=================================
 # Last Updated: 2026-07-15 12:01:47
 # Channels Count : 236
@@ -446,35 +446,41 @@ https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700
 #EXTINF:-1 tvg-id="eacf6c3f-0773-4bc3-a03a-cfee09f10348" tvg-name="PTV Sports" tvg-logo="https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014" group-title="ayna-playlist",PTV Sports
 https://tvsen7.aynaott.com/zY3hJ7pQ2vM5gD8s/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&ip=52.157.32.49&token=b75669e4aa0dd58c602b637ab66af304
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:04:32 PM 24-10-2026
+#LAST_UPDATE:08:02 PM 24-10-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:5
+#LIVE_COUNT:7
 #UPCOMING_COUNT:0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8c80205dcd2490ef9386a322c46aef12:0dba6b2d52b76e5dff92fac577e7ac8d
-#EXTINF:-1 tvg-id="B0HL646MJT" tvg-name="New Zealand vs. India" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.4bdb387d-8b40-409f-b76a-f9b7349d5ea2/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg" group-title="primevideo_sports",New Zealand vs. India
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ntomodyqm3/out/v1/cd61ecc8b6694006a1173974fcfa4e9e/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
+#EXTINF:-1 tvg-id="B0H37FB27F" tvg-name="Predator European Championships: Spain" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.447494d8-1dc7-4b08-89c7-f04ce02111ea/9/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo_sports",Predator European Championships: Spain
+https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+#EXTINF:-1 tvg-id="B0HMNKRSCN" tvg-name="Charlton Athletic vs. Norwich City" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5f95b5f0-e299-43ad-bbc7-d413d7af2e82/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo_sports",Charlton Athletic vs. Norwich City
+https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+#EXTINF:-1 tvg-id="B0HNDJV4ST" tvg-name="West Ham United vs. Southampton" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.868d1254-41d6-42af-9a26-ac4416f864cc/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo_sports",West Ham United vs. Southampton
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rbem8rorcw/out/v1/5318821e2c3c44c2a439681b9aa86e9b/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dfa8e3854cb8ae706b7b28f22b16cbe2:c8dad1be3999d0aee9bf702316a03f6b
+#EXTINF:-1 tvg-id="B0HK4J5LPY" tvg-name="Atlantic Attack vs. Montreal Mission" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.37d6f5fc-aa33-42e7-b9c1-9a5afbed4528/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo_sports",Atlantic Attack vs. Montreal Mission
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xuduw3ueoe/out/v1/1f4214b57faf489fa608906bec814ec3/cenc.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
-#EXTINF:-1 tvg-id="B0HG79SW1X" tvg-name="Second Semifinal" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2749d3c2-56b5-43e5-835c-13895d9a112e/8/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo_sports",Second Semifinal
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-#EXTINF:-1 tvg-id="B0HM6S59Y2" tvg-name="Cricket-New Zealand vs India: 2nd T20I" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.055e5fe9-bcd2-4b33-9727-f58a7e7db705/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo_sports",Cricket-New Zealand vs India: 2nd T20I
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-#EXTINF:-1 tvg-id="B0H5VMJJR1" tvg-name="NSW Phoenix vs. Canberra Heat" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.3f3a8b3b-d2d0-4fee-8855-76bb3592d31b/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo_sports",NSW Phoenix vs. Canberra Heat
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
+#EXTINF:-1 tvg-id="B0HMLCS454" tvg-name="Tennis Today Live-Brussels-ATP & Lyon-ATP Semifinals" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.a03d6335-6e3e-409e-90c8-af43d4d02a75/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo_sports",Tennis Today Live-Brussels-ATP & Lyon-ATP Semifinals
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd
 # Playlist Generated Automatically by Double-Threaded Automation
 # Last Updated: 2026-10-24 10:07:50
 #EXTINF:-1 tvg-logo="https://drtygh.b-cdn.net/upload/photos/2025/05/Krrish-Bengali.jpeg" group-title="playlist", Krrish 2025 Bengali ORG 720p
@@ -1198,38 +1204,26 @@ https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.m
 #special thanks to: MR. Joy Chowdhury
 #last update time: 5:24 PM 13-10-2026
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:04:32 PM 24-10-2026
+#LAST_UPDATE:08:02 PM 24-10-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:1
-#UPCOMING_COUNT:19
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8c80205dcd2490ef9386a322c46aef12:0dba6b2d52b76e5dff92fac577e7ac8d
-#EXTINF:-1 tvg-id="B0HL646MJT" tvg-name="New Zealand vs. India" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.4bdb387d-8b40-409f-b76a-f9b7349d5ea2/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="live_sports",New Zealand vs. India
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ntomodyqm3/out/v1/cd61ecc8b6694006a1173974fcfa4e9e/cenc.mpd
+#LIVE_COUNT:0
+#UPCOMING_COUNT:20
 # name: SonyLiv Matches Full Data
 # telegram: https://t.me/livesportsplay
 # owner: Md Sohanur Rahman Hady
-# last_update: 04:20:28 PM 24-10-2026
-#EXTINF:-1 tvg-id="sonyliv-1090550278" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="sonyliv_playlist", 2nd T20I | India Tour of New Zealand 2026 [English]
-https://liveakmt-m-lr.slivcdn.com/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaTe3b6prod-PlaybackConfig/2119931/cricodi_2410/ENG/master.m3u8?hdnea=exp=1792868409~acl=/*~id=28325060572396203695576858139302~hmac=ff68300154270d314d6dc2805b76b29942a88a86a77e82b14148fd63bed844d1
-#EXTINF:-1 tvg-id="sonyliv-1090550278" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="sonyliv_playlist", 2nd T20I | India Tour of New Zealand 2026 [Hindi]
-https://liveakmt-m-lr.slivcdn.com/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaTe7d9prod-PlaybackConfig/2119921/cricodi_2410/HIN/master.m3u8?hdnea=exp=1792868409~acl=/*~id=28325060572396203695576858139302~hmac=ff68300154270d314d6dc2805b76b29942a88a86a77e82b14148fd63bed844d1
-#EXTINF:-1 tvg-id="sonyliv-1090550278" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="sonyliv_playlist", 2nd T20I | India Tour of New Zealand 2026 [Telugu]
-https://liveakmt-m-lr.slivcdn.com/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaT5181prod-PlaybackConfig/2119941/cricodi_2410/TEL/master.m3u8?hdnea=exp=1792868409~acl=/*~id=28325060572396203695576858139302~hmac=ff68300154270d314d6dc2805b76b29942a88a86a77e82b14148fd63bed844d1
-#EXTINF:-1 tvg-id="sonyliv-1090550278" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="sonyliv_playlist", 2nd T20I | India Tour of New Zealand 2026 [Tamil]
-https://liveakmt-m-lr.slivcdn.com/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaT4379prod-PlaybackConfig/2119951/cricodi_2410/TAM/master.m3u8?hdnea=exp=1792868409~acl=/*~id=28325060572396203695576858139302~hmac=ff68300154270d314d6dc2805b76b29942a88a86a77e82b14148fd63bed844d1
-#EXTINF:-1 tvg-id="sonyliv-1090550278" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="sonyliv_playlist", 2nd T20I | India Tour of New Zealand 2026 [Kannada]
-https://liveakmt-m-lr.slivcdn.com/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaTa083prod-PlaybackConfig/2119782/cricodi_2410/KAN/master.m3u8?hdnea=exp=1792868409~acl=/*~id=28325060572396203695576858139302~hmac=ff68300154270d314d6dc2805b76b29942a88a86a77e82b14148fd63bed844d1
-#EXTINF:-1 tvg-id="sonyliv-1090550308" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="sonyliv_playlist", 2nd T20I | India Tour of New Zealand 2026 [English]
-https://sonyeventsglobal.akamaized.net/hls/live/2022321/DAI17-INDNZ/master.m3u8?hdnea=exp=1792868409~acl=/*~id=28325060572396203695576858139302~hmac=ff68300154270d314d6dc2805b76b29942a88a86a77e82b14148fd63bed844d1
+# last_update: 08:20:31 PM 24-10-2026
+#EXTINF:-1 tvg-id="sonyliv-1090550221" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026659/1792341017913368_ISL26_OFC_vs_NorthEast_UnitedFC_live_landscape_thumb.jpg" group-title="sonyliv_playlist", Odisha FC vs NorthEast United FC | MG Indian Super League 2026-27 [English]
+https://sonymtmnew.akamaized.net/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaTc4a7prod-PlaybackConfig/2018457/Footlive2410/ENG/master.m3u8?hdnea=exp=1792891253~acl=/*~id=52337549659131826064865916043669~hmac=f1f37db7ec2e718dfe5268ef39b80bb998b981d0372cedee11ec469a7f495a5d
+#EXTINF:-1 tvg-id="sonyliv-1090550221" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026659/1792341017913368_ISL26_OFC_vs_NorthEast_UnitedFC_live_landscape_thumb.jpg" group-title="sonyliv_playlist", Odisha FC vs NorthEast United FC | MG Indian Super League 2026-27 [Hindi]
+https://sonymtmnew.akamaized.net/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaTc4a7prod-PlaybackConfig/2094587/Footlive2410/HIN/master.m3u8?hdnea=exp=1792891253~acl=/*~id=52337549659131826064865916043669~hmac=f1f37db7ec2e718dfe5268ef39b80bb998b981d0372cedee11ec469a7f495a5d
+#EXTINF:-1 tvg-id="sonyliv-1090550219" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026763/1792484022978376_Punjab_Falcons_vs_Haryana_Lions_landscape_thumb.jpg" group-title="sonyliv_playlist", Punjab Falcons vs Haryana Lions | Salute Tiranga Cricket League (STCL) 2026 [Hindi]
+https://sonymtmnew.akamaized.net/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaT604fprod-PlaybackConfig/2120308/criclive2410/HIN/master.m3u8?hdnea=exp=1792891253~acl=/*~id=52337549659131826064865916043669~hmac=f1f37db7ec2e718dfe5268ef39b80bb998b981d0372cedee11ec469a7f495a5d
 #=================================
 # Developed By: ABU SAEEiD × Rifaz
 # GitHub @abusaeeidx
 # IPTV Telegram Channels: @xfireflixbd
-# Last Updated: 2026-10-24 04:26 PM (BD Time)
+# Last Updated: 2026-10-24 08:06 PM (BD Time)
 # Disclaimer:
 # This tool does NOT host any content.
 # It aggregates publicly available data for informational purposes only.
@@ -1237,16 +1231,12 @@ https://sonyeventsglobal.akamaized.net/hls/live/2022321/DAI17-INDNZ/master.m3u8?
 #==================================
 #EXTINF:-1 tvg-name="Welcome to PlayZ TV" group-title="BD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyniKyW9pUz1OKx5bgzLASwGVSuP0e7hX9FxVMTJMHxhu8X0tpucgSplBZgM8pCYrJJH0P2_dTC1-wzp4mMUU4sKnOzghGPCwWdbYOOa4jTyhpr7ydNj-UK-bc56IMsk2H3WZJ-SzSZIk0dTpyABCFR2_zjC2_c86W1pv7odFBT_Y-hyJs62g-3zCJkPGd/s1024/1000398131.png",Welcome to PlayZ TV
 https://playztv.pages.dev/promo/master.m3u8
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="BD", 2nd T20I - 24 Oct 2026 [ENG] - India Tour of New Zealand 2026
-https://sonydaime.akamaized.net/hls/live/2119931/cricodi_2410/ENG/master.m3u8?hdnea=exp=1792877698~acl=/*~id=45341769512400260184029120348843~hmac=5008169f3683682bf6ed82b079562b759a56a13307d5d77bf20b370afc9eb12b
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="BD", 2nd T20I - 24 Oct 2026 [HIN] - India Tour of New Zealand 2026
-https://sonydaime.akamaized.net/hls/live/2119921/cricodi_2410/HIN/master.m3u8?hdnea=exp=1792877698~acl=/*~id=45341769512400260184029120348843~hmac=5008169f3683682bf6ed82b079562b759a56a13307d5d77bf20b370afc9eb12b
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="BD", 2nd T20I - 24 Oct 2026 [TAM] - India Tour of New Zealand 2026
-https://sonydaime.akamaized.net/hls/live/2119951/cricodi_2410/TAM/master.m3u8?hdnea=exp=1792877698~acl=/*~id=45341769512400260184029120348843~hmac=5008169f3683682bf6ed82b079562b759a56a13307d5d77bf20b370afc9eb12b
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="BD", 2nd T20I - 24 Oct 2026 [TEL] - India Tour of New Zealand 2026
-https://sonydaime.akamaized.net/hls/live/2119941/cricodi_2410/TEL/master.m3u8?hdnea=exp=1792877698~acl=/*~id=45341769512400260184029120348843~hmac=5008169f3683682bf6ed82b079562b759a56a13307d5d77bf20b370afc9eb12b
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027088/1792739746933829_NZvsIND26_2nd_t20i_landscape_thumb.jpg" group-title="BD", 2nd T20I - 24 Oct 2026 [KAN] - India Tour of New Zealand 2026
-https://sonydaime.akamaized.net/hls/live/2119782/cricodi_2410/KAN/master.m3u8?hdnea=exp=1792877698~acl=/*~id=45341769512400260184029120348843~hmac=5008169f3683682bf6ed82b079562b759a56a13307d5d77bf20b370afc9eb12b
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026659/1792341017913368_ISL26_OFC_vs_NorthEast_UnitedFC_live_landscape_thumb.jpg" group-title="BD", Odisha FC vs NorthEast United FC - 24 Oct 2026 [ENG] - MG Indian Super League 2026-27
+https://sonydaime.akamaized.net/hls/live/2018457/Footlive2410/ENG/std_lrh-800300010.m3u8?hdnea=exp=1792893521~acl=/*~id=53550245594285528395626426702493~hmac=7d2513240e537f3718a700426098ef10dcbe20071ab07ae4de829703eed22a32
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026659/1792341017913368_ISL26_OFC_vs_NorthEast_UnitedFC_live_landscape_thumb.jpg" group-title="BD", Odisha FC vs NorthEast United FC - 24 Oct 2026 [HIN] - MG Indian Super League 2026-27
+https://sonydaime.akamaized.net/hls/live/2094587/Footlive2410/HIN/std_lrh-800300010.m3u8?hdnea=exp=1792893521~acl=/*~id=53550245594285528395626426702493~hmac=7d2513240e537f3718a700426098ef10dcbe20071ab07ae4de829703eed22a32
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000026763/1792484022978376_Punjab_Falcons_vs_Haryana_Lions_landscape_thumb.jpg" group-title="BD", Punjab Falcons vs Haryana Lions - 24 Oct 2026 [HIN] - Salute Tiranga Cricket League (STCL) 2026
+https://sonydaime.akamaized.net/hls/live/2120308/criclive2410/HIN/std_lrh-800300010.m3u8?hdnea=exp=1792893521~acl=/*~id=53550245594285528395626426702493~hmac=7d2513240e537f3718a700426098ef10dcbe20071ab07ae4de829703eed22a32
 #EXTINF:-1 tvg-logo="https://s4.gifyu.com/images/image534fa27d7683f33d.png" group-title="BD",Ekushey TV
 http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/31/Deepto_TV_logo.png" group-title="BD",Deepto TV
@@ -1415,32 +1405,32 @@ https://bldcmprod-cdn.toffeelive.com/cdn/live/pogo_sd/playlist.m3u8
 https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyyay/playlist.m3u8
 #EXTINF:-1 tvg-name="Deshi TV (720p)" group-title="BD",Deshi TV (720p)
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Ananda TV" group-title="BD",Ananda TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="My TV" group-title="BD",My TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Gazi TV" group-title="BD",Gazi TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Channel S" group-title="BD",Channel S
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="Ananda TV" group-title="BD",Ananda TV
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Boishakhi TV" group-title="BD",Boishakhi TV
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
+#EXTINF:-1 tvg-name="Channel S" group-title="BD",Channel S
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="RTV (720p)" group-title="BD",RTV (720p)
+http://tvsen5.aynascope.net/RtvHD/index.m3u8
+#EXTINF:-1 tvg-name="Maasranga TV (720p)" group-title="BD",Maasranga TV (720p)
+http://tvsen5.aynascope.net/maasrangatv/index.m3u8
+#EXTINF:-1 tvg-name="RTV (720p)" group-title="BD",RTV (720p)
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8
 #EXTINF:-1 tvg-name="Rajdhani TV (1080p)" group-title="BD",Rajdhani TV (1080p)
 https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
+#EXTINF:-1 tvg-name="RTV (720p)" group-title="BD",RTV (720p)
+https://tvsen5.aynaott.com/RtvHD/index.m3u8
+#EXTINF:-1 tvg-name="NTV (720p)" group-title="BD",NTV (720p)
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 #EXTINF:-1 tvg-name="Duronto TV (720p)" group-title="BD",Duronto TV (720p)
 https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
-#EXTINF:-1 tvg-name="Maasranga TV (720p)" group-title="BD",Maasranga TV (720p)
-https://tvsen5.aynaott.com/maasrangatv/index.m3u8
 #EXTINF:-1 tvg-name="Nexus TV (576p)" group-title="BD",Nexus TV (576p)
 https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
 #EXTINF:-1 tvg-name="Maasranga TV (720p)" group-title="BD",Maasranga TV (720p)
-http://tvsen5.aynascope.net/maasrangatv/index.m3u8
-#EXTINF:-1 tvg-name="NTV (720p)" group-title="BD",NTV (720p)
-https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
-#EXTINF:-1 tvg-name="RTV (720p)" group-title="BD",RTV (720p)
-https://tvsen5.aynaott.com/RtvHD/index.m3u8
-#EXTINF:-1 tvg-name="RTV (720p)" group-title="BD",RTV (720p)
-http://tvsen5.aynascope.net/RtvHD/index.m3u8
+https://tvsen5.aynaott.com/maasrangatv/index.m3u8
 #EXTINF:-1 tvg-name="Ekushey TV (480p)" group-title="BD",Ekushey TV (480p)
 https://ekusheyserver.com/etvlivesn.m3u8
 #EXTINF:-1 tvg-name="Sananda TV" group-title="BD",Sananda TV
@@ -1451,77 +1441,77 @@ https://tvsen6.aynaott.com/da6WMXAk/index.m3u8
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-name="Sananda TV" group-title="BD",Sananda TV
 https://live.sanandatelevision.in/sananda/index.m3u8
-#EXTINF:-1 tvg-name="Boishakhi TV" group-title="BD",Boishakhi TV
-https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/index.m3u8
 #EXTINF:-1 tvg-name="Bein Sports Extra 2" group-title="BD",Bein Sports Extra 2
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 tvg-name="BTV Chattogram" group-title="BD",BTV Chattogram
 https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8
-#EXTINF:-1 tvg-name="Channel I" group-title="BD",Channel I
-https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
+#EXTINF:-1 tvg-name="Boishakhi TV" group-title="BD",Boishakhi TV
+https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/index.m3u8
 #EXTINF:-1 tvg-name="Ekhon TV" group-title="BD",Ekhon TV
 https://tvsen6.aynaott.com/fbgZV3X17hwWcyfZ4pdb/index.m3u8
 #EXTINF:-1 tvg-name="Ekattor TV" group-title="BD",Ekattor TV
 https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8
+#EXTINF:-1 tvg-name="Channel I" group-title="BD",Channel I
+https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
 #EXTINF:-1 tvg-name="Desh TV" group-title="BD",Desh TV
 https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8
 #EXTINF:-1 tvg-name="Ekushe ETV" group-title="BD",Ekushe ETV
 https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8
 #EXTINF:-1 tvg-name="Global TV" group-title="BD",Global TV
 https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8
-#EXTINF:-1 tvg-name="Pardesi TV" group-title="BD",Pardesi TV
-http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="MTRSPT" group-title="BD",MTRSPT
-https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8
-#EXTINF:-1 tvg-name="Horse & Country" group-title="BD",Horse & Country
-https://hncfree-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="Sony TV HD" group-title="BD",Sony TV HD
-http://premimum.online:80/live/jen12345/jen54321/98854.ts
 #EXTINF:-1 tvg-name="RTV" group-title="BD",RTV
 http://tvsen5.aynascope.net/RtvHD/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="MTRSPT" group-title="BD",MTRSPT
+https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8
+#EXTINF:-1 tvg-name="Sony TV HD" group-title="BD",Sony TV HD
+http://premimum.online:80/live/jen12345/jen54321/98854.ts
 #EXTINF:-1 tvg-name="NTV" group-title="BD",NTV
 https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="Willow Extra" group-title="BD",Willow Extra
 http://27.124.71.27/Willow_Extra/index.m3u8
 #EXTINF:-1 tvg-name="My TV" group-title="BD",My TV
 https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8
-#EXTINF:-1 tvg-name="Hindi Hits HD" group-title="BD",Hindi Hits HD
-http://146.59.253.52:8080/hindihitshd/index.m3u8
+#EXTINF:-1 tvg-name="Pardesi TV" group-title="BD",Pardesi TV
+http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Horse & Country" group-title="BD",Horse & Country
+https://hncfree-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="SA TV" group-title="BD",SA TV
 https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8
-#EXTINF:-1 tvg-name="Music TV" group-title="BD",Music TV
-http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
-#EXTINF:-1 tvg-name="Radio BBC" group-title="BD",Radio BBC
-https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_vlow_sbr_v1/cfs/bbc_world_service_news_internet.m3u8
-#EXTINF:-1 tvg-name="Trace Sport" group-title="BD",Trace Sport
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="A Sports" group-title="BD",A Sports
-https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
-#EXTINF:-1 tvg-name="Bhojpuri Cinema" group-title="BD",Bhojpuri Cinema
-https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-name="Hindi Hits HD" group-title="BD",Hindi Hits HD
+http://146.59.253.52:8080/hindihitshd/index.m3u8
 #EXTINF:-1 tvg-name="Shemaroo Bollywood" group-title="BD",Shemaroo Bollywood
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+#EXTINF:-1 tvg-name="Music TV" group-title="BD",Music TV
+http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
+#EXTINF:-1 tvg-name="A Sports" group-title="BD",A Sports
+https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
 #EXTINF:-1 tvg-name="Cricket Gold" group-title="BD",Cricket Gold
 https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8
-#EXTINF:-1 tvg-name="30A Music" group-title="BD",30A Music
-https://30a-tv.com/music.m3u8
+#EXTINF:-1 tvg-name="Trace Sport" group-title="BD",Trace Sport
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Bhojpuri Cinema" group-title="BD",Bhojpuri Cinema
+https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-name="Radio BBC" group-title="BD",Radio BBC
+https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_vlow_sbr_v1/cfs/bbc_world_service_news_internet.m3u8
 #EXTINF:-1 tvg-name="Rongeen TV" group-title="BD",Rongeen TV
 https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="30A Music" group-title="BD",30A Music
+https://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-name="TNT Music" group-title="BD",TNT Music
 https://tntm.mediacdn.ru/cdn/tntmusic/playlist.m3u8
-#EXTINF:-1 tvg-name="Motu Patlu" group-title="BD",Motu Patlu
-https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="Gopal Bhar" group-title="BD",Gopal Bhar
 https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-name="South Movies" group-title="BD",South Movies
-https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-name="Hindi Movies" group-title="BD",Hindi Movies
-https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="Motu Patlu" group-title="BD",Motu Patlu
+https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="Doraemon" group-title="BD",Doraemon
 https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="Hindi Movies" group-title="BD",Hindi Movies
+https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="South Movies" group-title="BD",South Movies
+https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
 # By Abu SAEEID X Noob
 # Github X Tg @abusaeeidx
-# Update on 2026-10-24 13:28:04 (BD Time)
+# Update on 2026-10-24 18:14:40 (BD Time)
 # Note: I do not host any content, everything is publicly available. And any issues, please contact me.
 #EXTINF:-1 group-title="jahid", Tsorts
 https://bdixserver.tvhunter.top/ant1006/tracks-v1a1/mono.m3u8
@@ -6632,8 +6622,6 @@ https://live1.entertv.com.bd/entertv/index.fmp4.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/C3Y8NtQz/jagonews24.png" group-title="active_channels",Jagonews24
 https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8" group-title="active_channels",RTV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/RpwqzPZg/thikana.png" group-title="active_channels",Thikana TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/thikanatv.stream/index.m3u8
 #EXTINF:-1 tvg-id="Star Jalsha" tvg-name="Star Jalsha" group-title="active_channels" tvg-logo="https://raw.githubusercontent.com/Rakib49/Rakibiptv/main/images%20(9).jpeg",Star Jalsha
