@@ -1,5 +1,5 @@
 #EXTM3U
-# Generated 2026-11-12 01:23:36.193252+00:00 UTC
+# Generated 2026-11-12 09:30:34.906134+00:00 UTC
 #=================================
 # Last Updated: 2026-07-15 12:01:47
 # Channels Count : 236
@@ -446,393 +446,429 @@ https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700
 #EXTINF:-1 tvg-id="eacf6c3f-0773-4bc3-a03a-cfee09f10348" tvg-name="PTV Sports" tvg-logo="https://s3.aynaott.com/storage/9d9d7cbfba5a8ceea648bbd963ad1014" group-title="ayna-playlist",PTV Sports
 https://tvsen7.aynaott.com/zY3hJ7pQ2vM5gD8s/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&ip=52.157.32.49&token=b75669e4aa0dd58c602b637ab66af304
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:07:02 AM 12-11-2026
+#LAST_UPDATE:03:02 PM 12-11-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:4
+#LIVE_COUNT:7
 #UPCOMING_COUNT:0
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
+#EXTINF:-1 tvg-id="B0HPWRCDTG" tvg-name="Melbourne Renegades vs. Sydney Sixers" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.c41891ea-8f61-49f2-bd4b-cf308e680653/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpeg" group-title="primevideo_sports",Melbourne Renegades vs. Sydney Sixers
+https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69b4f7d5d85ff47192fce27c107246f7:8993f991655c84eb324bad2c1c551cc1
+#EXTINF:-1 tvg-id="B0HMBL7QDV" tvg-name="ACC Mens U19 Asia Cup 2026 - 2nd Semi-Final - Afghanistan U19 vs India U19" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.f36e20ef-0d9d-4b4c-a211-e4b498523418/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg" group-title="primevideo_sports",ACC Mens U19 Asia Cup 2026 - 2nd Semi-Final - Afghanistan U19 vs India U19
+https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/dgcuvppny7/out/v1/bdda2132bb0d48b58073099204524d19/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae9dfc3e14f81520c96678b2818203b0:890f27ce6531575d09365c95c7557cd8
+#EXTINF:-1 tvg-id="B0HQ8F9KCV" tvg-name="ACC Mens U19 Asia Cup 2026 - 1st Semi-Final - Pakistan U19 vs Bangladesh U19" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.ff53b7b2-0f0e-47d5-808c-e053d19f1cda/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg" group-title="primevideo_sports",ACC Mens U19 Asia Cup 2026 - 1st Semi-Final - Pakistan U19 vs Bangladesh U19
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/x5af8ecwsh/out/v1/c37f1ecce4214502960ae5c0367154ff/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e148b70d1a84524c6ef092f6d7e2c10a:c1f3cc38fbff104bfdacd0dcd07d0900
+#EXTINF:-1 tvg-id="B0HLVY22CY" tvg-name="Sri Lanka tour of Pakistan 2026 - 1st Test - Pakistan vs Sri Lanka" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.c65dfbd7-e120-4b1a-ac5c-60c3981498b0/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg" group-title="primevideo_sports",Sri Lanka tour of Pakistan 2026 - 1st Test - Pakistan vs Sri Lanka
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ka4bvhuhfh/out/v1/89f6d9ff4a204157ae8fddfc9b8c6083/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=636a1180048a50dcdcb44283999a7a9b:fd4f90a2703266be6aea6b6d01274a07
+#EXTINF:-1 tvg-id="B0HKHKVS63" tvg-name="Womens Big Bash League 2026 - 20th Match - Melbourne Renegades Women vs Sydney Sixers Women" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.20e548a6-8e23-47de-95f7-2fa353fafd79/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg" group-title="primevideo_sports",Womens Big Bash League 2026 - 20th Match - Melbourne Renegades Women vs Sydney Sixers Women
+https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/u4j10cfyp1/out/v1/ca19243e974e4cb099314f26276b2991/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c913b1471f49e4025d8d7b9fa1aef810:a3e85530de55a1f402a099b2ade8808f
+#EXTINF:-1 tvg-id="B0HL26CQLC" tvg-name="Womens Big Bash League 2026 - 19th Match - Melbourne Stars Women vs Brisbane Heat Women" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/S/le-target-images-prod/amzn1.dv.gti.aef5f2f7-ee51-47ef-8efd-85a78c3d95a7/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/s-z/willowtv/logos/channels-logo-white-stacked.png%7C0,0,1920,1080+0,0,1920,1080+1724,885,117,117_kvebed36e78eaa0330f200bb6045a52aca_SX624_FMjpg_.jpeg" group-title="primevideo_sports",Womens Big Bash League 2026 - 19th Match - Melbourne Stars Women vs Brisbane Heat Women
+https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/anug0owvyf/out/v1/c5ae61f47b43420a9ce245e4b6c30f2f/cenc.mpd
 # Playlist Generated Automatically by Double-Threaded Automation
-# Last Updated: 2026-11-11 23:51:31
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Dhurandhar.The.Revenge.(2026).Bangla.Dubbed.jpg" group-title="playlist", Dhurandhar 2 The Revenge (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Dhurandhar.2.The.Revenge.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Bhalobashi.Tomay.Bangla.Dubbed.jpg" group-title="playlist", Bhalobashi Tomay (2025) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Bhalobashi.Tomay.(2025).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Laabam.(2021).Bengali.Dubbed.jpg" group-title="playlist", Laabam (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Laabam.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/10/200.Halla.Ho.Bangla.Dubbed.jpg" group-title="playlist", 200 Halla Ho (2025) Bengali Dubbed WEBRip 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]200.Halla.Ho.(2025).Bengali.Dubbed.WEBRip.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Love.U.Muddu.(2025).Bengali.Dubbed.jpg" group-title="playlist", Love U Muddu (2025) Bengali Dubbed 480p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Love.U.Muddu.(2025).Bengali.Dubbed.480p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Kaalidas.2.(2026).Bengali.Dubbed.jpg" group-title="playlist", Kaalidas 2 (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Kaalidas.2.(2026).Bengali.Dubbed.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Soohe.Ve.Cheere.Waleya.(2025).Bengali.Dubbed.jpg" group-title="playlist", Soohe Ve Cheere Waleya (2025) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Soohe.Ve.Cheere.Waleya.(2025).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Lockdown.Bangla.Dubbed.jpg" group-title="playlist", Lockdown (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Lockdown.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Maadeva.(2025).Bengali.Dubbed.jpg" group-title="playlist", Maadeva (2025) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Maadeva.(2025).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Amar.Bhai.Bangla.Dubbed.jpg" group-title="playlist", Amar Bhai (2025) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Amar.Bhai.(2025).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/01/Kantara.A.Legend.Chapter.1.(2025).Bengali.Dubbed.jpg" group-title="playlist", Kantara A Legend Chapter 1 (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Kantara.A.Legend.Chapter.1.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/02/Dear.Comrade.(2026).Bangla.Dubbed.jpg" group-title="playlist", Dear Comrade 2026 1080p Bangla Dubbed
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Dear.Comrade.2026.1080p.Bangla.Dubbed.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Maathru.(2025).Bengali.Dubbed.jpg" group-title="playlist", Maathru (2025) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Maathru.(2025).Bengali.Dubbed.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/02/Me.No.Pause.Me.Play.(2026).Bengali.Dubbed.jpg" group-title="playlist", Me No Pause Me Play (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Me.No.Pause.Me.Play.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/03/Blink.(2024).Bengali.Dubbed.jpg" group-title="playlist", Blink 2024 Bengali Dubbed ORG 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/03/[Fibwatch.Com]Blink.2024.Bengali.Dubbed.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Justice.For.Jeni.(2026).Bengali.Dubbed.jpg" group-title="playlist", Justice For Jeni (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Justice.For.Jeni.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/03/Amor.Prem.Endless.Love.(2026).Bengali.Dubbed.jpg" group-title="playlist", Amor Prem Endless Love (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/03/[Fibwatch.Com]Amor.Prem.Endless.Love.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Love.Mocktail.3.(2026).Bengali.Dubbed.jpg" group-title="playlist", Love Mocktail 3 (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Love.Mocktail.3.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/02/Kaithi.Bengali.jpg" group-title="playlist", Kaithi (2019) Bengali ORG 1080P
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Kaithi.(2019).Bengali.ORG.1080P.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/10/They.Call.Him.OG.(2025).Bengali.Dubbed.jpg" group-title="playlist", They Call Him OG (2025) Bengali Dubbed Uncut WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]They.Call.Him.OG.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/10/House.Mates.Bangla.Dubbed.jpg" group-title="playlist", House Mates (2025) Bengali Dubbed Uncut WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]House.Mates.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Bharathanatyam.2.Mohiniyattam.(2026).Bengali.Dubbed..jpg" group-title="playlist", Bharathanatyam 2 Mohiniyattam (2026) Bengali Dubbed HQ 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Bharathanatyam.2.Mohiniyattam.(2026).Bengali.Dubbed.HQ.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/10/Mirage.(2025).Hindi.Dubbed.jpg" group-title="playlist", Mirage (2025) Multi Audio [Bengali-Hindi-Malayalam] 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Mirage.(2025).Multi.Audio.[Bengali-Hindi-Malayalam].1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Vaazha.II.Biopic.of a.Billion.Bros.(2026).Bengali.Dubbed.jpg" group-title="playlist", Vaazha II Biopic of a Billion Bros (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Vaazha.II.Biopic.of.a.Billion.Bros.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/10/Desingu.Raja.2.(2025).Bengali.Dubbed.jpg" group-title="playlist", Desingu Raja 2 (2025) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Desingu.Raja.2.(2025).Bengali.Dubbed.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/02/Paathirathri.(2026).Bengali.Dubbed.jpg" group-title="playlist", Paathirathri (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Paathirathri.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/09/Dhadak.2.(2025).Bengali.Dubbed.jpg" group-title="playlist", Dhadak 2 (2025) Bengali Dubbed Uncut HD WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Dhadak.2.(2025).Bengali.Dubbed.Uncut.HD.WEB-DL.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/06/Don.(2026).Bengali.Dubbed.jpg" group-title="playlist", Don (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Don.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/02/Honey.(2026).Bengali.Dubbed.jpg" group-title="playlist", Honey (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Honey.(2026).Bengali.Dubbed.1080p..mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/02/Jil.(2026).Bengali.Dubbed.jpg" group-title="playlist", Jil (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Jil.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/06/Karuppu.(2026).Bengali.Dubbed.jpg" group-title="playlist", Karuppu (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Karuppu.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Super.Hit.(2026).Bengali.Dubbed.jpg" group-title="playlist", Super Hit (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Super.Hit.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/07/Pallichattambi.Bengali.jpg" group-title="playlist", Pallichattambi (2026) Bengali ORG 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/07/[Fibwatch.Com]Pallichattambi.(2026).Bengali.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/06/DSP.Dev.2.(2026).Bengali.Dubbed.jpg" group-title="playlist", DSP Dev 2 (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]DSP.Dev.2.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Oru.Durooha.Saahacharyathil.jpg" group-title="playlist", Oru Durooha Saahacharyathil (2026) Bengali Fan Dub 1080P
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Oru.Durooha.Saahacharyathil.(2026).Bengali.Fan.Dub.1080P.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/07/Maa.Inti.Bangaaram.(2026).jpg" group-title="playlist", Maa Inti Bangaram (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/07/[Fibwatch.Com]Maa.Inti.Bangaram.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/07/Eternal-love.jpg" group-title="playlist", Eternal love (2025) Bengali ORG 1080p n
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Eternal.love.(2025).Bengali.ORG.1080p.n.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/08/Uyir.Bangla.Dubbed.jpg" group-title="playlist", Uyir (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/08/[Fibwatch.Com]Uyir.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/06/The.Bengal.Files.(2025).Bangla.Dubbed.jpg" group-title="playlist", The Bengal Files Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]The.Bengal.Files.Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/09/Phoenix.(2025).Bengali.Dubbed.jpg" group-title="playlist", Phoenix (2025) Bengali Dubbed Uncut WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Phoenix.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p..mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/10/Badmashulu.(2025).Bengali.Dubbed.jpg" group-title="playlist", Badmashulu (2025) Bengali Dubbed Uncut WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Badmashulu.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/08/Man.in.the.Blue.Suit.(2024).jpg" group-title="playlist", Man in the Blue Suit 2024 WEBRip BEN DUB HQ 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Man.in.the.Blue.Suit.2024.WEBRip.BEN.DUB.HQ.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/07/Ala.Vaikunthapurramuloo.(2020).Bengali.Dubbed.jpg" group-title="playlist", Ala Vaikunthapurramuloo (2020) Bengali Dubbed HQ 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Ala.Vaikunthapurramuloo.(2020).Bengali.Dubbed.HQ.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/07/Baahubali.The.Beginning.(2015).Bangla.Dubbed.jpg" group-title="playlist", Baahubali The Beginning (2015) Bangla Dubbed (HQ) WEB-DL 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Baahubali.The.Beginning.(2015).Bangla.Dubbed.(HQ).WEB-DL.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/11/Evil.Hunter.(2022).Bengali.Dubbed.jpg" group-title="playlist", Evil Hunter (2022) Bengali Dubbed ORG 1080P
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Evil.Hunter.(2022).Bengali.Dubbed.ORG.1080P.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/07/avatar.bengali.dubbed.jpg" group-title="playlist", Avatar (2009) Bangla Dubbed (HQ) WEB-DL 720P
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Avatar.(2009).Bangla.Dubbed.(HQ).WEB-DL.720P.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/08/paranthu-po-hindi.dubbed.jpg" group-title="playlist", Paranthu Po (2025) Multi Audio [Bengali-Hindi-Tami] JHS 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Paranthu.Po.(2025).Multi.Audio.[Bengali-Hindi-Tami].JHS.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/11/Rusty.Blade.(2022).Bengali.Dubbed.jpg" group-title="playlist", Rusty Blade (2022) Bengali Dubbed ORG 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Rusty.Blade.(2022).Bengali.Dubbed.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/07/Kung.Fu.Football.Bengali.jpg" group-title="playlist", Kung Fu Football (2001) Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Kung.Fu.Football.(2001).Bengali.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/08/Conspiracy.of.Fear.(2025).jpg" group-title="playlist", Conspiracy of Fear 2025 1080p WEBRip BEN DUB
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Conspiracy.of.Fear.2025.1080p.WEBRip.BEN.DUB.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/11/Bhoghee.(2025).Bengali.Dubbed.jpg" group-title="playlist", Bhoghee (2025) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Bhoghee.(2025).Bengali.Dubbed.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/11/Diesel.(2025).Bengali.Dubbed.jpg" group-title="playlist", Diesel (2025) Bengali Dubbed Uncut WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Diesel.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/08/Daisy.(2024).jpg" group-title="playlist", Daisy 2024 1080p WEBRip BEN DUB
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Daisy.2024.1080p.WEBRip.BEN.DUB.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/11/Fang.Sak.Yok.vs.Thunder.Tiger.(2020).Bengali.Dubbed.jpg" group-title="playlist", Fang Sak Yok vs Thunder Tiger (2020) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Fang.Sak.Yok.vs.Thunder.Tiger.(2020).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/11/Mulan.(2020).Bengali.Dubbed.jpg" group-title="playlist", Mulan (2020) Bengali Dubbed ORG Darshoo 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Mulan.(2020).Bengali.Dubbed.ORG.Darshoo.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/11/Warlord.Lanling.jpg" group-title="playlist", Warlord Lanling (2021) Bengali ORG 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Warlord.Lanling.(2021).Bengali.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/02/Mana.Shankara.Vara.Prasad.Garu.jpg" group-title="playlist", Mana Shankara Vara Prasad Garu (2026) Bengali ORG 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Mana.Shankara.Vara.Prasad.Garu.(2026).Bengali.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/11/Bison.Kaalamaadan.(2025).Bengali.Dubbed.jpg" group-title="playlist", Bison Kaalamaadan (2025) Bengali Dubbed Uncut WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Bison.Kaalamaadan.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/02/Kuberaa.(2026).Bengali.Dubbed.jpg" group-title="playlist", Kuberaa (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Kuberaa.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Kombuseevi.(2025).Bengali.Dubbed.jpg" group-title="playlist", Kombuseevi (2025) Bengali Dubbed HQ 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Kombuseevi.(2025).Bengali.Dubbed.HQ.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/05/Cup.(2024).Bengali.Dubbed.jpg" group-title="playlist", Cup (2024) Bengali Dubbed HQ 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Cup.(2024).Bengali.Dubbed.HQ.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/12/Seesaw.(2025).Bengali.Dubbed.jpg" group-title="playlist", Seesaw (2025) Bengali Dubbed Original Uncut WEB-DL 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Seesaw.(2025).Bengali.Dubbed.Original.Uncut.WEB-DL.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/06/One.Two.Cha.Cha.Chaa.(2026).Bengali.Dubbed.jpg" group-title="playlist", One Two Cha Cha Chaa Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]One.Two.Cha.Cha.Chaa.Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/06/Family.Secret.(2025).Bengali.Dubbed.jpg" group-title="playlist", Family Secret 2025 Bengali Dubbed ORG DP WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/06/[Fibwatch.Com]Family.Secret.2025.Bengali.Dubbed.ORG.DP.WEB-DL.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/09/Deool.Band.2.(2026).Bengali.Dubbed..jpg" group-title="playlist", Deool Band 2 (2026) Bengali HQ Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Deool.Band.2.(2026).Bengali.HQ.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/05/Petta-bengali.jpeg" group-title="playlist", petta bengali dubbed 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/05/[Fibwatch.Com]petta.bengali.dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/09/Bhootam.Bhayyam.(2026).Bengali.Dubbed.jpg" group-title="playlist", Bhootam Bhayyam (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Bhootam.Bhayyam.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/09/Bandhobi.jpg" group-title="playlist", Bandhobi (2022) WEB-DL [Bengali ORG] Chorki 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Bandhobi.(2022).WEB-DL.[Bengali.ORG].Chorki.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/01/Hancock.(2025).Bengali.Dubbed.jpg" group-title="playlist", Hancock (2025) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Hancock.(2025).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/07/single.bangla.jpg" group-title="playlist", Single 2025 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Single.2025.Bengali.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/09/Dasavatharam.Dosh.Abotar.2023.Bangla.Dubbed.jpg" group-title="playlist", Dasavatharam-Dosh Abotar (2023) Bengali Dubbed ORG BongoBD WEB-DL 1080P
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Dasavatharam-Dosh.Abotar.(2023).Bengali.Dubbed.ORG.BongoBD.WEB-DL.1080P.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/02/Salaga.(2026).Bengali.Dubbed.jpg" group-title="playlist", Salaga (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Salaga.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/01/Sarangadhariya.(2025).Bengali.Dubbed.jpg" group-title="playlist", Sarangadhariya (2025) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/01/[Fibwatch.Com]Sarangadhariya.(2025).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/02/Kisi.Ka.Bhai.Kisi.Ki.Jaan.Bengali.Dubbed.jpg" group-title="playlist", Kisi Ka Bhai Kisi Ki Jaan 2026 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Kisi.Ka.Bhai.Kisi.Ki.Jaan.2026.Bengali.Dubbed.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2026/08/Lenin.(2026).Bangla.Dubbed.jpg" group-title="playlist", Lenin (2026) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2026/08/[Fibwatch.Com]Lenin.(2026).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/09/White.House.Down.(2025).Bengali.Dubbed.jpg" group-title="playlist", White House Down (2025) Bengali Dubbed ORG Uncut WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]White.House.Down.(2025).Bengali.Dubbed.ORG.Uncut.WEB-DL.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/11/Blackmail.(2025).Bengali.Dubbed.jpg" group-title="playlist", Blackmail (2025) Bengali Dubbed Uncut WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Blackmail.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/11/Idly.Kadai.(2025).Bengali.Dubbed.jpg" group-title="playlist", Idly Kadai (2025) Bengali Dubbed Uncut WEB-DL 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Idly.Kadai.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/08/Raqqa.(2024).Bangla.Dubbed.jpg" group-title="playlist", Operation Raqqa 2025 WEBRip BEN DUB 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Operation.Raqqa.2025.WEBRip.BEN.DUB.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/08/Wind.and.Bone.(2023).Bangla.Dubbed.jpg" group-title="playlist", Wind and Bone 2025 1080p WEBRip BEN DUB
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Wind.and.Bone.2025.1080p.WEBRip.BEN.DUB.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/05/Jack-Bengali.jpeg" group-title="playlist", Jack 2025 Bengali ORG 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/05/[Fibwatch.Com]Jack.2025.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/05/Puli-Bengali.jpeg" group-title="playlist", Puli 2025 Bengali ORG 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/05/[Fibwatch.Com]Puli.2025.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/05/28.Degree.Celsius.Bengali.jpeg" group-title="playlist", 28 Degree Celsius 2025 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/05/[Fibwatch.Com]28.Degree.Celsius.2025.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/04/RX.100.jpg" group-title="playlist", RX 100 2025 Bengali ORG 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/04/[Fibwatch.Com]RX.100.2025.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/12/Tian.ji.jpg" group-title="playlist", Tian ji (2019) Bengali ORG 1080p
-https://odfgbn.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Tian.ji.(2019).Bengali.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/03/Committee.Kurrollu.Bengali.jpg" group-title="playlist", Committee Kurrollu 2025 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/03/[Fibwatch.Com]Committee.Kurrollu.2025.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/03/Bangla1628780473_poster_h_bn.jpg" group-title="playlist", Biriyaani (2019) Bangla Dubbed (HQ) WEB DL 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/03/[Fibwatch.Com]Biriyaani.(2019).Bangla.Dubbed.(HQ).WEB.DL.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/04/174366376867ee329866e8d.jpg" group-title="playlist", PellisandaD-Joggo Patro (2025) 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/04/[Fibwatch.Com]PellisandaD-Joggo.Patro.(2025).1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/05/Good.Bad.Ugly.Bengali.jpg" group-title="playlist", Good Bad Ugly 2025 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/05/[Fibwatch.Com]Good.Bad.Ugly.2025.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/03/Loveyapa.Bengali.jpeg" group-title="playlist", Loveyapa 2025 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/03/[Fibwatch.Com]Loveyapa.2025.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/03/7ab5d22a-3c68-44e6-8a97-ac559d972c67.jpg" group-title="playlist", Hero Super Hero (2025) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/03/[Fibwatch.Com]Hero.Super.Hero.(2025).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/02/Rudhramadevi.Bengali.jpeg" group-title="playlist", Rudhramadevi 2025 Bengali ORG 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]Rudhramadevi.2025.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/02/Kadakh.Bengali.jpeg" group-title="playlist", Kadakh 2025 Bengali ORG 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]Kadakh.2025.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/02/The.Last.Warrior.Bengali.jpeg" group-title="playlist", The Last Warrior 2025 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]The.Last.Warrior.2025.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/02/Deva.Bengali.jpeg" group-title="playlist", Deva 2025 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]Deva.2025.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/02/Naradan.Bengali.jpeg" group-title="playlist", Naradan 2025 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]Naradan.2025.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/01/Venom.The.Last.Dance.bengali.jpeg" group-title="playlist", Venom The Last Dance (2024) Bengali 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/01/[Fibwatch.Com]Venom.The.Last.Dance.(2024).Bengali.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/04/ca4f5440-5d83-4ac3-8ea1-08a0dda7e526.jpg" group-title="playlist", Kalprit (2025) [Bengali Dubbed] BongoBD 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/04/[Fibwatch.Com]Kalprit.(2025).[Bengali.Dubbed].BongoBD.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/12/Dejavu.Bengali.jpeg" group-title="playlist", Dejavu 2024 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/12/[Fibwatch.Com]Dejavu.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/12/Zebra.Bengali.jpeg" group-title="playlist", Zebra 2024 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/12/[Fibwatch.Com]Zebra.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/12/bhool.Bhulaiyaa.3.bengali2.jpeg" group-title="playlist", Bhool Bhulaiyaa 3 2024 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/12/[Fibwatch.Com]Bhool.Bhulaiyaa.3.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2025/02/Sookshma.Darshini.Bengali.jpeg" group-title="playlist", Sookshmadarshini 2025 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]Sookshmadarshini.2025.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/11/Makal.Bengali.jpeg" group-title="playlist", Makal 2024 Bengali ORG 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/11/[Fibwatch.Com]Makal.2024.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/10/Bhaag.Saale.bengali.jpeg" group-title="playlist", Bhaag Saale 2024 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Bhaag.Saale.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/10/Bagman.Bengali.jpeg" group-title="playlist", Bagman (2024) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Bagman.(2024).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/10/Demonte.Colony.2.bengali.jpeg" group-title="playlist", Demonte Colony 2 2024 Bengali 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Demonte.Colony.2.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/10/084ca69b07.jpg" group-title="playlist", Godse Joy Jonota 2024 Bengali Dubbed ORG 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Godse.Joy.Jonota.2024.Bengali.Dubbed.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/Powerfull.Don.jpeg" group-title="playlist", Powerfull Don 2024 Bengali ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Powerfull.Don.2024.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/7SrFzMGUj65Xv3Ybbuq6_30_68f979f69a416366858c125e5edddbe6_image.jpeg" group-title="playlist", Raymo 2024 Bengali ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Raymo.2024.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/Godse.Bangla.jpeg" group-title="playlist", Godse 2024 Bangla ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Godse.2024.Bangla.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/Ruslaan.Bangla.jpeg" group-title="playlist", Ruslaan 2024 Bengali ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Ruslaan.2024.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/10/172861835667089f740125c.jpg" group-title="playlist", Ismart Shankar (2024) Bengali ORG 1080p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Ismart.Shankar.(2024).Bengali.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/NY4oLVcFmqqTVMnp5PGP_17_19db8e88724c8dae5dfe8ec24174d679_image.jpeg" group-title="playlist", Khel Khel Mein 2024 Bengali ORG 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Khel.Khel.Mein.2024.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/DW8DT4ITYgHNgWKglExA_21_021bd34ab78768b48ab22c7213c7fd15_image.jpg" group-title="playlist", Bohurupi-Anjaan 2014 Bengali Dubbed ORG 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Bohurupi-Anjaan.2014.Bengali.Dubbed.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/NQACQ6CpXvelSWaB1PyP_11_297941bfee402f40a83a1cc0b78bc60f_image.jpg" group-title="playlist", Konda Polam 2024 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Konda.Polam.2024.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/It4GnStcMF7OOoxQae5A_10_2ae3a5b6069de6c69cea1dc0096cb1ca_image.jpg" group-title="playlist", Sijjin 2024 Bengali 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Sijjin.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/yFB4rxPzJ7UFwi4OqiEJ_07_460debb221e74cbbfe5f1c51a271973a_image.jpg" group-title="playlist", Romantic 2024 Bengali 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Romantic.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/10/Thiragabadaran.jpg" group-title="playlist", Tiragabadara 2024 Bengali ORG 720p
-https://odfgbn.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Tiragabadara.2024.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/Dxn2uYmTgDT4rEetRfIq_03_21df06d1065e7b91d914f162db2b6110_image.jpg" group-title="playlist", Little Heart 2024 Bengali 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Little.Heart.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/B2QFTK9YYGFVuoRgYLol_04_b5b56fcc17887b9cb424949b3a91d678_image.jpeg" group-title="playlist", Viraaji 2024 1080p CAMRip BEN DUB HQ
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Viraaji.2024.1080p.CAMRip.BEN.DUB.HQ.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/06/c3YUagbYbnVizcw8mHbG_25_849e5819c25b16cc067fde1dd7706ae1_image.jpeg" group-title="playlist", Aranmanai 4 2024 Bengali 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/06/[Fibwatch.Com]Aranmanai.4.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/06/QuELcocnC29dCNRYrBin_11_8e5bc2d4ff3f103d6fb0347bda710600_image.jpg" group-title="playlist", The SholayGirl (2019) Bengali 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/06/[Fibwatch.Com]The.SholayGirl.(2019).Bengali.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/06/fO444t89XLxdszYjHU7M_13_975812bc02ab2c867d1070048d79edc1_image.jpeg" group-title="playlist", I Saw the TV Glow (2024) Bengali Dubbed HQ CAMRip 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/06/[Fibwatch.Com]I.Saw.the.TV.Glow.(2024).Bengali.Dubbed.HQ.CAMRip.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/06/YOhYYDwDsHUecMmqwpaH_10_779a18f7ed73ab73cf7ca29192b33b8b_image.jpeg" group-title="playlist", Noryang Deadly Sea (2023) Bengali Dubbed HQ 720P
-https://odfgbn.b-cdn.net/upload/videos/2024/06/[Fibwatch.Com]Noryang.Deadly.Sea.(2023).Bengali.Dubbed.HQ.720P.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/y3s8ZZcrNlKWFaJSBVVp_07_84433d38e551c319aa6c2512150a8475_image.jpg" group-title="playlist", IPC 376 2021 Bengali ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]IPC.376.2021.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/08/nhalRGCeAwH2grMR7OUU_27_350831a86566902f1be705daaa0ddc95_image.jpg" group-title="playlist", Godzilla x Kong The New Empire (2024) Bengali 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Godzilla.x.Kong.The.New.Empire.(2024).Bengali.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/09/nC6PNZBNL5P9SOoieUn4_06_09db299e6aa4c9ba2478ea7d145e207f_image.jpg" group-title="playlist", Honeymoon Express 2024 Bengali ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Honeymoon.Express.2024.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/08/P9gIjm5ByEQegLS1y346_30_02f921b1ce0fc490c6654807a32ca65c_image.jpg" group-title="playlist", Spread 2009 Bengali 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Spread.2009.Bengali.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/08/uFxU36uX9lDIfUpDbKDQ_25_a82d8c32b01806e43d6eb8f2266e4734_image.jpeg" group-title="playlist", Abigail (2024) Bengali 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Abigail.(2024).Bengali.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/08/Grrr.jpg" group-title="playlist", Grrr 2024 Bengali ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Grrr.2024.Bengali.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/08/cktOHkIc5uzwNoLsHQSh_16_a7bca52017bc5cc5c5759b83d42cb1b7_image.jpg" group-title="playlist", Chatrapathi 2024 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Chatrapathi.2024.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/08/qehX74t7VqSGjUo7duBn_20_f7e6be16a45bfbe1b309ceb7b35121fc_image.jpeg" group-title="playlist", Radhe 2024 Bengali 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Radhe.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/07/mkEjWFVHNkKPCTaS664Z_17_f58e49b143c0605286761d46b16cb2d1_image.jpg" group-title="playlist", DJ (2023) Bengali 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/07/[Fibwatch.Com]DJ.(2023).Bengali.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/07/eR4mI52VykM4W8cwmZZ7_14_e19f980f66813335e0e516f6dd650cb2_image.jpg" group-title="playlist", Sins of the Preachers Wife (2023) Bengali Dubbed (Unofficial) WEBRip 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/07/[Fibwatch.Com]Sins.of.the.Preachers.Wife.(2023).Bengali.Dubbed.(Unofficial).WEBRip.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/07/HtbUqG5oLpuNPMsioi8X_13_54f51a93cf0071e9c4fbdceb9058c250_image.jpg" group-title="playlist", Blind (2023) Bengali Dubbed ORG JC 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/07/[Fibwatch.Com]Blind.(2023).Bengali.Dubbed.ORG.JC.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/07/21EVwmmMl1tBf6F76OIj_08_0b95f279e5dd48de3e2e6cc6d5785a46_image.jpg" group-title="playlist", Pokiri 2024 Bengali 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/07/[Fibwatch.Com]Pokiri.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/07/ABmLs1dqrfdnhZjvBB9i_04_be01c0c86679f73d1fef44c81d21ec2c_image.jpg" group-title="playlist", Malayalee From India (2024) Dual Audio [Bengali Hindi] SonyLiv 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/07/[Fibwatch.Com]Malayalee.From.India.(2024).Dual.Audio.[Bengali.Hindi].SonyLiv.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/03/aAhsgW74xO9sEwyBdvSv_20_85e72d2880a80a6234b177edfa912066_image.jpg" group-title="playlist", Political War (2024) Bengali Dubbed hq CAMRip 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Political.War.(2024).Bengali.Dubbed.hq.CAMRip.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/05/kvD5o4iVYEUKs4Gpqa4j_25_9fe1bb4cff4cd338c8eb304503bdf7a0_image.jpg" group-title="playlist", Refuge (2023) Bengali Dubbed (Unofficial) CAMRi 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/05/[Fibwatch.Com]Refuge.(2023).Bengali.Dubbed.(Unofficial).CAMRi.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/05/lr3LZUhkdCUg1985ahz3_17_70e2a755b5c1bbba2c3c008361f58b32_image.jpg" group-title="playlist", Goosebumps (2024) Bengali Dubbed ORG 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/05/[Fibwatch.Com]Goosebumps.(2024).Bengali.Dubbed.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/05/hzXsF1DKHgHLavOjT2BH_06_5c48918c42dedda3eeca62e7c9906b38_image.jpg" group-title="playlist", Venom (2024) Bengali 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/05/[Fibwatch.Com]Venom.(2024).Bengali.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/03/dQJoRyWj4VZzl3NTZgIC_08_7005ca4259099f51d31094284ac60129_image.jpg" group-title="playlist", Shivrayancha Chhava 2024 Bengali 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Shivrayancha.Chhava.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/03/GVNKo39vRIYcc6539qcn_04_dd2823385e9ab43181964f74a71fc50d_image.jpg" group-title="playlist", Naandhi 2024 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Naandhi.2024.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/04/XmwYvWKTCiYjh8Zr8NnM_29_caf79be01cc1f1b7b6e744b654ed135d_image.jpg" group-title="playlist", Family Star 2024 720p CAMRip BEN DUB HQ
-https://odfgbn.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]Family.Star.2024.720p.CAMRip.BEN.DUB.HQ.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/04/xWTpLIxgxALPxWkSOAfp_07_6d4d66eb84131079cf49edb8f6f61292_image.jpg" group-title="playlist", Dasavatharam 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]Dasavatharam.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/04/zuC7UC1wWc1rAHi8EEWR_07_8a2e4d5152402b97862f4e0d1bb91498_image.jpg" group-title="playlist", Yodha 2024 720p CAMRip BEN DUB HQ
-https://odfgbn.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]Yodha.2024.720p.CAMRip.BEN.DUB.HQ.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/04/KkOiU5KNHkQ79yZGaX2F_21_12937ee5b571ede7a3044f8539a65d0c_image.jpg" group-title="playlist", The Real Tiger 2024 Bengali 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]The.Real.Tiger.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/04/BPiQ2ObP7WkGGp7z383v_02_afe6394d3560e1558ba62a8f1cb4d44b_image.jpg" group-title="playlist", The Stolen Valley (2022) Bangla Dubbed (Unofficial) CAMRip 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]The.Stolen.Valley.(2022).Bangla.Dubbed.(Unofficial).CAMRip.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/03/1CMwtnOAEyHHSFyvid1N_18_cb1f3fdab70e37f42d57020ae64d166a_image.jpg" group-title="playlist", Jallikattu 2024 Bengali 480p
-https://odfgbn.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Jallikattu.2024.Bengali.480p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/01/CoBSmCEj8dMiicTC6hSw_08_9b8f9c8910545f9fea8ecaae8680c5c0_image.jpg" group-title="playlist", Jagame Thandhiram 2024 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/01/[Fibwatch.Com]Jagame.Thandhiram.2024.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/01/a9KCYjSrMIs4bj4zCi3w_10_940c67efe40780fd6d6bcb833252d354_image.jpg" group-title="playlist", Naayak 2024 Bengali Dubbed ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/01/[Fibwatch.Com]Naayak.2024.Bengali.Dubbed.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/03/KDSTLqHa1zl8hbFFFLtg_10_a2e7177199488a2743e4710fb00d59c8_image.jpg" group-title="playlist", Argyll (2024) Bengali Dubbed HQ 720P
-https://odfgbn.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Argyll.(2024).Bengali.Dubbed.HQ.720P.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/03/JxEgkVKjw96bCG7GSNeV_11_b8684ef18115b55b114cc9ba4baee5f1_image.jpg" group-title="playlist", Concrete Utopia 2023 Bengali Dubbed HQ 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Concrete.Utopia.2023.Bengali.Dubbed.HQ.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/03/xfOOIHFOUmWJg3keyblE_08_2f8fa85ba4fc4541f7dfceb801c44e93_image.jpg" group-title="playlist", Vikram 2024 Bengali 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Vikram.2024.Bengali.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/03/tQo2tlZhkvm3fdcZPWm3_01_80858370218f0e0b0882db8721955bef_image.jpg" group-title="playlist", Madame Web (2024) V 2 Bengali Dubbed HQ CAMRip 1080P
-https://odfgbn.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Madame.Web.(2024).V.2.Bengali.Dubbed.HQ.CAMRip.1080P.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/03/gYhSI8UDzKlsMrc9OUs7_17_92782ac1262ea4ca8c291a25c0377afb_image.jpg" group-title="playlist", And Then Come the Nightjars (2023) Bengali Dubbed HQ 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]And.Then.Come.the.Nightjars.(2023).Bengali.Dubbed.HQ.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/02/oh3MPvUk5xYzonAGU4Si_22_c8ddc5abb247c4cbad5c0842e78f08a9_image.jpg" group-title="playlist", Battle Drone (2018) Bengali Dubbed ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/02/[Fibwatch.Com]Battle.Drone.(2018).Bengali.Dubbed.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/02/aVieT98qIIxFN1shZIrI_22_f3c1b2b27bbe03d13dffe4148fefe8a8_image.jpg" group-title="playlist", Cold Skin (2018) Bengali Dubbed ORG 1080p
-https://odfgbn.b-cdn.net/upload/videos/2024/02/[Fibwatch.Com]Cold.Skin.(2018).Bengali.Dubbed.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/02/YVz5A5hDn9CQhlMOWTGZ_14_24260149c2c7d70e1d2fdd19588fabcf_image.jpg" group-title="playlist", Chhorii 2024 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/02/[Fibwatch.Com]Chhorii.2024.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/02/sPu9XNP8CEohJIg9uQeh_23_4e32b38406e139ef6a292edd0abd85cb_image.jpg" group-title="playlist", Zombie Reddy 2024 Bengali Dubbed 720p WEBRip
-https://odfgbn.b-cdn.net/upload/videos/2024/02/[Fibwatch.Com]Zombie.Reddy.2024.Bengali.Dubbed.720p.WEBRip.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/01/SaXbLsKFUZE7aeotar4W_23_9352b6066560e61c952a91bfd1df33dd_image.jpg" group-title="playlist", Jungle Cruise (2201) Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/01/[Fibwatch.Com]Jungle.Cruise.(2201).Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/02/wyRJiJbuxvEKPOZhbjnF_01_c96ad239033aedba71d6508e7050a0fe_image.jpg" group-title="playlist", Gargi 2024 Bengali Dubbed ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/02/[Fibwatch.Com]Gargi.2024.Bengali.Dubbed.ORG.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/01/BShFPhvhdeRtnmrOszgN_29_868b33663dcb6d173288b7b3c91ee3b4_image.jpg" group-title="playlist", Tughlaq Durbar 2024 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/01/[Fibwatch.Com]Tughlaq.Durbar.2024.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2024/01/y4yLEKbeN7Md1aZPxi2d_07_c6f955c3d827e07a2d8a0954efbd49b4_image.jpg" group-title="playlist", Transformers Revenge of the Fallen 2024 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2024/01/[Fibwatch.Com]Transformers.Revenge.of.the.Fallen.2024.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/12/secMokOf8UPt7vyKzGnV_28_fa3f8a26261b55d7b735972bffc52cf3_image.jpg" group-title="playlist", Drishyam 2 2023 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]Drishyam.2.2023.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/12/9ZVb9xnGA3ZGvHKYkuVS_31_b6fb4e9c00c02201f2d69a67019683b9_image.jpg" group-title="playlist", The Portrait 2023 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]The.Portrait.2023.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/12/vpb4qbwLCO8KHwnB7Wui_26_378e719baaeb327a0ad29080f66ea7af_image.jpg" group-title="playlist", Narappa 2023 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]Narappa.2023.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/12/R7RW4Ljr6I4bKL9HaJPc_28_a7c7f08396713b5761a150ecc97b2969_image.jpg" group-title="playlist", Bad Blood 2023 Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]Bad.Blood.2023.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/10/OqUmBG7CjyZpMX5Go6z5_01_4b9ef686db105df1d4182b3f3c1458aa_image.jpg" group-title="playlist", 7 11 PM (2023) Bangla Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]7.11.PM.(2023).Bangla.Dubbed.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/12/1FqR6dVwmEhgQDHlkjrm_10_619edceb86a6753f3859d6c35bba0f92_image.jpg" group-title="playlist", Lie 2023 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]Lie.2023.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/11/Mp8pjOp6hEdkx6TFW3Lc_15_d7f02369bf60e67a45909cfd54fcb781_image.jpg" group-title="playlist", Master (2021) Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/11/[Fibwatch.Com]Master.(2021).Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/12/k7KEYXyqLfdx9CKRe8sT_22_72357852be60865bdcbb30f4b7f416c7_image.jpg" group-title="playlist", Kurukshetra (2023) Bengal Dubbed 1080p
-https://odfgbn.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]Kurukshetra.(2023).Bengal.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/11/BjzIjwAzTM3Ipbj3WVec_14_aa1895e92ed99b4219c2773544544ecb_image.jpg" group-title="playlist", Har Din Diwali (2019) Bangla Dubbed WEB DL 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/11/[Fibwatch.Com]Har.Din.Diwali.(2019).Bangla.Dubbed.WEB.DL.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/11/DYn5wZ668tlsBWKwpRSi_14_68488b8d11f42c1ded1e196eeca52515_image.jpg" group-title="playlist", Miss India Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/11/[Fibwatch.Com]Miss.India.Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/10/9isVzWbZBhvEZS7emU41_27_2d96f5fa532ef5bd38814dc8502400b2_image.jpg" group-title="playlist", Mukunda Shotru (2023) Bengali Dubbed ORG 1080p
-https://odfgbn.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Mukunda.Shotru.(2023).Bengali.Dubbed.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/11/UdInwpwuWYkOAEOrS5E7_01_96f2a1c7a02549437e0ac365a4bdb343_image.jpeg" group-title="playlist", Rider 2023 Bengali Dubbed ORG 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/11/[Fibwatch.Com]Rider.2023.Bengali.Dubbed.ORG.720p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/10/PlFhMJO5nhFhw2iZJsbq_04_0e38a53d3063ded2d9224dc2d15042ae_image.jpg" group-title="playlist", Janta Garage Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Janta.Garage.Bengali.Dubbed.1080p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/10/Hl68RcIsYgI9byVahhqL_05_e92d4bff089cdeccd459e40a86efba77_image.jpg" group-title="playlist", 96 (2018) Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]96.(2018).Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/09/JasQATGfpLqK2PiiCFr4_15_6b3adbec0dec437e6e76ed2bb66e80c8_image.jpg" group-title="playlist", Sivappu Manjal Pachai (2019) Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/09/[Fibwatch.Com]Sivappu.Manjal.Pachai.(2019).Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/09/wh55SA6ZwtQsnRazfwGo_07_2ea40cb8fba694e1d467b1cb75cb2481_image.jpg" group-title="playlist", Pathaan 2023 720p BEN DUB
-https://odfgbn.b-cdn.net/upload/videos/2023/09/[Fibwatch.Com]Pathaan.2023.720p.BEN.DUB.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/08/u26WVIJOCHXB3NfKmNP6_03_c59682f10fb72126570e5f943416d317_image.jpg" group-title="playlist", Kaalidas (2022) Bengali 1080p
-https://odfgbn.b-cdn.net/upload/videos/2023/08/[Fibwatch.Com]Kaalidas.(2022).Bengali.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/08/8WGZ1utZjvzybVu2h6iu_03_53456220349ac615ca6fbf49daf8bb03_image.jpg" group-title="playlist", Dragon Master 2023 Bangla Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/08/[Fibwatch.Com]Dragon.Master.2023.Bangla.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/07/31qaknUx399eajmqSicE_25_ec3b6a59d15383d47dc2b3ae46f823fc_image.jpg" group-title="playlist", Lamour et les forêts (2023) Bengali Dubbed 720p CAMRip
-https://odfgbn.b-cdn.net/upload/videos/2023/07/[Fibwatch.Com]Lamour.et.les.forêts.(2023).Bengali.Dubbed.720p.CAMRip.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/08/6N9zrNXbGq14cwLZ3ryx_01_e083201a0305a3dd4a945a0574b07c0f_image.jpg" group-title="playlist", Morbius 2022 Bengali 1080p
-https://odfgbn.b-cdn.net/upload/videos/2023/08/[Fibwatch.Com]Morbius.2022.Bengali.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/05/hU9iY3NHpa5wrDSEfzZc_12_d8b83d8fe2c456dc7da91cd11d629c7f_image.jpg" group-title="playlist", Maayavan-Project Maayajal (2023) Bengali Dubbed 1080p
-https://odfgbn.b-cdn.net/upload/videos/2023/05/[Fibwatch.Com]Maayavan-Project.Maayajal.(2023).Bengali.Dubbed.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/06/5SNg7C47aCxm5mMM1BBP_30_136c833bac8d2d145b1de49a27d608eb_image.jpg" group-title="playlist", Travel Mates (2017) Bengali 1080p
-https://odfgbn.b-cdn.net/upload/videos/2023/06/[Fibwatch.Com]Travel.Mates.(2017).Bengali.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/06/ahjrx3CJ2SR16HkKEbMV_15_6cd928dbbdc70024b519af22f7ee4689_image.jpg" group-title="playlist", Bigil (2019) [Bengali Dubbed] 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/06/[Fibwatch.com]Bigil.(2019).[Bengali.Dubbed].720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/05/Cecm5bAzW97quT4NWTiD_01_cc4724062eb3d7ca3c00976552e03586_image.jpg" group-title="playlist", Velayudham Shahenshah (2023) Bengali Dubbed ORG 1080p
-https://odfgbn.b-cdn.net/upload/videos/2023/05/[Fibwatch.Com]Velayudham.Shahenshah.(2023).Bengali.Dubbed.ORG.1080p.mkv
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/07/uSM2BpsJbtR1CqrfQl4T_12_065b332cc688b825b8889bacee4225ad_image.jpg" group-title="playlist", Sundari (2021) Bengali Dubbed 720p
-https://odfgbn.b-cdn.net/upload/videos/2023/07/[Fibwatch.com]Sundari.(2021).Bengali.Dubbed.720p.mp4
-#EXTINF:-1 tvg-logo="https://odfgbn.b-cdn.net/upload/photos/2023/04/PmQJsLy4ZilZ6c8pWwv5_29_504088f5db338f9da207b6b39790de6d_image.jpg" group-title="playlist", Mersal-Superstar (2023) Bengali Dubbed ORG 1080p
-https://odfgbn.b-cdn.net/upload/videos/2023/04/[Fibwatch.Com]Mersal-Superstar.(2023).Bengali.Dubbed.ORG.1080p.mkv
+# Last Updated: 2026-11-12 04:55:06
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/02/Dear.Comrade.(2026).Bangla.Dubbed.jpg" group-title="playlist", Dear Comrade 2026 1080p Bangla Dubbed
+https://iergf.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Dear.Comrade.2026.1080p.Bangla.Dubbed.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/02/Me.No.Pause.Me.Play.(2026).Bengali.Dubbed.jpg" group-title="playlist", Me No Pause Me Play (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Me.No.Pause.Me.Play.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/03/Amor.Prem.Endless.Love.(2026).Bengali.Dubbed.jpg" group-title="playlist", Amor Prem Endless Love (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/03/[Fibwatch.Com]Amor.Prem.Endless.Love.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Warlord.Lanling.jpg" group-title="playlist", Warlord Lanling (2021) Bengali ORG 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Warlord.Lanling.(2021).Bengali.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/The.American.Dream.(2025).Bengali.Dubbed.jpg" group-title="playlist", The American Dream (2025) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]The.American.Dream.(2025).Bengali.Dubbed.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/02/Jil.(2026).Bengali.Dubbed.jpg" group-title="playlist", Jil (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Jil.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/02/Honey.(2026).Bengali.Dubbed.jpg" group-title="playlist", Honey (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Honey.(2026).Bengali.Dubbed.1080p..mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/03/Blink.(2024).Bengali.Dubbed.jpg" group-title="playlist", Blink 2024 Bengali Dubbed ORG 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/03/[Fibwatch.Com]Blink.2024.Bengali.Dubbed.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/01/Kantara.A.Legend.Chapter.1.(2025).Bengali.Dubbed.jpg" group-title="playlist", Kantara A Legend Chapter 1 (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Kantara.A.Legend.Chapter.1.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/02/Kaithi.Bengali.jpg" group-title="playlist", Kaithi (2019) Bengali ORG 1080P
+https://iergf.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Kaithi.(2019).Bengali.ORG.1080P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Jolly.LLB.3.(2025).Bengali.Dubbed..jpg" group-title="playlist", Jolly LLB 3 (2025) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Jolly.LLB.3.(2025).Bengali.Dubbed.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/11/Alexa.(2026).Bengali.Dubbed.jpg" group-title="playlist", Alexa (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/11/[Fibwatch.Com]Alexa.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/Bhootam.Bhayyam.(2026).Bengali.Dubbed.jpg" group-title="playlist", Bhootam Bhayyam (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Bhootam.Bhayyam.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/11/Isha.(2020).Bengali.Dubbed.jpg" group-title="playlist", Isha (2020) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/11/[Fibwatch.Com]Isha.(2020).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/10/Waltair.Veerayya.(2026).Bengali.Dubbed.jpg" group-title="playlist", Waltair Veerayya (2026) Bengali Dubbed ORG HDTVRip 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/10/[Fibwatch.Com]Waltair.Veerayya.(2026).Bengali.Dubbed.ORG.HDTVRip.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/11/Thamma.(2025).Bangla.Dubbed.jpg" group-title="playlist", Thamma (2025) Bangla Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/11/[Fibwatch.Com]Thamma.(2025).Bangla.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/König.Laurin.(2025).Bangla.Dubbed.jpg" group-title="playlist", König Laurin (2025) Bangla Dubbed 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]König.Laurin.(2025).Bangla.Dubbed.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Drunken.Master.jpg" group-title="playlist", Drunken Master (2021) Bengali ORG 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Drunken.Master.(2021).Bengali.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Rudra.jpg" group-title="playlist", Rudra (2025) Bengali 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Rudra.(2025).Bengali.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/08/Saanwri.jpg" group-title="playlist", [Saanwri (2026) Bengali 1080P
+https://iergf.b-cdn.net/s3/upload/videos/2026/08/[[Fibwatch.Com]Saanwri.(2026).Bengali.1080P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Rama.Rao.on.Duty.(2025).Bengali.Dubbed.jpg" group-title="playlist", Rama Rao on Duty (2025) Bengali Dubbed Original Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Rama.Rao.on.Duty.(2025).Bengali.Dubbed.Original.Uncut.WEB-DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/10/Deiva.Thirumagal.Nilar.Baba.jpg" group-title="playlist", Deiva Thirumagal (2026) Bengali Dubbed 1080P
+https://iergf.b-cdn.net/s3/upload/videos/2026/10/[Fibwatch.Com]Deiva.Thirumagal.(2026).Bengali.Dubbed.1080P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/11/Silence.Of.The.Womb.(2026).Bengali.Dubbed.jpg" group-title="playlist", Silence Of The Womb (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/11/[Fibwatch.Com]Silence.Of.The.Womb.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/Irumudi.(2026).Bengali.Dubbed.jpg" group-title="playlist", Irumudi (2026) Bengali HQ Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Irumudi.(2026).Bengali.HQ.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/08/Jagat.(2026).Bengali.Dubbed.jpg" group-title="playlist", Jagat (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/08/[Fibwatch.Com]Jagat.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Drunken.Fist.jpg" group-title="playlist", Drunken Fist (2021) Bengali ORG 1080p n
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Drunken.Fist.(2021).Bengali.ORG.1080p.n.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/Hi.(2026).Bengali.HQ.Dubbed.jpg" group-title="playlist", Hi (2026) Bengali HQ Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Hi.(2026).Bengali.HQ.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/Happy.New.Year.(2014).Bengali.Dubbed..jpg" group-title="playlist", Happy New Year (2014) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Happy.New.Year.(2014).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/DC.(2026).Bengali.Dubbed.jpg" group-title="playlist", DC (2026) Bengali HQ Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]DC.(2026).Bengali.HQ.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/10/Pyar.Kiya.To.Darna.Kya.Bangla.jpg" group-title="playlist", Pyar Kiya To Darna Kya (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/10/[Fibwatch.Com]Pyar.Kiya.To.Darna.Kya.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/11/Phalana.Abbayi.Phalana.Ammayi.(2023).Bengali.Dubbed.jpg" group-title="playlist", Phalana Abbayi Phalana Ammayi (2023) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/11/[Fibwatch.Com]Phalana.Abbayi.Phalana.Ammayi.(2023).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/10/Saiyaara.(2026).Bengali.Dubbed.jpg" group-title="playlist", Saiyaara (2026) Bengali Dubbed ORG 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/10/[Fibwatch.Com]Saiyaara.(2026).Bengali.Dubbed.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/10/Chumbak.(2018).jpg" group-title="playlist", Chumbak (2018) Dual 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/10/[Fibwatch.Com]Chumbak.(2018).Dual.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/Deool.Band.2.(2026).Bengali.Dubbed..jpg" group-title="playlist", Deool Band 2 (2026) Bengali HQ Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Deool.Band.2.(2026).Bengali.HQ.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/Baby.Do.Die.Do.(2026).Bengali.Dubbed.jpg" group-title="playlist", Baby Do Die Do (2026) Bengali HQ Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Baby.Do.Die.Do.(2026).Bengali.HQ.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/Awarapan.2.(2026).Bengali.Dubbed.jpg" group-title="playlist", Awarapan 2 (2026) Bengali HQ Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Awarapan.2.(2026).Bengali.HQ.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/Kenatha.Kanom.Bengali.jpg" group-title="playlist", Kenatha Kanom (2026) Bangla Dubbed 1080P
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Kenatha.Kanom.(2026).Bangla.Dubbed.1080P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/08/Jholachhap.2026.jpg" group-title="playlist", Jholachhap (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/08/[Fibwatch.Com]Jholachhap.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/Agadha.(2026).Bengali.Dubbed.jpg" group-title="playlist", Agadha (2026) Bengali HQ Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Agadha.(2026).Bengali.HQ.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/09/Chennai.Love.Story.(2026).Bengali.Dubbed.jpg" group-title="playlist", Chennai Love Story (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/09/[Fibwatch.Com]Chennai.Love.Story.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/10/sarpatta-parambarai-Bangla-Dubbed.jpg" group-title="playlist", Sarpatta Parambarai (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/10/[Fibwatch.Com]Sarpatta.Parambarai.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/10/Mirai.(2025).Hindi.Dubbed.jpg" group-title="playlist", Mirai (2025) Bengali Dubbed ORG JHS WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Mirai.(2025).Bengali.Dubbed.ORG.JHS.WEB-DL.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Idly.Kadai.(2025).Bengali.Dubbed.jpg" group-title="playlist", Idly Kadai (2025) Bengali Dubbed Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Idly.Kadai.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/10/lokah.jpg" group-title="playlist", Lokah Chapter 1 Chandra (2025) Bengali ORG 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Lokah.Chapter.1.Chandra.(2025).Bengali.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/10/power.unlimited.jpg" group-title="playlist", Power Unlimited 2-Touch Chesi Chudu 2018 Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/10/[Fibwatch.Com]Power.Unlimited.2-Touch.Chesi.Chudu.2018.Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/08/Khoj.Kanabadutaledu.jpg" group-title="playlist", Khoj Kanabadutaledu (2021) Bengali ORG 1080P
+https://iergf.b-cdn.net/s3/upload/videos/2026/08/[Fibwatch.Com]Khoj.Kanabadutaledu.(2021).Bengali.ORG.1080P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Eleven.Bengali.jpg" group-title="playlist", Eleven 2025 Bengali 720P
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Eleven.2025.Bengali.720P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Blackmail.(2025).Bengali.Dubbed.jpg" group-title="playlist", Blackmail (2025) Bengali Dubbed Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Blackmail.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Ek.Chatur.Naar.(2025).Bengali.Dubbed.jpg" group-title="playlist", Ek Chatur Naar (2025) Bengali Dubbed Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Ek.Chatur.Naar.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Arjun.Chakravarthy.(2025).Bengali.Dubbed.jpg" group-title="playlist", Arjun Chakravarthy (2025) Bengali Dubbed Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Arjun.Chakravarthy.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/07/avatar.bengali.dubbed.jpg" group-title="playlist", Avatar (2009) Bangla Dubbed (HQ) WEB-DL 720P
+https://iergf.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Avatar.(2009).Bangla.Dubbed.(HQ).WEB-DL.720P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Nishaanchi.(2025).Bengali.Dubbed..jpg" group-title="playlist", Nishaanchi (2025) Bengali Dubbed Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Nishaanchi.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/08/paranthu-po-hindi.dubbed.jpg" group-title="playlist", Paranthu Po (2025) Multi Audio [Bengali-Hindi-Tami] JHS 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Paranthu.Po.(2025).Multi.Audio.[Bengali-Hindi-Tami].JHS.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/07/Baahubali.The.Beginning.(2015).Bangla.Dubbed.jpg" group-title="playlist", Baahubali The Beginning (2015) Bangla Dubbed (HQ) WEB-DL 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Baahubali.The.Beginning.(2015).Bangla.Dubbed.(HQ).WEB-DL.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/07/Ala.Vaikunthapurramuloo.(2020).Bengali.Dubbed.jpg" group-title="playlist", Ala Vaikunthapurramuloo (2020) Bengali Dubbed HQ 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Ala.Vaikunthapurramuloo.(2020).Bengali.Dubbed.HQ.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/07/Eternal-love.jpg" group-title="playlist", Eternal love (2025) Bengali ORG 1080p n
+https://iergf.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Eternal.love.(2025).Bengali.ORG.1080p.n.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/08/Man.in.the.Blue.Suit.(2024).jpg" group-title="playlist", Man in the Blue Suit 2024 WEBRip BEN DUB HQ 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Man.in.the.Blue.Suit.2024.WEBRip.BEN.DUB.HQ.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/08/Conspiracy.of.Fear.(2025).jpg" group-title="playlist", Conspiracy of Fear 2025 1080p WEBRip BEN DUB
+https://iergf.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Conspiracy.of.Fear.2025.1080p.WEBRip.BEN.DUB.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/08/Super.Housewife.2.(2025).Bengali.Dubbed.jpg" group-title="playlist", Super Housewife 2 (2025) WEB-DL [Bengali ORG] BONGO 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Super.Housewife.2.(2025).WEB-DL.[Bengali.ORG].BONGO.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/08/Sanju.Weds.Geetha.2.(2025).Bengali.Dubbed.jpg" group-title="playlist", Sanju Weds Geetha 2 (2025) Bengali Dubbed Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Sanju.Weds.Geetha.2.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/03/Kadakan.(2026).Bengali.Dubbed.jpg" group-title="playlist", Kadakan (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/03/[Fibwatch.Com]Kadakan.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/08/Kingdom.(2025).Bengali.Dubbed..jpg" group-title="playlist", Kingdom (2025) Bengali Dubbed Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]Kingdom.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/04/Bloody.Daddy.Bangla.Dubbed.jpg" group-title="playlist", Bloody Daddy (2023) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/04/[Fibwatch.Com]Bloody.Daddy.(2023).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/09/White.House.Down.(2025).Bengali.Dubbed.jpg" group-title="playlist", White House Down (2025) Bengali Dubbed ORG Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]White.House.Down.(2025).Bengali.Dubbed.ORG.Uncut.WEB-DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/09/Baaghi.4.(2025).Bengali.Dubbed.jpg" group-title="playlist", Baaghi 4 (2025) Bengali Dubbed HDCAMRip 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Baaghi.4.(2025).Bengali.Dubbed.HDCAMRip.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/06/Sathi.Leelavathi.(2026).Bengali.Dubbed.jpg" group-title="playlist", Sathi Leelavathi Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/06/[Fibwatch.Com]Sathi.Leelavathi.Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/05/Bharathanatyam.2.Mohiniyattam.(2026).Bengali.Dubbed..jpg" group-title="playlist", Bharathanatyam 2 Mohiniyattam (2026) Bengali Dubbed HQ 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Bharathanatyam.2.Mohiniyattam.(2026).Bengali.Dubbed.HQ.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/12/Dies.Irae.(2025).Bengali.Dubbed.jpg" group-title="playlist", Dies Irae (2025) Bengali Dubbed Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Dies.Irae.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/09/Vikram.Vedha.(2022).Bengali.Dubbed.jpg" group-title="playlist", Vikram Vedha Bengali 2022 1080p JC WEB-DL Bengali
+https://iergf.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Vikram.Vedha.Bengali.2022.1080p.JC.WEB-DL.Bengali.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/05/Kona.(2025).Bengali.Dubbed.jpg" group-title="playlist", Kona (2025) Bengali Dubbed HQ 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Kona.(2025).Bengali.Dubbed.HQ.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/05/Super.Hit.(2026).Bengali.Dubbed.jpg" group-title="playlist", Super Hit (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Super.Hit.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/05/Petta-bengali.jpeg" group-title="playlist", petta bengali dubbed 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/05/[Fibwatch.Com]petta.bengali.dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/11/Diesel.(2025).Bengali.Dubbed.jpg" group-title="playlist", Diesel (2025) Bengali Dubbed Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/11/[Fibwatch.Com]Diesel.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/08/The.100.(2025).Bengali.Dubbed.jpg" group-title="playlist", The 100 (2025) Bengali Dubbed Uncut WEB-DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/08/[Fibwatch.Com]The.100.(2025).Bengali.Dubbed.Uncut.WEB-DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/05/Love.U.Muddu.(2025).Bengali.Dubbed.jpg" group-title="playlist", Love U Muddu (2025) Bengali Dubbed 480p
+https://iergf.b-cdn.net/s3/upload/videos/2026/05/[Fibwatch.Com]Love.U.Muddu.(2025).Bengali.Dubbed.480p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/07/Green.Book.(2018).jpg" group-title="playlist", Green Book (2018) Bengali Dubbed (HQ) BluRay 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/07/[Fibwatch.Com]Green.Book.(2018).Bengali.Dubbed.(HQ).BluRay.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/08/Khejdi.(2026).Bengali.Dubbed.jpg" group-title="playlist", Khejdi (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/08/[Fibwatch.Com]Khejdi.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/08/Gatta.Kusthi.2.(2026).Bangla.Dubbed.jpg" group-title="playlist", Gatta Kusthi 2 (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/08/[Fibwatch.Com]Gatta.Kusthi.2.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/05/Spider-Man.No.Way.Home.jpeg" group-title="playlist", Spider-Man No Way Home 2021 Bengali ORG 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/05/[Fibwatch.Com]Spider-Man.No.Way.Home.2021.Bengali.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/02/Aarata.(2026).Bengali.Dubbed.jpg" group-title="playlist", Aarata (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Aarata.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/12/Samara.(2025).Bengali.Dubbed.jpg" group-title="playlist", Samara (2025) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Samara.(2025).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/12/Mukk.Gyi.Feem.Dabbi.Cho.Yaaro.(2025).Bengali.Dubbed.jpg" group-title="playlist", Mukk Gyi Feem Dabbi Cho Yaaro (2025) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Mukk.Gyi.Feem.Dabbi.Cho.Yaaro.(2025).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/12/Dawood.(2025).Bengali.Dubbed.jpg" group-title="playlist", Dawood (2025) Bengali Dubbed Uncut 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2025/12/[Fibwatch.Com]Dawood.(2025).Bengali.Dubbed.Uncut.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2026/02/Junior.(2026).Bengali.Dubbed.jpg" group-title="playlist", Junior (2026) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/s3/upload/videos/2026/02/[Fibwatch.Com]Junior.(2026).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/09/Keedam.(2025).Bangla.Dubbed.jpg" group-title="playlist", Keedam (2025) Bangla Dubbed WEB-DL 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/09/[Fibwatch.Com]Keedam.(2025).Bangla.Dubbed.WEB-DL.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/03/7ce58f51-81ff.jpeg" group-title="playlist", Shahoshi 2025 Bangla ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/03/[Fibwatch.Com]Shahoshi.2025.Bangla.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/04/Jawaan.Bengali.jpeg" group-title="playlist", Jawaan 2025 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/04/[Fibwatch.Com]Jawaan.2025.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/04/Sikandar.Bengali.jpeg" group-title="playlist", Sikandar 2025 Bengali 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/04/[Fibwatch.Com]Sikandar.2025.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/05/Jaat.Bengali.jpeg" group-title="playlist", Jaat 2025 Bengali 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/05/[Fibwatch.Com]Jaat.2025.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/04/174379472267f032226d40b.jpg" group-title="playlist", My Son 2025 Bengali ORG DP 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/04/[Fibwatch.Com]My.Son.2025.Bengali.ORG.DP.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/05/Kesari-Chapter-2-Bengali.jpeg" group-title="playlist", Kesari Chapter 2 2025 Bengali 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/05/[Fibwatch.Com]Kesari.Chapter.2.2025.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/02/Fateh.Bengli.jpeg" group-title="playlist", Fateh 2025 Bengli ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]Fateh.2025.Bengli.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/02/Vanvaas.Bengali.jpeg" group-title="playlist", Vanvaas 2025 Bengali 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]Vanvaas.2025.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/03/l7.bengali.png" group-title="playlist", L7 2025 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/03/[Fibwatch.Com]L7.2025.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/03/Minister.Bengali.jpeg" group-title="playlist", Minister 2025 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/03/[Fibwatch.Com]Minister.2025.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/03/Maa.Nanna.Superhero.Bengali.jpeg" group-title="playlist", Maa Nanna Superhero 2025 Bengali 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/03/[Fibwatch.Com]Maa.Nanna.Superhero.2025.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/02/Identity.Bengali.jpeg" group-title="playlist", Identity 2025 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]Identity.2025.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/02/Deva.Bengali.jpeg" group-title="playlist", Deva 2025 Bengali 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]Deva.2025.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/10/Jokhom.jpeg" group-title="playlist", Jokhom 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Jokhom.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/10/E8wEGpl.jpg" group-title="playlist", Eternals (2021) Bengali [HQ Dubbed] 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Eternals.(2021).Bengali.[HQ.Dubbed].1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/02/The.Last.Warrior.Bengali.jpeg" group-title="playlist", The Last Warrior 2025 Bengali 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]The.Last.Warrior.2025.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/10/da10df95-42d5-49b9-91c1-9420b0f8dc5b.jpeg" group-title="playlist", Amigos Doppel Dot Com 2024 Bengali Dubbed ORG 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Amigos.Doppel.Dot.Com.2024.Bengali.Dubbed.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/10/Meow.bangla.jpeg" group-title="playlist", Meow 2024 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Meow.2024.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/EI2XwYzA3qcSWrUka1fq_04_9420a2fc4a3819423908a7a5cc86d5c0_image.jpeg" group-title="playlist", Operation Raavan 2024 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2024/11/[Fibwatch.Com]Operation.Raavan.2024.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/01/The.End.Bengali.jpeg" group-title="playlist", The End (2024) Bengali Dubbed HQ 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2025/01/[Fibwatch.Com]The.End.(2024).Bengali.Dubbed.HQ.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2025/02/Adhe.Kangal.Bengali.jpeg" group-title="playlist", Adhe Kangal 2025 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2025/02/[Fibwatch.Com]Adhe.Kangal.2025.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/Dxn2uYmTgDT4rEetRfIq_03_21df06d1065e7b91d914f162db2b6110_image.jpg" group-title="playlist", Little Heart 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Little.Heart.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/WDQrLXlbwu5RyPkFYpcG_03_8c77d88cf501e460ae19e1de9c67ee11_image.jpg" group-title="playlist", Fighter 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Fighter.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/04/TGVbQSYMuBwqZIVsLi7x_21_f6b45f335ca0dcca1417de26db5b9628_image.jpg" group-title="playlist", Beast 2024 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2024/12/[Fibwatch.Com]Beast.2024.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/V9QtJ8SkVAVGgu3cIR7R_08_bfd1fab3e5d81b89c307db474321d4a9_image.jpg" group-title="playlist", Evaru 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Evaru.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/L7l5QmheuBkMyc5UqcDK_08_81d7e1cf1174f268f66213f4b9831281_image.jpg" group-title="playlist", A Holy Conspiracy (2022) Bengali 1080p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]A.Holy.Conspiracy.(2022).Bengali.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/nDJKssifYkLIu2UuCbOj_09_4d951e2f4517fb5f88cb6a6b4f363cba_image.jpeg" group-title="playlist", Vasco Da Gama 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Vasco.Da.Gama.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/11/downloadbengali.jpeg" group-title="playlist", Raj Mahal 3 (2016) Bengali Dubbed WEB DL 1080p
+https://iergf.b-cdn.net/s2/upload/videos/2024/11/[Fibwatch.Com]Raj.Mahal.3.(2016).Bengali.Dubbed.WEB.DL.1080p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/11/A.Different.Man.Bengali.jpg" group-title="playlist", A Different Man (2024) Bengali Dubbed HQ 1080P
+https://iergf.b-cdn.net/s2/upload/videos/2024/11/[Fibwatch.Com]A.Different.Man.(2024).Bengali.Dubbed.HQ.1080P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/qSqJtAyw1c1BPADRDuwr_07_991812a094dcaafe63f34500f9c4b712_image.jpeg" group-title="playlist", Vedaa 2024 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Vedaa.2024.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/wT176wqCGfDkdCg2GDOk_20_b377425424171c95bcfabb35d3390e0d_image.jpeg" group-title="playlist", Pechi 2024 Bengali ORG 720p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Pechi.2024.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/11/1731011104672d22202b98178.jpg" group-title="playlist", Devara 2024 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2024/11/[Fibwatch.Com]Devara.2024.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/11/Vettaiyan.Bengali.jpeg" group-title="playlist", Vettaiyan 2024 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2024/11/[Fibwatch.Com]Vettaiyan.2024.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/12 ezgif-3-789dce4d5a.jpg" group-title="playlist", Bhamakalapam Super Housewife (2024) Bengali Dubbed ORG 1080p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Bhamakalapam.Super.Housewife.(2024).Bengali.Dubbed.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/08/nhalRGCeAwH2grMR7OUU_27_350831a86566902f1be705daaa0ddc95_image.jpg" group-title="playlist", Godzilla x Kong The New Empire (2024) Bengali 1080p
+https://iergf.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Godzilla.x.Kong.The.New.Empire.(2024).Bengali.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/08/iO5k9JA6lr3QLIMHZtFJ_24_eda22110d4e364fa1978c1cce5ff736e_image.jpg" group-title="playlist", Walter 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Walter.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/5Juu6nGU98cUNiXdwQlM_05_71bdb2716879258c72edfbbb723ae833_image.jpeg" group-title="playlist", The Flash (2023) Bengali Dubbed HQ 1080p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]The.Flash.(2023).Bengali.Dubbed.HQ.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/07/kD5DkovyLI5pAKWOAuhy_16_b5a1c4379024b59ca249949c125fd63f_image.jpg" group-title="playlist", Akhara (2011) Bengali Dubbed ORG 1080p
+https://iergf.b-cdn.net/upload/videos/2024/07/[Fibwatch.Com]Akhara.(2011).Bengali.Dubbed.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/qszl4KngIRdvZH3VVeV5_11_ef8cee7fc2e922efaadabeeb10458173_image.jpg" group-title="playlist", Cinderella 2015 Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Cinderella.2015.Bengali.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/2F8LSFwSiafx2B41fEYj_10_c16611ed5ceaef6a0aeea40e1d2bdb17_image.jpg" group-title="playlist", Srimanthudu 2024 Bengali ORG 720p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Srimanthudu.2024.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/07/ABmLs1dqrfdnhZjvBB9i_04_be01c0c86679f73d1fef44c81d21ec2c_image.jpg" group-title="playlist", Malayalee From India (2024) Dual Audio [Bengali Hindi] SonyLiv 1080p
+https://iergf.b-cdn.net/upload/videos/2024/07/[Fibwatch.Com]Malayalee.From.India.(2024).Dual.Audio.[Bengali.Hindi].SonyLiv.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/09/OpiJWz489ynGmbDfDDGF_01_e1aa329490c1983ba9a69cb675514740_image.jpeg" group-title="playlist", Bad Newz 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/09/[Fibwatch.Com]Bad.Newz.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/05/oAdEk863sGccfLQFRnf4_13_2ec229f082980e8323a6e93bc6cbe192_image.jpg" group-title="playlist", Cabrini (2024) Bengali Dubbed HQ 1080P
+https://iergf.b-cdn.net/upload/videos/2024/05/[Fibwatch.Com]Cabrini.(2024).Bengali.Dubbed.HQ.1080P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/08/tGnfmpTFYskY6LXQDm7K_30_5799fc2e09e5e7150db3c345ece36c50_image.jpeg" group-title="playlist", Madhuram 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Madhuram.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/08/5hLOVAF1phIhm2cW8fWj_31_b3c13ba5a030f68a5b7d4b9a724f472d_image.jpeg" group-title="playlist", Harold and the Purple Crayon (2024) Bengali 1080p
+https://iergf.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Harold.and.the.Purple.Crayon.(2024).Bengali.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/04/ZBocirjX4gGBMJtdPRDk_30_78233116b67b284d0e70cc273042e453_image.jpg" group-title="playlist", MR-9 Do or Die 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]MR-9.Do.or.Die.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/08/xrWdEKhc2pJe2HXZoTgH_22_2092a8ca36deb36ada80ef9110042c9a_image.jpeg" group-title="playlist", Oddity (2024) Bengali Dubbed HQ 1080p
+https://iergf.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Oddity.(2024).Bengali.Dubbed.HQ.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/08/oaOt9R9G52zgAfuh3ZRa_21_8bbaac7bfd95df1b738e686738992a2c_image.jpg" group-title="playlist", Love Li 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]Love.Li.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/08/acHwqQTjFFDHQTrCP8FU_06_27a991273e095e4ecbfb4a1f9f5946ea_image.jpeg" group-title="playlist", The Second Act (2024) Bengali Dubbed HQ CAMRip 720p
+https://iergf.b-cdn.net/upload/videos/2024/08/[Fibwatch.Com]The.Second.Act.(2024).Bengali.Dubbed.HQ.CAMRip.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/10/Game.Plan.jpeg" group-title="playlist", Game Plan 2024 Bengali ORG 720p
+https://iergf.b-cdn.net/s2/upload/videos/2024/10/[Fibwatch.Com]Game.Plan.2024.Bengali.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/07/HtbUqG5oLpuNPMsioi8X_13_54f51a93cf0071e9c4fbdceb9058c250_image.jpg" group-title="playlist", Blind (2023) Bengali Dubbed ORG JC 1080p
+https://iergf.b-cdn.net/upload/videos/2024/07/[Fibwatch.Com]Blind.(2023).Bengali.Dubbed.ORG.JC.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/06/V1e2zTuGQmPEifNIxAz4_12_f5303c9b5430f356a2a7f0dd8192df06_image.jpeg" group-title="playlist", Adipurush 2023 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/06/[Fibwatch.Com]Adipurush.2023.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/06/x8y3jsXlBk2eIvw3m23c_24_32ea81b4fac85af31285b3565179775c_image.jpeg" group-title="playlist", Lust and Redemption (2023) Bengali Dubbed HQ 1080P
+https://iergf.b-cdn.net/upload/videos/2024/06/[Fibwatch.Com]Lust.and.Redemption.(2023).Bengali.Dubbed.HQ.1080P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/06/1CVp9MoCTpjvBgZWJHWb_28_eeba8cea33916c9fa5072809f21a346c_image.jpeg" group-title="playlist", Chandu Champion 2024 720p CAMRip BEN DUB HQ
+https://iergf.b-cdn.net/upload/videos/2024/06/[Fibwatch.Com]Chandu.Champion.2024.720p.CAMRip.BEN.DUB.HQ.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/05/We4mibA86ZSwrUSoCFzj_03_8545a8e9ebd323d25db08b18a60e6a4e_image.jpg" group-title="playlist", Wonka (2023) Bengali 1080p
+https://iergf.b-cdn.net/upload/videos/2024/05/[Fibwatch.Com]Wonka.(2023).Bengali.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/04/Q2lgWNIJj89aoFEA3jUf_22_12bc32cdcf4f23587310d43c9141c6c0_image.jpg" group-title="playlist", Alibaba Aani Chalishitale Chor (2024) Bengali Dubbed HQ CAMRip 720p
+https://iergf.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]Alibaba.Aani.Chalishitale.Chor.(2024).Bengali.Dubbed.HQ.CAMRip.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/04/ycSQf1XM5K5jvLiT71xn_22_48781d5f0749e2391aa1186cf271d2f8_image.jpg" group-title="playlist", The Yinyang Master 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]The.Yinyang.Master.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/06/hcbuqH5U2kbLezk4h775_09_0c7a2ace26bf71c445b478914f452c7a_image.jpg" group-title="playlist", Saaho (2019) Bengali [HQ Dubbed] 1080p
+https://iergf.b-cdn.net/upload/videos/2024/06/[Fibwatch.Com]Saaho.(2019).Bengali.[HQ.Dubbed].1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/04/vZ5KroFr9mTGZytzTYGn_06_4e9cc844ae1b36e854b70c1901ff93f2_image.jpg" group-title="playlist", Devils Men 2023 720p WEBRip BEN DUB
+https://iergf.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]Devils.Men.2023.720p.WEBRip.BEN.DUB.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/04/fYnrjeapkIfkzcDzLVqb_06_3875e003234ff51b92be2813a42e7607_image.jpg" group-title="playlist", Vey Dharuvey (2024) Bengali HQ 720P
+https://iergf.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]Vey.Dharuvey.(2024).Bengali.HQ.720P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/04/pW9xpLFVDPo7I8BOCpGO_08_e24d7fa12c1ab91b5177a6c63a2f10e9_image.jpg" group-title="playlist", Brahmastra 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/04/[Fibwatch.Com]Brahmastra.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/sdF99QhuQqayJuhl6Oo1_12_c6d169e097581136f8ac01bde2101332_image.jpg" group-title="playlist", Attack of the Meth Gator (2024) Bangla Dubbed HQ 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Attack.of.the.Meth.Gator.(2024).Bangla.Dubbed.HQ.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/QWPaR5nCPEelEHwzwsOs_11_0dd611eec8e0cb415ce35324cfd81574_image.jpg" group-title="playlist", The Bridge Curse Ritual (2023) Bengali Dubbed HQ 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]The.Bridge.Curse.Ritual.(2023).Bengali.Dubbed.HQ.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/g9lcZqUuyESFn2T67Naa_04_542bdcf782978f74a457a6058ffdaf89_image.jpg" group-title="playlist", The Circle of Death (2024) Bengali Dubbed HQ 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]The.Circle.of.Death.(2024).Bengali.Dubbed.HQ.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/N3mrEckWnq2ci6YNJPtW_08_e640c74364e377859c8da12493368217_image.jpg" group-title="playlist", Nayattu 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Nayattu.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/aAhsgW74xO9sEwyBdvSv_20_85e72d2880a80a6234b177edfa912066_image.jpg" group-title="playlist", Political War (2024) Bengali Dubbed hq CAMRip 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Political.War.(2024).Bengali.Dubbed.hq.CAMRip.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/02/rJ1Q1QcVty9M3K6CpVs5_29_b12e3bffb792b8f1ca3aa288bb056fc1_image.jpg" group-title="playlist", Circus Kane 2024 Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2024/02/[Fibwatch.Com]Circus.Kane.2024.Bengali.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/9mEQdS2fZ5wcj3CnU3xF_19_3982b278d410f6afbefa63771969145a_image.jpg" group-title="playlist", Stranger in the Woods (2024) Bengali Dubbed HQ 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Stranger.in.the.Woods.(2024).Bengali.Dubbed.HQ.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/QXCpRMIT385xpC4hw5y1_18_a1d9203521ed1af90e0205eb9c3e381f_image.jpg" group-title="playlist", Eagle 2024 Bengali DUbbed ORG 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Eagle.2024.Bengali.DUbbed.ORG.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/02/MNYSaxcxALxaILtKiNdD_08_e7d75fb60936ceb361580fadbc13af59_image.jpg" group-title="playlist", Forensic 2024 Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2024/02/[Fibwatch.Com]Forensic.2024.Bengali.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/Bh3Jpyhn7temxZRX9TmV_01_03dfc2c05a60ad9d6a2585698509696c_image.jpg" group-title="playlist", Crypto Shadows (2024) Bengali Dubbed HQ 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Crypto.Shadows.(2024).Bengali.Dubbed.HQ.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/01/SqzNaXvGfrPts3PpP46a_30_467a4b3004dabe2e63cdc1b9d79a4a32_image.jpg" group-title="playlist", Hanu Man 2024 Bengali Dubbed 720p HDCamRip
+https://iergf.b-cdn.net/upload/videos/2024/01/[Fibwatch.Com]Hanu.Man.2024.Bengali.Dubbed.720p.HDCamRip.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/VlXVeQ5ySXVN2kUPtJpL_10_4424d2eb7b498bef1a53bba622fa1e0c_image.jpg" group-title="playlist", Go West 2023 bangla dubbed hq 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Go.West.2023.bangla.dubbed.hq.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/xfOOIHFOUmWJg3keyblE_08_2f8fa85ba4fc4541f7dfceb801c44e93_image.jpg" group-title="playlist", Vikram 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Vikram.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/WBHHluWK98tTdSWlOcqT_11_81d99216c7d78f0fc5c6941d67bc2ea2_image.jpg" group-title="playlist", Virus 2024 Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Virus.2024.Bengali.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/gYhSI8UDzKlsMrc9OUs7_17_92782ac1262ea4ca8c291a25c0377afb_image.jpg" group-title="playlist", And Then Come the Nightjars (2023) Bengali Dubbed HQ 720p
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]And.Then.Come.the.Nightjars.(2023).Bengali.Dubbed.HQ.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/03/83L1LUJC4dlr579QTkFC_13_2dc064e5f5c5322d7790f394d5d8ebbc_image.jpg" group-title="playlist", Double Blind (2024) Bangla Dubbed HQ 1080P
+https://iergf.b-cdn.net/upload/videos/2024/03/[Fibwatch.Com]Double.Blind.(2024).Bangla.Dubbed.HQ.1080P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/12/lK9zIY3KWBXihpab2omN_06_d4d12132d4a3da086a7d5745512a99ce_image.jpg" group-title="playlist", Kabali (2022) Bengali Dubbed ORG 1080p
+https://iergf.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]Kabali.(2022).Bengali.Dubbed.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/12/lrABeBQFLHBKqVcNqxNI_28_423d1f689bc506521edfd4d5158463bd_image.jpg" group-title="playlist", Balloon 2023 Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]Balloon.2023.Bengali.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/12/OCKhkSzqpLzTAPODIGMC_25_cb2c4a56c9021708d94a8c63985d06c3_image.jpg" group-title="playlist", Mirugaa 2023 Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]Mirugaa.2023.Bengali.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/10/uAPFBABFOSKPRTXwWzo2_24_4ee40905c408e4182283db561751c5f8_image.jpg" group-title="playlist", Nine Warriors 1 2023 Bangla Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Nine.Warriors.1.2023.Bangla.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/10/9BqR45kMQBKh9iIWd5U9_29_e9c4c9080c2f811bc8831b65b16e0ab9_image.jpg" group-title="playlist", Dhruva 2023 Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Dhruva.2023.Bengali.Dubbed.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/12/9ZVb9xnGA3ZGvHKYkuVS_31_b6fb4e9c00c02201f2d69a67019683b9_image.jpg" group-title="playlist", The Portrait 2023 720p
+https://iergf.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]The.Portrait.2023.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/01/uHREJiHpRDNkDx969UtK_19_58ee5c864c71fed56c5bd285db57c030_image.jpg" group-title="playlist", Jawaan Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2024/01/[Fibwatch.Com]Jawaan.Bengali.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2024/01/CoBSmCEj8dMiicTC6hSw_08_9b8f9c8910545f9fea8ecaae8680c5c0_image.jpg" group-title="playlist", Jagame Thandhiram 2024 Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2024/01/[Fibwatch.Com]Jagame.Thandhiram.2024.Bengali.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/10/zUb6J4Ei8FLN3sdTLrSy_15_54c6007187606b95d048ccfa68185895_image.jpg" group-title="playlist", Mufti (2017) Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Mufti.(2017).Bengali.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/10/ujoCiWaQ42vUH3TrSxmM_20_ae9a890bf8d6175fa73ddd07bf5af891_image.jpg" group-title="playlist", Bhale Manchi Roju-Raj the Kidnapper (2023) Bengali Dubbed 1080p
+https://iergf.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Bhale.Manchi.Roju-Raj.the.Kidnapper.(2023).Bengali.Dubbed.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/12/PCvQUoUopRfA9JAKR8gP_08_ceddc095a5f9f939a504fa7a79fe201b_image.jpg" group-title="playlist", MLA (2023) Bengali Dubbed ORG 1080p
+https://iergf.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]MLA.(2023).Bengali.Dubbed.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/12/ov5mFTD8iqqR4uUe1HCb_30_a99b24bc5a92befe97cad39c684201ee_image.jpg" group-title="playlist", My Brother Vicky 2023 Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]My.Brother.Vicky.2023.Bengali.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/12/luvw82Oa8zwN4mDNkKxb_27_110985af6c28220c5e637b47d672f4ac_image.jpg" group-title="playlist", Spider-Man Homecoming (2022) Bengali Dubbed 1080P
+https://iergf.b-cdn.net/upload/videos/2023/12/[Fibwatch.Com]Spider-Man.Homecoming.(2022).Bengali.Dubbed.1080P.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/09/QeT6JobtAIqb9L977Fv9_01_ecf43d4fd2799f0231eba8ab39f5b707_image.jpg" group-title="playlist", Bad Genius (2023) Lol Bengali Dubbed ORG 1080p
+https://iergf.b-cdn.net/upload/videos/2023/09/[Fibwatch.Com]Bad.Genius.(2023).Lol.Bengali.Dubbed.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/08/1cNyjl6RBxTq2PmOQmvq_29_8fc01c23da2cd0c32fbef2e87b21f256_image.jpg" group-title="playlist", Baby Day Out 1994 Bangla Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/08/[Fibwatch.Com]Baby.Day.Out.1994.Bangla.Dubbed.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/11/BjzIjwAzTM3Ipbj3WVec_14_aa1895e92ed99b4219c2773544544ecb_image.jpg" group-title="playlist", Har Din Diwali (2019) Bangla Dubbed WEB DL 720p
+https://iergf.b-cdn.net/upload/videos/2023/11/[Fibwatch.Com]Har.Din.Diwali.(2019).Bangla.Dubbed.WEB.DL.720p.mp4
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/09/raEVNZFQ8M7QLEZbJJC8_06_070f2bec1bed5a9b76448c0f61132255_image.jpg" group-title="playlist", Mumbaikar (2023) 1080p
+https://iergf.b-cdn.net/upload/videos/2023/09/[Fibwatch.Com]Mumbaikar.(2023).1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/10/uLlHScXBLm6suPqdWZBt_03_7801a55915210792d6b6765504d72dda_image.png" group-title="playlist", Krack 2023 Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Krack.2023.Bengali.Dubbed.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/07/ZqRIQ8eQDnHamfdBTJMM_25_f5a12e81328dfadb044c75b6f436f0cc_image.jpg" group-title="playlist", Cult Hero (2023) Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/07/[Fibwatch.Com]Cult.Hero.(2023).Bengali.Dubbed.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/07/RcFdRLopJptnpkmidtCQ_25_f000b7236abff23ad4ac4f2b9d578d9c_image.jpg" group-title="playlist", 97 Minutes (2023) Bengali Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/07/[Fibwatch.Com]97.Minutes.(2023).Bengali.Dubbed.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/07/HcbDl2Q6Rzfh9wMsqjFa_25_2524639dcc0134d7cbed01c0f4fd98c7_image.jpg" group-title="playlist", Dashcam (2023) Bengali Dubbed
+https://iergf.b-cdn.net/upload/videos/2023/07/[Fibwatch.Com]Dashcam.(2023).Bengali.Dubbed.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/10/Zsc9L4VgK2vY2N68OnZI_13_d1528e5fcd71d782f4b5674609946ed3_image.jpg" group-title="playlist", Ragada Dhongsho (2023) Bengali Dubbed ORG 1080p
+https://iergf.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Ragada.Dhongsho.(2023).Bengali.Dubbed.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/09/wrxVQ4MrjOpVWAmBUFHQ_06_99778712ff5f91b20337bdb09b1990f6_image.jpg" group-title="playlist", Turbozaurs S1 E14-26 720P
+https://iergf.b-cdn.net/upload/videos/2023/10/[Fibwatch.Com]Turbozaurs.S1.E14-26.720P.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/06/kEKNky4XKDpt4wQc4Mc6_20_9bbc84e69b0400cb7fe3de5e4caafca1_image.jpg" group-title="playlist", Sonic the Hedgehog 2 (2022) Bengali 720p
+https://iergf.b-cdn.net/upload/videos/2023/06/[Fibwatch.com]Sonic.the.Hedgehog.2.(2022).Bengali.720p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/06/lsZ7x1WAExyN4ICdwH2n_30_d80ede08e1a9698468e18f736b06d18b_image.jpg" group-title="playlist", Travel Mates 2 (2023) 1080p
+https://iergf.b-cdn.net/upload/videos/2023/06/[Fibwatch.Com]Travel.Mates.2.(2023).1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/08/jht6X9Dv8KYKAIHPEDtd_04_e009527670047aff3eb6d99f77d3d6b4_image.jpg" group-title="playlist", Vaaranam Aayiram-Dui Purush (2023) Bengali 1080p
+https://iergf.b-cdn.net/upload/videos/2023/08/[Fibwatch.Com]Vaaranam.Aayiram-Dui.Purush.(2023).Bengali.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/04/PmQJsLy4ZilZ6c8pWwv5_29_504088f5db338f9da207b6b39790de6d_image.jpg" group-title="playlist", Mersal-Superstar (2023) Bengali Dubbed ORG 1080p
+https://iergf.b-cdn.net/upload/videos/2023/04/[Fibwatch.Com]Mersal-Superstar.(2023).Bengali.Dubbed.ORG.1080p.mkv
+#EXTINF:-1 tvg-logo="https://iergf.b-cdn.net/upload/photos/2023/04/ZJ8O7WOZwQPZCgvofMej_19_e93fadcdc39f4fbb3f9d3537c0692747_image.jpg" group-title="playlist", Jai Bhim (2022) Bengali HQ Dubbed 720p
+https://iergf.b-cdn.net/upload/videos/2023/04/[Fibwatch.Com]Jai.Bhim.(2022).Bengali.HQ.Dubbed.720p.mkv
 # Premium playlists by All in one reborn
 # Join telegram t.me/allonebd
 #KODIPROP:inputstream=inputstream.adaptive
@@ -1306,20 +1342,52 @@ https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.m
 #special thanks to: MR. Joy Chowdhury
 #last update time: 5:24 PM 13-10-2026
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:07:02 AM 12-11-2026
+#LAST_UPDATE:03:02 PM 12-11-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:0
-#UPCOMING_COUNT:35
+#LIVE_COUNT:5
+#UPCOMING_COUNT:30
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e148b70d1a84524c6ef092f6d7e2c10a:c1f3cc38fbff104bfdacd0dcd07d0900
+#EXTINF:-1 tvg-id="B0HLVY22CY" tvg-name="Sri Lanka tour of Pakistan 2026 - 1st Test - Pakistan vs Sri Lanka" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.c65dfbd7-e120-4b1a-ac5c-60c3981498b0/5/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="live_sports",Sri Lanka tour of Pakistan 2026 - 1st Test - Pakistan vs Sri Lanka
+https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ka4bvhuhfh/out/v1/89f6d9ff4a204157ae8fddfc9b8c6083/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c913b1471f49e4025d8d7b9fa1aef810:a3e85530de55a1f402a099b2ade8808f
+#EXTINF:-1 tvg-id="B0HL26CQLC" tvg-name="Womens Big Bash League 2026 - 19th Match - Melbourne Stars Women vs Brisbane Heat Women" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.aef5f2f7-ee51-47ef-8efd-85a78c3d95a7/2/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="live_sports",Womens Big Bash League 2026 - 19th Match - Melbourne Stars Women vs Brisbane Heat Women
+https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/anug0owvyf/out/v1/c5ae61f47b43420a9ce245e4b6c30f2f/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ae9dfc3e14f81520c96678b2818203b0:890f27ce6531575d09365c95c7557cd8
+#EXTINF:-1 tvg-id="B0HQ8F9KCV" tvg-name="ACC Mens U19 Asia Cup 2026 - 1st Semi-Final - Pakistan U19 vs Bangladesh U19" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ff53b7b2-0f0e-47d5-808c-e053d19f1cda/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="live_sports",ACC Mens U19 Asia Cup 2026 - 1st Semi-Final - Pakistan U19 vs Bangladesh U19
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gzvikpbslw/out/v1/63a3205231a0489fb62c8acc96e52bc2/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69b4f7d5d85ff47192fce27c107246f7:8993f991655c84eb324bad2c1c551cc1
+#EXTINF:-1 tvg-id="B0HMBL7QDV" tvg-name="ACC Mens U19 Asia Cup 2026 - 2nd Semi-Final - Afghanistan U19 vs India U19" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f36e20ef-0d9d-4b4c-a211-e4b498523418/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="live_sports",ACC Mens U19 Asia Cup 2026 - 2nd Semi-Final - Afghanistan U19 vs India U19
+https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/dgcuvppny7/out/v1/bdda2132bb0d48b58073099204524d19/cenc.mpd
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=636a1180048a50dcdcb44283999a7a9b:fd4f90a2703266be6aea6b6d01274a07
+#EXTINF:-1 tvg-id="B0HKHKVS63" tvg-name="Womens Big Bash League 2026 - 20th Match - Melbourne Renegades Women vs Sydney Sixers Women" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.20e548a6-8e23-47de-95f7-2fa353fafd79/2/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="live_sports",Womens Big Bash League 2026 - 20th Match - Melbourne Renegades Women vs Sydney Sixers Women
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/u4j10cfyp1/out/v1/ca19243e974e4cb099314f26276b2991/cenc.mpd
 # name: SonyLiv Matches Full Data
 # telegram: https://t.me/livesportsplay
 # owner: Md Sohanur Rahman Hady
-# last_update: 07:20:36 AM 12-11-2026
+# last_update: 03:20:31 PM 12-11-2026
+#EXTINF:-1 tvg-id="sonyliv-1090553557" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000028796/1794398859855427_DP_World_Tour_Championship_Dubai_day1_landscape_thumb.jpg" group-title="sonyliv_playlist", DP World Tour Champinship, Dubai - Day 1 | DP World Tour [English]
+https://sonymtmnew.akamaized.net/v1/master/0085f7057986fc2f8467089bb19b8b7e4f1bf8d7/mediaTe0ffprod-PlaybackConfig/2120300/Golf_DPW1211/ENG/master.m3u8?hdnea=exp=1794509456~acl=/*~id=12741215043937996646257804767319~hmac=6bc2bdad603750242332acb03d8326c7d81ce224e17e123a22248022bd10a0be
 #=================================
 # Developed By: ABU SAEEiD × Rifaz
 # GitHub @abusaeeidx
 # IPTV Telegram Channels: @xfireflixbd
-# Last Updated: 2026-11-12 04:52 AM (BD Time)
+# Last Updated: 2026-11-12 09:34 AM (BD Time)
 # Disclaimer:
 # This tool does NOT host any content.
 # It aggregates publicly available data for informational purposes only.
@@ -1496,79 +1564,79 @@ https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyyay/playlist.m3u8
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="Boishakhi TV" group-title="BD",Boishakhi TV
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
-#EXTINF:-1 tvg-name="Rajdhani TV (1080p)" group-title="BD",Rajdhani TV (1080p)
-https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
 #EXTINF:-1 tvg-name="Maasranga TV (720p)" group-title="BD",Maasranga TV (720p)
 https://tvsen5.aynaott.com/maasrangatv/index.m3u8
-#EXTINF:-1 tvg-name="NTV (720p)" group-title="BD",NTV (720p)
-https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
-#EXTINF:-1 tvg-name="RTV (720p)" group-title="BD",RTV (720p)
-https://tvsen5.aynaott.com/RtvHD/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-name="Duronto TV (720p)" group-title="BD",Duronto TV (720p)
 https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
+#EXTINF:-1 tvg-name="NTV (720p)" group-title="BD",NTV (720p)
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 #EXTINF:-1 tvg-name="Nexus TV (576p)" group-title="BD",Nexus TV (576p)
 https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
-#EXTINF:-1 tvg-name="Ekushey TV (480p)" group-title="BD",Ekushey TV (480p)
-https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 tvg-name="Rajdhani TV (1080p)" group-title="BD",Rajdhani TV (1080p)
+https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
+#EXTINF:-1 tvg-name="RTV (720p)" group-title="BD",RTV (720p)
+https://tvsen5.aynaott.com/RtvHD/index.m3u8
 #EXTINF:-1 tvg-name="Duronto TV (1080p)" group-title="BD",Duronto TV (1080p)
 https://livetv.shamon-cable.net:8443/Duronto/index.m3u8
+#EXTINF:-1 tvg-name="Ekushey TV (480p)" group-title="BD",Ekushey TV (480p)
+https://ekusheyserver.com/etvlivesn.m3u8
 #EXTINF:-1 tvg-name="Sananda TV" group-title="BD",Sananda TV
 http://27.124.71.27/Zee_Bangla/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Bein Sports Extra 2" group-title="BD",Bein Sports Extra 2
-https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 tvg-name="Ananda TV" group-title="BD",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-name="ATN News" group-title="BD",ATN News
 https://tvsen6.aynaott.com/da6WMXAk/index.m3u8
+#EXTINF:-1 tvg-name="Bein Sports Extra 2" group-title="BD",Bein Sports Extra 2
+https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 tvg-name="Boishakhi TV" group-title="BD",Boishakhi TV
 https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/index.m3u8
 #EXTINF:-1 tvg-name="BTV Chattogram" group-title="BD",BTV Chattogram
 https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8
-#EXTINF:-1 tvg-name="Channel I" group-title="BD",Channel I
-https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
-#EXTINF:-1 tvg-name="Ekattor TV" group-title="BD",Ekattor TV
-https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8
-#EXTINF:-1 tvg-name="Desh TV" group-title="BD",Desh TV
-https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8
-#EXTINF:-1 tvg-name="Ekhon TV" group-title="BD",Ekhon TV
-https://tvsen6.aynaott.com/fbgZV3X17hwWcyfZ4pdb/index.m3u8
 #EXTINF:-1 tvg-name="MTRSPT" group-title="BD",MTRSPT
 https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8
+#EXTINF:-1 tvg-name="Ekhon TV" group-title="BD",Ekhon TV
+https://tvsen6.aynaott.com/fbgZV3X17hwWcyfZ4pdb/index.m3u8
+#EXTINF:-1 tvg-name="Ekattor TV" group-title="BD",Ekattor TV
+https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8
+#EXTINF:-1 tvg-name="Channel I" group-title="BD",Channel I
+https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
+#EXTINF:-1 tvg-name="Desh TV" group-title="BD",Desh TV
+https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8
 #EXTINF:-1 tvg-name="Ekushe ETV" group-title="BD",Ekushe ETV
 https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8
 #EXTINF:-1 tvg-name="Global TV" group-title="BD",Global TV
 https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8
-#EXTINF:-1 tvg-name="Horse & Country" group-title="BD",Horse & Country
-https://hncfree-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="Pardesi TV" group-title="BD",Pardesi TV
-http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Sony TV HD" group-title="BD",Sony TV HD
-http://premimum.online:80/live/jen12345/jen54321/98854.ts
-#EXTINF:-1 tvg-name="NTV" group-title="BD",NTV
-https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="Willow Extra" group-title="BD",Willow Extra
 http://27.124.71.27/Willow_Extra/index.m3u8
+#EXTINF:-1 tvg-name="Pardesi TV" group-title="BD",Pardesi TV
+http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Horse & Country" group-title="BD",Horse & Country
+https://hncfree-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="NTV" group-title="BD",NTV
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-name="Sony TV HD" group-title="BD",Sony TV HD
+http://premimum.online:80/live/jen12345/jen54321/98854.ts
 #EXTINF:-1 tvg-name="Hindi Hits HD" group-title="BD",Hindi Hits HD
 http://146.59.253.52:8080/hindihitshd/index.m3u8
-#EXTINF:-1 tvg-name="Music TV" group-title="BD",Music TV
-http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
-#EXTINF:-1 tvg-name="My TV" group-title="BD",My TV
-https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8
-#EXTINF:-1 tvg-name="Trace Sport" group-title="BD",Trace Sport
-https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="Bhojpuri Cinema" group-title="BD",Bhojpuri Cinema
-https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-name="SA TV" group-title="BD",SA TV
-https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8
 #EXTINF:-1 tvg-name="Shemaroo Bollywood" group-title="BD",Shemaroo Bollywood
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+#EXTINF:-1 tvg-name="My TV" group-title="BD",My TV
+https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8
+#EXTINF:-1 tvg-name="SA TV" group-title="BD",SA TV
+https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8
+#EXTINF:-1 tvg-name="Music TV" group-title="BD",Music TV
+http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 #EXTINF:-1 tvg-name="A Sports" group-title="BD",A Sports
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
-#EXTINF:-1 tvg-name="Cricket Gold" group-title="BD",Cricket Gold
-https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8
+#EXTINF:-1 tvg-name="Trace Sport" group-title="BD",Trace Sport
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio BBC" group-title="BD",Radio BBC
 https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_vlow_sbr_v1/cfs/bbc_world_service_news_internet.m3u8
+#EXTINF:-1 tvg-name="Bhojpuri Cinema" group-title="BD",Bhojpuri Cinema
+https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-name="Cricket Gold" group-title="BD",Cricket Gold
+https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8
 #EXTINF:-1 tvg-name="30A Music" group-title="BD",30A Music
 https://30a-tv.com/music.m3u8
 #EXTINF:-1 tvg-name="Rongeen TV" group-title="BD",Rongeen TV
@@ -1577,7 +1645,7 @@ https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
 https://tntm.mediacdn.ru/cdn/tntmusic/playlist.m3u8
 # By Abu SAEEID X Noob
 # Github X Tg @abusaeeidx
-# Update on 2026-11-12 03:35:32 (BD Time)
+# Update on 2026-11-12 08:32:40 (BD Time)
 # Note: I do not host any content, everything is publicly available. And any issues, please contact me.
 #EXTINF:-1 group-title="jahid", Tsorts
 https://bdixserver.tvhunter.top/ant1006/tracks-v1a1/mono.m3u8
@@ -6753,6 +6821,8 @@ https://stream-lb.livemediama.com/arryadia/hls/stream_1/playlist.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8
 #EXTINF:-1 tvg-id="Willow HD TV" tvg-name="Willow HD TV" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/94a778ec3219f7eb54bdf1ee07a95788",Willow HD TV (Server 1)
 https://tvsen5.aynaott.com/willowhd/index.m3u8
+#EXTINF:-1 tvg-id="Espn" tvg-name="Espn" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",Espn
+https://tvsen5.aynaott.com/espn/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/T%20Sports.png" group-title="active_channels",Sport Stars
 https://tracesportstars-klowdtv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Golf Channel" tvg-name="Golf Channel" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/edb73991516696dfd53efbd32d80ca58",Golf Channel
@@ -6767,24 +6837,10 @@ https://tvsen6.aynaott.com/SportsGrid/index.m3u8
 https://tvsen6.aynaott.com/nfl/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/Q7nzTtdr/atn-bangla1.jpg" group-title="active_channels",ATN Bangla
 https://tvsen5.aynaott.com/atnbangla/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/F4QWxMQ1/ayna.jpg" group-title="active_channels",Ayna
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/nqgrD4VB/chsbd.jpgg" group-title="active_channels",Channel S BD
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channels.stream/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/hRfwD8jk/DESH-TV1.png" group-title="active_channels",Desh TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/JwWDTBpG/ekusheytv.jpg" group-title="active_channels",Ekushey TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ekusheytv-8-org.stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/Ng4D11Vr/entertv.jpg" group-title="active_channels",Enter TV
 https://live1.entertv.com.bd/entertv/index.fmp4.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/VW3CX9WS/globaltv.jpg" group-title="active_channels",Global TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/C3Y8NtQz/jagonews24.png" group-title="active_channels",Jagonews24
 https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8" group-title="active_channels",RTV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/RpwqzPZg/thikana.png" group-title="active_channels",Thikana TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/thikanatv.stream/index.m3u8
 #EXTINF:-1 tvg-id="Star Jalsha" tvg-name="Star Jalsha" group-title="active_channels" tvg-logo="https://raw.githubusercontent.com/Rakib49/Rakibiptv/main/images%20(9).jpeg",Star Jalsha
 https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8
 #EXTINF:-1 tvg-id="ZEE BANGLA" tvg-name="ZEE BANGLA" group-title="active_channels" tvg-logo="https://tvassets.roarzone.net/images/34.png",ZEE BANGLA
@@ -6809,6 +6865,8 @@ https://tvsen5.aynaott.com/skynews/index.m3u8
 https://tvsen6.aynaott.com/msnbc/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Discovery%20.png" group-title="active_channels",Discovery HD
 https://wildearth-plex.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/National%20Geographic%20Channel.png" group-title="active_channels",National Geographic HD
+https://tvsen6.aynaott.com/natgeo/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://images.toffeelive.com/images/program/2429/logo/240x240/mobile_logo_009938001674474908.png" group-title="active_channels",History TV 18 HD
 https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Cartoon Network" tvg-name="Cartoon Network" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb",Cartoon Network (Server 1)
@@ -6823,12 +6881,16 @@ https://tvsen5.aynaott.com/nickjr/index.m3u8
 https://tvsen6.aynaott.com/MoonbugKids/index.m3u8
 #EXTINF:-1 tvg-id="3ABN Kids" tvg-name="3ABN Kids" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/76e36f75bf11c815a76c5622d627c814",3ABN Kids
 https://tvsen6.aynaott.com/3abnkids/index.m3u8
+#EXTINF:-1 tvg-id="YTV" tvg-name="YTV" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/d79d89851faee0823a1f2bed1a96e84d",YTV
+https://tvsen6.aynaott.com/ytv/index.m3u8
 #EXTINF:-1 tvg-id="SRK TV" tvg-name="SRK TV" group-title="active_channels" tvg-logo="https://raw.githubusercontent.com/Rakib49/Rakibiptv/main/IMG_20260528_193117_215.jpg",SRK TV
 https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="G Series Drama" tvg-name="G Series Drama" group-title="active_channels" tvg-logo="https://raw.githubusercontent.com/Rakib49/Rakibiptv/main/images%20(7).jpeg",G Series Drama
 https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="pix 11" tvg-name="pix 11" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/294b72dc2ca7b74ab3312059728cab22",pix 11
 https://tvsen6.aynaott.com/pix11/index.m3u8
+#EXTINF:-1 tvg-id="AMC TV" tvg-name="AMC TV" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/5522b7ef736d7f4e7f80ac6325dce821",AMC TV
+https://tvsen6.aynaott.com/amc/index.m3u8
 #EXTINF:-1 tvg-id="AXS" tvg-name="AXS" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/56d2c21362152b678998094f1c670dd5",AXS
 https://tvsen6.aynaott.com/axs/index.m3u8
 #EXTINF:-1 tvg-id="USA TV" tvg-name="USA TV" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/376b8483457b06dbc5b7b7b327a21ac6",USA TV
@@ -6847,8 +6909,12 @@ https://tvsen6.aynaott.com/RDSSocialTV/index.m3u8
 https://tvsen6.aynaott.com/foodnetwork/index.m3u8
 #EXTINF:-1 tvg-id="TLC HD" tvg-name="TLC HD" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/ba3c9fa1144bc65322f8ae3a1bb69cc9",TLC HD
 https://tvsen6.aynaott.com/tlc_hd/index.m3u8
+#EXTINF:-1 tvg-id="Travel Channel" tvg-name="Travel Channel" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/a7f87f1e71905ee14429ed26abd29b2a",Travel Channel
+https://tvsen6.aynaott.com/travelxp/index.m3u8
 #EXTINF:-1 tvg-id="Disc. Family" tvg-name="Disc. Family" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/3f7983c0bc7cacd206dd195a2eff6b10",Disc. Family
 https://tvsen5.aynaott.com/discoveryfamily/index.m3u8
+#EXTINF:-1 tvg-id="Nat Geo TV" tvg-name="Nat Geo TV" group-title="active_channels" tvg-logo="https://s3.aynaott.com/storage/2dce8297266bbc9c235c27119f914e1b",Nat Geo TV
+https://tvsen6.aynaott.com/natgeo/index.m3u8
 #EXTINF:-1 tvg-id="Peace TV Bangla" tvg-name="Peace TV Bangla" group-title="active_channels" tvg-logo="https://i.ibb.co/Gfw89mC/20240804-033102.png",Peace TV Bangla
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="Saudi Quran Live" group-title="active_channels" tvg-logo="https://cdn-globecast.akamaized.net/live/eds/saudi_quran/logo.png",Saudi Quran Live
